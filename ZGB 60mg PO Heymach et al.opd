@@ -1,0 +1,13 @@
+'
+'Dose [mg] = 
+'Infusion time [hrs] = 
+'Body Wt [kg] = 
+
+Tissue=Venous Return
+5
+Time, h	ug/ml	CV%
+2.056	0.5112	0.0
+3.134	0.4446	0.0
+8.133	0.2162	0.0
+12.097	0.1206	0.0
+23.941	0.052	0.0
