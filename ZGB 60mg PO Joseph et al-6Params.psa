@@ -1,0 +1,2293 @@
+GastroPlus® v.9.9.0011 Parameter Sensitivity Analysis File  5/26/2026  8:16:29 AM
+
+Drug Name/ID = 	ZGB 60mg PO Joseph et al
+Metabolite Names/IDs =
+MWt = 535.61
+
+Parameter Baseline Values
+
+Inflam-Lag	0.0	Inflam-A	0.0	Inflam-B	0.0	PowerExp3	0.0	PowerExp2	0.0
+TimeShiftCoeffb2	0.0	TimeScaleCoeffa2	0.0	RelShiftCoeffb1	0.0	RelScaleCoeffa1	0.0	PowerExp1	0.0
+PowerCoeff3	0.0	PowerCoeff2	0.0	PowerCoeff1	0.0	PolyCoeff4	0.0	PolyCoeff3	0.0
+PolyCoeff2	0.0	PolyCoeff1	0.0	Kr-ZGB 60mg PO Joseph et al	0.0	CRD Percent 1-ZGB 60mg PO Joseph et al	0.0	CRD Time 1-ZGB 60mg PO Joseph et al	0.0
+CRD Percent 2-ZGB 60mg PO Joseph et al	0.0	CRD Time 2-ZGB 60mg PO Joseph et al	0.0	CRD Percent 3-ZGB 60mg PO Joseph et al	0.0	CRD Time 3-ZGB 60mg PO Joseph et al	0.0	CRD Percent 4-ZGB 60mg PO Joseph et al	0.0
+CRD Time 4-ZGB 60mg PO Joseph et al	0.0	CRD Percent 5-ZGB 60mg PO Joseph et al	0.0	CRD Time 5-ZGB 60mg PO Joseph et al	0.0	CRD Percent 6-ZGB 60mg PO Joseph et al	0.0	CRD Time 6-ZGB 60mg PO Joseph et al	0.0
+CRD Percent 7-ZGB 60mg PO Joseph et al	0.0	CRD Time 7-ZGB 60mg PO Joseph et al	0.0	WeibLag-ZGB 60mg PO Joseph et al	1	WeibMax-ZGB 60mg PO Joseph et al	100	WeibF2-ZGB 60mg PO Joseph et al	0.0
+WeibF1-ZGB 60mg PO Joseph et al	1	WeibScale1-ZGB 60mg PO Joseph et al	0.0	WeibShape1-ZGB 60mg PO Joseph et al	1	WeibScale2-ZGB 60mg PO Joseph et al	1	WeibShape2-ZGB 60mg PO Joseph et al	1
+WeibScale3-ZGB 60mg PO Joseph et al	1	WeibShape3-ZGB 60mg PO Joseph et al	1	SubstrateAdminTime-ZGB 60mg PO Joseph et al	0.0	SubsDose-ZGB 60mg PO Joseph et al	0.0	DoseInt-ZGB 60mg PO Joseph et al	0.0
+Const Vol Veh-ZGB 60mg PO Joseph et al	0.0	Vol Veh-ZGB 60mg PO Joseph et al	0.0	Sol Veh-ZGB 60mg PO Joseph et al	0.0	Frac Dose (f1)-ZGB 60mg PO Joseph et al	1	Dose-ZGB 60mg PO Joseph et al	60
+DoseVol-ZGB 60mg PO Joseph et al	250	PLVaporConc-ZGB 60mg PO Joseph et al	0.0	PLInfusionRate-ZGB 60mg PO Joseph et al	0.0	InfusionRate-ZGB 60mg PO Joseph et al	0.0	3A4 Turnover 9	8.333E-6
+3A4 Activity 9	3.1E-4	3A4 Distribution Asc Colon	3.1E-4	3A4 Turnover 8	8.333E-6	3A4 Activity 8	3.1E-4	3A4 Distribution Caecum	3.1E-4
+3A4 Turnover 7	8.333E-6	3A4 Activity 7	0.001	3A4 Distribution Ileum 3	0.001	3A4 Turnover 6	8.333E-6	3A4 Activity 6	0.001
+3A4 Distribution Ileum 2	0.001	3A4 Turnover 5	8.333E-6	3A4 Activity 5	0.001	3A4 Distribution Ileum 1	0.001	3A4 Turnover 4	8.333E-6
+3A4 Activity 4	0.0033	3A4 Distribution Jejunum 2	0.0033	3A4 Turnover 3	8.333E-6	3A4 Activity 3	0.0033	3A4 Distribution Jejunum 1	0.0033
+3A4 Turnover 2	8.333E-6	3A4 Activity 2	0.0021	3A4 Distribution Duodenum	0.0021	3A4 Turnover 1	8.333E-6	3A4 Activity 1	0.0
+3A4 Distribution Stomach	0.0	3A4 Turnover 0	8.333E-6	3A4 Activity 0	0.0	3A4 Distribution Oral Cavity	0.0	Asc Colon GrowTrm ZGB 60mg PO Joseph et al	0.0018
+Caecum GrowTrm ZGB 60mg PO Joseph et al	0.0018	Ileum 3 GrowTrm ZGB 60mg PO Joseph et al	0.0018	Ileum 2 GrowTrm ZGB 60mg PO Joseph et al	0.0018	Ileum 1 GrowTrm ZGB 60mg PO Joseph et al	0.0018	Jejunum 2 GrowTrm ZGB 60mg PO Joseph et al	0.0018
+Jejunum 1 GrowTrm ZGB 60mg PO Joseph et al	0.0018	Duodenum GrowTrm ZGB 60mg PO Joseph et al	0.0018	Stomach GrowTrm ZGB 60mg PO Joseph et al	0.0018	Oral Cavity GrowTrm ZGB 60mg PO Joseph et al	0.0018	KinCorr-ZGB 60mg PO Joseph et al	0.0
+PrecipTimeLag-ZGB 60mg PO Joseph et al	1	HetAddlSA-ZGB 60mg PO Joseph et al	0.0	HetCosTheta-ZGB 60mg PO Joseph et al	0.0	HomPrexpCorr-ZGB 60mg PO Joseph et al	1	HomExpCorr-ZGB 60mg PO Joseph et al	1
+RadCrit-ZGB 60mg PO Joseph et al	4.156E-7	ExpTrm-ZGB 60mg PO Joseph et al	202.85	PreExpTrm-ZGB 60mg PO Joseph et al	1.98E11	ExtrRatioGut-ZGB 60mg PO Joseph et al	0.0	ExtrRatioOral-ZGB 60mg PO Joseph et al	0.0
+FPEGut%-ZGB 60mg PO Joseph et al	0.0	FPEOral%-ZGB 60mg PO Joseph et al	0.0	BileSaltSR-ZGB 60mg PO Joseph et al	0.0	MolRadL-ZGB 60mg PO Joseph et al	9.31	MolRad-ZGB 60mg PO Joseph et al	7.78
+MolWt-ZGB 60mg PO Joseph et al	535.61	Peff-ZGB 60mg PO Joseph et al	1.5328	DiffCoeff-ZGB 60mg PO Joseph et al	0.55	NanoEffect-ZGB 60mg PO Joseph et al	0.5	MeltTemp-ZGB 60mg PO Joseph et al	232.4
+RefTemp-ZGB 60mg PO Joseph et al	25	InterfTens-ZGB 60mg PO Joseph et al	0.012	ZFactor-ZGB 60mg PO Joseph et al	0.0	PartShape-form 1-ZGB 60mg PO Joseph et al	1	SDPart-form 1-ZGB 60mg PO Joseph et al	0.0
+RadPart-form 1-ZGB 60mg PO Joseph et al	25	RadPrecip-ZGB 60mg PO Joseph et al	1	DenPart-ZGB 60mg PO Joseph et al	1.2	Tprecip-ZGB 60mg PO Joseph et al	900	RefSolpH-ZGB 60mg PO Joseph et al	7.59
+RefSol-ZGB 60mg PO Joseph et al	0.17	NAcidG-ZGB 60mg PO Joseph et al	0.0	FractZwitt-ZGB 60mg PO Joseph et al	-1	FormalQ-ZGB 60mg PO Joseph et al	0.0	PcPnS-ZGB 60mg PO Joseph et al	4.3344
+PaPnS-ZGB 60mg PO Joseph et al	3.877	PzPn-ZGB 60mg PO Joseph et al	2.44	PcPn-ZGB 60mg PO Joseph et al	3.06	PaPn-ZGB 60mg PO Joseph et al	3.36	RefLogDpH-ZGB 60mg PO Joseph et al	-1
+RefLogD-ZGB 60mg PO Joseph et al	3.58	FuEnt-ZGB 60mg PO Joseph et al	1	OralTTime-ZGB 60mg PO Joseph et al	0.25	OralHoldTime-ZGB 60mg PO Joseph et al	0.0	OralLagTime-ZGB 60mg PO Joseph et al	0.0
+GastRetTime-ZGB 60mg PO Joseph et al	0.0	C0Alpha-ZGB 60mg PO Joseph et al	0.0694	C1Alpha-ZGB 60mg PO Joseph et al	0.4303	C2Alpha-ZGB 60mg PO Joseph et al	0.1215	C3Alpha-ZGB 60mg PO Joseph et al	0.4663
+Oral Cavity ZFact ZGB 60mg PO Joseph et al	0.0	Oral Cavity PeffPara ZGB 60mg PO Joseph et al	0.0	Oral Cavity PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Oral Cavity InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.5326	Oral Cavity TPrecip ZGB 60mg PO Joseph et al	900
+Oral Cavity Krel 	0.0	Oral Cavity Kt ZGB 60mg PO Joseph et al	0.0011	Oral Cavity KaPara ZGB 60mg PO Joseph et al	0.0	Oral Cavity Ka ZGB 60mg PO Joseph et al	1.53E-4	Oral Cavity Kdeg ZGB 60mg PO Joseph et al	0.0
+Oral Cavity Kdiss ZGB 60mg PO Joseph et al bin 0	0.9126	Oral Cavity Sol ZGB 60mg PO Joseph et al bin 0	0.6637	Oral Cavity Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.7325	Oral Cavity Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.5327	Oral Cavity Peff ZGB 60mg PO Joseph et al	0.0
+Oral Cavity ASF ZGB 60mg PO Joseph et al	1	Stomach ZFact ZGB 60mg PO Joseph et al	0.0	Stomach PeffPara ZGB 60mg PO Joseph et al	0.0	Stomach PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Stomach InVivoSol Polym 1ZGB 60mg PO Joseph et al	78.815
+Stomach TPrecip ZGB 60mg PO Joseph et al	900	Stomach Krel 	0.0	Stomach Kt ZGB 60mg PO Joseph et al	0.0011	Stomach KaPara ZGB 60mg PO Joseph et al	0.0	Stomach Ka ZGB 60mg PO Joseph et al	0.0
+Stomach Kdeg ZGB 60mg PO Joseph et al	0.0	Stomach Kdiss ZGB 60mg PO Joseph et al bin 0	135.05	Stomach Sol ZGB 60mg PO Joseph et al bin 0	98.216	Stomach Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	108.39	Stomach Sol ZGB 60mg PO Joseph et al bin 1 polym 1	78.828
+Stomach Peff ZGB 60mg PO Joseph et al	0.0	Stomach ASF ZGB 60mg PO Joseph et al	0.0	Duodenum ZFact ZGB 60mg PO Joseph et al	0.0	Duodenum PeffPara ZGB 60mg PO Joseph et al	3.7E-7	Duodenum PeffTrans ZGB 60mg PO Joseph et al	1.53E-4
+Duodenum InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.6471	Duodenum TPrecip ZGB 60mg PO Joseph et al	900	Duodenum Krel 	0.0	Duodenum Kt ZGB 60mg PO Joseph et al	0.0011	Duodenum KaPara ZGB 60mg PO Joseph et al	4.625E-7
+Duodenum Ka ZGB 60mg PO Joseph et al	4.09E-4	Duodenum Kdeg ZGB 60mg PO Joseph et al	0.0	Duodenum Kdiss ZGB 60mg PO Joseph et al bin 0	1.1088	Duodenum Sol ZGB 60mg PO Joseph et al bin 0	0.8064	Duodenum Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.8899
+Duodenum Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.6472	Duodenum Peff ZGB 60mg PO Joseph et al	0.0	Duodenum ASF ZGB 60mg PO Joseph et al	2.6681	Jejunum 1 ZFact ZGB 60mg PO Joseph et al	0.0	Jejunum 1 PeffPara ZGB 60mg PO Joseph et al	3.E-8
+Jejunum 1 PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Jejunum 1 InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.6033	Jejunum 1 TPrecip ZGB 60mg PO Joseph et al	900	Jejunum 1 Krel 	0.0	Jejunum 1 Kt ZGB 60mg PO Joseph et al	2.92E-4
+Jejunum 1 KaPara ZGB 60mg PO Joseph et al	4.E-8	Jejunum 1 Ka ZGB 60mg PO Joseph et al	4.07E-4	Jejunum 1 Kdeg ZGB 60mg PO Joseph et al	0.0	Jejunum 1 Kdiss ZGB 60mg PO Joseph et al bin 0	1.0337	Jejunum 1 Sol ZGB 60mg PO Joseph et al bin 0	0.7518
+Jejunum 1 Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.8296	Jejunum 1 Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.6034	Jejunum 1 Peff ZGB 60mg PO Joseph et al	0.0	Jejunum 1 ASF ZGB 60mg PO Joseph et al	2.6563	Jejunum 2 ZFact ZGB 60mg PO Joseph et al	0.0
+Jejunum 2 PeffPara ZGB 60mg PO Joseph et al	0.0	Jejunum 2 PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Jejunum 2 InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.5755	Jejunum 2 TPrecip ZGB 60mg PO Joseph et al	900	Jejunum 2 Krel 	0.0
+Jejunum 2 Kt ZGB 60mg PO Joseph et al	3.65E-4	Jejunum 2 KaPara ZGB 60mg PO Joseph et al	0.0	Jejunum 2 Ka ZGB 60mg PO Joseph et al	4.03E-4	Jejunum 2 Kdeg ZGB 60mg PO Joseph et al	0.0	Jejunum 2 Kdiss ZGB 60mg PO Joseph et al bin 0	0.9861
+Jejunum 2 Sol ZGB 60mg PO Joseph et al bin 0	0.7172	Jejunum 2 Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.7914	Jejunum 2 Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.5756	Jejunum 2 Peff ZGB 60mg PO Joseph et al	0.0	Jejunum 2 ASF ZGB 60mg PO Joseph et al	2.6286
+Ileum 1 ZFact ZGB 60mg PO Joseph et al	0.0	Ileum 1 PeffPara ZGB 60mg PO Joseph et al	0.0	Ileum 1 PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Ileum 1 InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.5579	Ileum 1 TPrecip ZGB 60mg PO Joseph et al	900
+Ileum 1 Krel 	0.0	Ileum 1 Kt ZGB 60mg PO Joseph et al	4.71E-4	Ileum 1 KaPara ZGB 60mg PO Joseph et al	0.0	Ileum 1 Ka ZGB 60mg PO Joseph et al	3.97E-4	Ileum 1 Kdeg ZGB 60mg PO Joseph et al	0.0
+Ileum 1 Kdiss ZGB 60mg PO Joseph et al bin 0	0.956	Ileum 1 Sol ZGB 60mg PO Joseph et al bin 0	0.6953	Ileum 1 Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.7673	Ileum 1 Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.558	Ileum 1 Peff ZGB 60mg PO Joseph et al	0.0
+Ileum 1 ASF ZGB 60mg PO Joseph et al	2.5925	Ileum 2 ZFact ZGB 60mg PO Joseph et al	0.0	Ileum 2 PeffPara ZGB 60mg PO Joseph et al	0.0	Ileum 2 PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Ileum 2 InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.5429
+Ileum 2 TPrecip ZGB 60mg PO Joseph et al	900	Ileum 2 Krel 	0.0	Ileum 2 Kt ZGB 60mg PO Joseph et al	6.46E-4	Ileum 2 KaPara ZGB 60mg PO Joseph et al	0.0	Ileum 2 Ka ZGB 60mg PO Joseph et al	3.94E-4
+Ileum 2 Kdeg ZGB 60mg PO Joseph et al	0.0	Ileum 2 Kdiss ZGB 60mg PO Joseph et al bin 0	0.9303	Ileum 2 Sol ZGB 60mg PO Joseph et al bin 0	0.6766	Ileum 2 Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.7467	Ileum 2 Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.543
+Ileum 2 Peff ZGB 60mg PO Joseph et al	0.0	Ileum 2 ASF ZGB 60mg PO Joseph et al	2.5697	Ileum 3 ZFact ZGB 60mg PO Joseph et al	0.0	Ileum 3 PeffPara ZGB 60mg PO Joseph et al	0.0	Ileum 3 PeffTrans ZGB 60mg PO Joseph et al	1.53E-4
+Ileum 3 InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.5326	Ileum 3 TPrecip ZGB 60mg PO Joseph et al	900	Ileum 3 Krel 	0.0	Ileum 3 Kt ZGB 60mg PO Joseph et al	8.96E-4	Ileum 3 KaPara ZGB 60mg PO Joseph et al	0.0
+Ileum 3 Ka ZGB 60mg PO Joseph et al	3.84E-4	Ileum 3 Kdeg ZGB 60mg PO Joseph et al	0.0	Ileum 3 Kdiss ZGB 60mg PO Joseph et al bin 0	0.9126	Ileum 3 Sol ZGB 60mg PO Joseph et al bin 0	0.6637	Ileum 3 Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.7325
+Ileum 3 Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.5327	Ileum 3 Peff ZGB 60mg PO Joseph et al	0.0	Ileum 3 ASF ZGB 60mg PO Joseph et al	2.5073	Caecum ZFact ZGB 60mg PO Joseph et al	0.0	Caecum PeffPara ZGB 60mg PO Joseph et al	0.0
+Caecum PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Caecum InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.5755	Caecum TPrecip ZGB 60mg PO Joseph et al	900	Caecum Krel 	0.0	Caecum Kt ZGB 60mg PO Joseph et al	6.17E-5
+Caecum KaPara ZGB 60mg PO Joseph et al	0.0	Caecum Ka ZGB 60mg PO Joseph et al	8.51E-4	Caecum Kdeg ZGB 60mg PO Joseph et al	0.0	Caecum Kdiss ZGB 60mg PO Joseph et al bin 0	0.9861	Caecum Sol ZGB 60mg PO Joseph et al bin 0	0.7172
+Caecum Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.7914	Caecum Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.5756	Caecum Peff ZGB 60mg PO Joseph et al	0.0	Caecum ASF ZGB 60mg PO Joseph et al	5.5511	Asc Colon ZFact ZGB 60mg PO Joseph et al	0.0
+Asc Colon PeffPara ZGB 60mg PO Joseph et al	0.0	Asc Colon PeffTrans ZGB 60mg PO Joseph et al	1.53E-4	Asc Colon InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.5468	Asc Colon TPrecip ZGB 60mg PO Joseph et al	900	Asc Colon Krel 	0.0
+Asc Colon Kt ZGB 60mg PO Joseph et al	2.058E-5	Asc Colon KaPara ZGB 60mg PO Joseph et al	0.0	Asc Colon Ka ZGB 60mg PO Joseph et al	0.0017	Asc Colon Kdeg ZGB 60mg PO Joseph et al	0.0	Asc Colon Kdiss ZGB 60mg PO Joseph et al bin 0	0.937
+Asc Colon Sol ZGB 60mg PO Joseph et al bin 0	0.6815	Asc Colon Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.752	Asc Colon Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.5469	Asc Colon Peff ZGB 60mg PO Joseph et al	0.0	Asc Colon ASF ZGB 60mg PO Joseph et al	11.054
+Excreted ZFact ZGB 60mg PO Joseph et al	0.0	Excreted PeffPara ZGB 60mg PO Joseph et al	0.0	Excreted PeffTrans ZGB 60mg PO Joseph et al	0.0	Excreted InVivoSol Polym 1ZGB 60mg PO Joseph et al	0.0	Excreted TPrecip ZGB 60mg PO Joseph et al	0.0
+Excreted Krel 	0.0	Excreted Kt ZGB 60mg PO Joseph et al	0.0	Excreted KaPara ZGB 60mg PO Joseph et al	0.0	Excreted Ka ZGB 60mg PO Joseph et al	0.0	Excreted Kdeg ZGB 60mg PO Joseph et al	0.0
+Excreted Kdiss ZGB 60mg PO Joseph et al bin 0	0.0	Excreted Sol ZGB 60mg PO Joseph et al bin 0	0.0	Excreted Kdiss ZGB 60mg PO Joseph et al bin 1 polym 1	0.0	Excreted Sol ZGB 60mg PO Joseph et al bin 1 polym 1	0.0	Excreted Peff ZGB 60mg PO Joseph et al	0.0
+Excreted ASF ZGB 60mg PO Joseph et al	0.0	Dyn Fluid Vol2	1	OralMucVol	3.5	SalProdRate	1	FastedVFColon	10
+FastedVF	40	SILen	325	CaecLen	13.75	CLen	29.02	ColVol	109.9
+StomVol	50	RadSI	1.2467	CaecR	3.5	CRad	2.5	StTransTime	0.25
+SITT	3.3	CaecTransT	4.5	CTransT	13.5	GBDiv	0.75	GB ET	30
+EPG	102	Oral Cavity SEF	1	Oral Cavity Poros/PoreL	2.58	Oral Cavity Pore Radius	2.2	Oral Cavity pH	7.4
+Oral Cavity BileSalt Conc	0.0	Oral Cavity TTime	0.25	Oral Cavity Length	1	Oral Cavity Water Abs	0.0	Oral Cavity Water Sec	0.0
+Oral Cavity Volume	0.7	Oral Cavity Radius	1	Stomach SEF	1	Stomach Poros/PoreL	2.58	Stomach Pore Radius	2.2
+Stomach pH	1.3	Stomach BileSalt Conc	0.0	Stomach TTime	0.25	Stomach Length	30	Stomach Water Abs	1.78
+Stomach Water Sec	166.7	Stomach Volume	50	Stomach Radius	10	Duodenum SEF	4.2346	Duodenum Poros/PoreL	48.64
+Duodenum Pore Radius	10.41	Duodenum pH	6	Duodenum BileSalt Conc	2.8	Duodenum TTime	0.26	Duodenum Length	15
+Duodenum Water Abs	30.15	Duodenum Water Sec	83.3	Duodenum Volume	48.255	Duodenum Radius	1.6	Jejunum 1 SEF	3.949
+Jejunum 1 Poros/PoreL	38.9	Jejunum 1 Pore Radius	9.64	Jejunum 1 pH	6.2	Jejunum 1 BileSalt Conc	2.33	Jejunum 1 TTime	0.95
+Jejunum 1 Length	62	Jejunum 1 Water Abs	3.473	Jejunum 1 Water Sec	50	Jejunum 1 Volume	175.3	Jejunum 1 Radius	1.5
+Jejunum 2 SEF	3.489	Jejunum 2 Poros/PoreL	26.09	Jejunum 2 Pore Radius	8.4	Jejunum 2 pH	6.4	Jejunum 2 BileSalt Conc	2.03
+Jejunum 2 TTime	0.76	Jejunum 2 Length	62	Jejunum 2 Water Abs	3.745	Jejunum 2 Water Sec	30	Jejunum 2 Volume	139.9
+Jejunum 2 Radius	1.34	Ileum 1 SEF	3.029	Ileum 1 Poros/PoreL	16.46	Ileum 1 Pore Radius	7.16	Ileum 1 pH	6.6
+Ileum 1 BileSalt Conc	1.41	Ileum 1 TTime	0.59	Ileum 1 Length	62	Ileum 1 Water Abs	3.86	Ileum 1 Water Sec	90
+Ileum 1 Volume	108.48	Ileum 1 Radius	1.18	Ileum 2 SEF	2.569	Ileum 2 Poros/PoreL	9.54	Ileum 2 Pore Radius	5.92
+Ileum 2 pH	6.9	Ileum 2 BileSalt Conc	1.16	Ileum 2 TTime	0.43	Ileum 2 Length	62	Ileum 2 Water Abs	3.9
+Ileum 2 Water Sec	10	Ileum 2 Volume	79.478	Ileum 2 Radius	1.01	Ileum 3 SEF	2.109	Ileum 3 Poros/PoreL	4.896
+Ileum 3 Pore Radius	4.68	Ileum 3 pH	7.4	Ileum 3 BileSalt Conc	0.14	Ileum 3 TTime	0.31	Ileum 3 Length	62
+Ileum 3 Water Abs	3.68	Ileum 3 Water Sec	10	Ileum 3 Volume	56.291	Ileum 3 Radius	0.85	Caecum SEF	1.79
+Caecum Poros/PoreL	2.915	Caecum Pore Radius	3.92	Caecum pH	6.4	Caecum BileSalt Conc	0.0	Caecum TTime	4.5
+Caecum Length	13.75	Caecum Water Abs	9.18	Caecum Water Sec	15	Caecum Volume	52.916	Caecum Radius	3.5
+Asc Colon SEF	2.48	Asc Colon Poros/PoreL	3.22	Asc Colon Pore Radius	3.5	Asc Colon pH	6.8	Asc Colon BileSalt Conc	0.0
+Asc Colon TTime	13.5	Asc Colon Length	29.02	Asc Colon Water Abs	3.37	Asc Colon Water Sec	32	Asc Colon Volume	56.981
+Asc Colon Radius	2.5	ZeroOrder CD Kt	0.0	Cyclodextrin Kassoc-ZGB 60mg PO Joseph et al	0.0	Total Cyclodextrin Dose-ZGB 60mg PO Joseph et al	0.0	Cyclodextrin Dose-ZGB 60mg PO Joseph et al	0.0
+Rbp-ZGB 60mg PO Joseph et al	0.68	PedRbp-ZGB 60mg PO Joseph et al	0.68	Fpu-ZGB 60mg PO Joseph et al	0.5	AdjFpu-ZGB 60mg PO Joseph et al	0.4486	PedFpu-ZGB 60mg PO Joseph et al	0.5
+PedAdjFpu-ZGB 60mg PO Joseph et al	0.4486	GB CL-ZGB 60mg PO Joseph et al	0.0	SpecPstc-ZGB 60mg PO Joseph et al	0.0	Hematocrit	0.45	ProtPct	100
+EIRatio-RestOfBody-ZGB 60mg PO Joseph et al	0.0	Kelf_p-RestOfBody-ZGB 60mg PO Joseph et al	0.0	FuELF-RestOfBody-ZGB 60mg PO Joseph et al	0.0	Kp-RestOfBody-ZGB 60mg PO Joseph et al	0.6297	CL-RestOfBody-ZGB 60mg PO Joseph et al	0.0
+CLfilt-RestOfBody-ZGB 60mg PO Joseph et al	0.0	Fut-RestOfBody-ZGB 60mg PO Joseph et al	0.0081	FutE-RestOfBody-ZGB 60mg PO Joseph et al	0.0	FutLys-RestOfBody-ZGB 60mg PO Joseph et al	1	PStcAp-RestOfBody-ZGB 60mg PO Joseph et al	0.0
+FRACPerf-RestOfBody-ZGB 60mg PO Joseph et al	0.0	RenCombBox-RestOfBody-ZGB 60mg PO Joseph et al	0.0	Modeltype-RestOfBody-ZGB 60mg PO Joseph et al	1	SA-RestOfBody	0.0	SAap-RestOfBody	0.0
+Vol-RestOfBody	3046.6	Q-RestOfBody	1.5233	LymFlowFr-RestOfBody	0.4	FcRnDensity-RestOfBody	1.66	Fvec-RestOfBody	0.207
+Fvv-RestOfBody	0.05	Fvendo-RestOfBody	0.005	Vlys-RestOfBody	0.0074	LyspH-RestOfBody	5.1	Dens-RestOfBody	1
+Leak-RestOfBody	1	QUR-RestOfBody	0.0	GFR-RestOfBody	0.0	VolTubule-RestOfBody	0.0	VolumeELF-RestOfBody	0.0
+MCCL-RestOfBody	0.0	pHELF-RestOfBody	6.69	EIRatio-YellowMarrow-ZGB 60mg PO Joseph et al	0.0	Kelf_p-YellowMarrow-ZGB 60mg PO Joseph et al	0.0	FuELF-YellowMarrow-ZGB 60mg PO Joseph et al	0.0
+Kp-YellowMarrow-ZGB 60mg PO Joseph et al	1.7637	CL-YellowMarrow-ZGB 60mg PO Joseph et al	0.0	CLfilt-YellowMarrow-ZGB 60mg PO Joseph et al	0.0	Fut-YellowMarrow-ZGB 60mg PO Joseph et al	0.0029	FutE-YellowMarrow-ZGB 60mg PO Joseph et al	0.0
+FutLys-YellowMarrow-ZGB 60mg PO Joseph et al	1	PStcAp-YellowMarrow-ZGB 60mg PO Joseph et al	0.0	FRACPerf-YellowMarrow-ZGB 60mg PO Joseph et al	0.0	RenCombBox-YellowMarrow-ZGB 60mg PO Joseph et al	0.0	Modeltype-YellowMarrow-ZGB 60mg PO Joseph et al	1
+SA-YellowMarrow	0.0	SAap-YellowMarrow	0.0	Vol-YellowMarrow	3289.	Q-YellowMarrow	1.6445	LymFlowFr-YellowMarrow	0.4
+FcRnDensity-YellowMarrow	1.66	Fvec-YellowMarrow	0.135	Fvv-YellowMarrow	0.05	Fvendo-YellowMarrow	0.005	Vlys-YellowMarrow	0.0021
+LyspH-YellowMarrow	5.1	Dens-YellowMarrow	0.783	Leak-YellowMarrow	1	QUR-YellowMarrow	0.0	GFR-YellowMarrow	0.0
+VolTubule-YellowMarrow	0.0	VolumeELF-YellowMarrow	0.0	MCCL-YellowMarrow	0.0	pHELF-YellowMarrow	6.69	EIRatio-RedMarrow-ZGB 60mg PO Joseph et al	0.0
+Kelf_p-RedMarrow-ZGB 60mg PO Joseph et al	0.0	FuELF-RedMarrow-ZGB 60mg PO Joseph et al	0.0	Kp-RedMarrow-ZGB 60mg PO Joseph et al	1.5489	CL-RedMarrow-ZGB 60mg PO Joseph et al	0.0	CLfilt-RedMarrow-ZGB 60mg PO Joseph et al	0.0
+Fut-RedMarrow-ZGB 60mg PO Joseph et al	0.0033	FutE-RedMarrow-ZGB 60mg PO Joseph et al	0.0	FutLys-RedMarrow-ZGB 60mg PO Joseph et al	1	PStcAp-RedMarrow-ZGB 60mg PO Joseph et al	0.0	FRACPerf-RedMarrow-ZGB 60mg PO Joseph et al	0.0
+RenCombBox-RedMarrow-ZGB 60mg PO Joseph et al	0.0	Modeltype-RedMarrow-ZGB 60mg PO Joseph et al	1	SA-RedMarrow	0.0	SAap-RedMarrow	0.0	Vol-RedMarrow	1183.3
+Q-RedMarrow	5.9163	LymFlowFr-RedMarrow	0.4	FcRnDensity-RedMarrow	1.66	Fvec-RedMarrow	0.1	Fvv-RedMarrow	0.05
+Fvendo-RedMarrow	0.005	Vlys-RedMarrow	0.0026	LyspH-RedMarrow	5.1	Dens-RedMarrow	1.028	Leak-RedMarrow	1
+QUR-RedMarrow	0.0	GFR-RedMarrow	0.0	VolTubule-RedMarrow	0.0	VolumeELF-RedMarrow	0.0	MCCL-RedMarrow	0.0
+pHELF-RedMarrow	6.69	EIRatio-ReproOrg-ZGB 60mg PO Joseph et al	0.0	Kelf_p-ReproOrg-ZGB 60mg PO Joseph et al	0.0	FuELF-ReproOrg-ZGB 60mg PO Joseph et al	0.0	Kp-ReproOrg-ZGB 60mg PO Joseph et al	0.6541
+CL-ReproOrg-ZGB 60mg PO Joseph et al	0.0	CLfilt-ReproOrg-ZGB 60mg PO Joseph et al	0.0	Fut-ReproOrg-ZGB 60mg PO Joseph et al	0.0078	FutE-ReproOrg-ZGB 60mg PO Joseph et al	0.0	FutLys-ReproOrg-ZGB 60mg PO Joseph et al	1
+PStcAp-ReproOrg-ZGB 60mg PO Joseph et al	0.0	FRACPerf-ReproOrg-ZGB 60mg PO Joseph et al	0.0	RenCombBox-ReproOrg-ZGB 60mg PO Joseph et al	0.0	Modeltype-ReproOrg-ZGB 60mg PO Joseph et al	1	SA-ReproOrg	0.0
+SAap-ReproOrg	0.0	Vol-ReproOrg	57.519	Q-ReproOrg	0.2013	LymFlowFr-ReproOrg	0.4	FcRnDensity-ReproOrg	1.66
+Fvec-ReproOrg	0.273	Fvv-ReproOrg	0.05	Fvendo-ReproOrg	0.005	Vlys-ReproOrg	0.011	LyspH-ReproOrg	5.1
+Dens-ReproOrg	1	Leak-ReproOrg	1	QUR-ReproOrg	0.0	GFR-ReproOrg	0.0	VolTubule-ReproOrg	0.0
+VolumeELF-ReproOrg	0.0	MCCL-ReproOrg	0.0	pHELF-ReproOrg	6.69	EIRatio-Skin-ZGB 60mg PO Joseph et al	0.0	Kelf_p-Skin-ZGB 60mg PO Joseph et al	0.0
+FuELF-Skin-ZGB 60mg PO Joseph et al	0.0	Kp-Skin-ZGB 60mg PO Joseph et al	0.8625	CL-Skin-ZGB 60mg PO Joseph et al	0.0	CLfilt-Skin-ZGB 60mg PO Joseph et al	0.0	Fut-Skin-ZGB 60mg PO Joseph et al	0.0059
+FutE-Skin-ZGB 60mg PO Joseph et al	0.0	FutLys-Skin-ZGB 60mg PO Joseph et al	1	PStcAp-Skin-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Skin-ZGB 60mg PO Joseph et al	0.0	RenCombBox-Skin-ZGB 60mg PO Joseph et al	0.0
+Modeltype-Skin-ZGB 60mg PO Joseph et al	1	SA-Skin	0.0	SAap-Skin	0.0	Vol-Skin	3033.2	Q-Skin	6.0665
+LymFlowFr-Skin	0.4	FcRnDensity-Skin	7.3	Fvec-Skin	0.382	Fvv-Skin	0.05	Fvendo-Skin	0.005
+Vlys-Skin	0.0039	LyspH-Skin	5.1	Dens-Skin	1.184	Leak-Skin	1	QUR-Skin	0.0
+GFR-Skin	0.0	VolTubule-Skin	0.0	VolumeELF-Skin	0.0	MCCL-Skin	0.0	pHELF-Skin	6.69
+EIRatio-Kidney-ZGB 60mg PO Joseph et al	0.0	Kelf_p-Kidney-ZGB 60mg PO Joseph et al	0.0	FuELF-Kidney-ZGB 60mg PO Joseph et al	0.0	Kp-Kidney-ZGB 60mg PO Joseph et al	0.6423	CL-Kidney-ZGB 60mg PO Joseph et al	0.0
+CLfilt-Kidney-ZGB 60mg PO Joseph et al	0.0363	Fut-Kidney-ZGB 60mg PO Joseph et al	0.0079	FutE-Kidney-ZGB 60mg PO Joseph et al	0.0	FutLys-Kidney-ZGB 60mg PO Joseph et al	1	PStcAp-Kidney-ZGB 60mg PO Joseph et al	0.0
+FRACPerf-Kidney-ZGB 60mg PO Joseph et al	0.0	RenCombBox-Kidney-ZGB 60mg PO Joseph et al	1	Modeltype-Kidney-ZGB 60mg PO Joseph et al	1	SA-Kidney	0.0	SAap-Kidney	0.0
+Vol-Kidney	383.6	Q-Kidney	23.527	LymFlowFr-Kidney	0.4	FcRnDensity-Kidney	7.76	Fvec-Kidney	0.273
+Fvv-Kidney	0.05	Fvendo-Kidney	0.005	Vlys-Kidney	0.011	LyspH-Kidney	5.1	Dens-Kidney	1.05
+Leak-Kidney	0.7	UGT1A1 Expression Kidney	0.015	UGT1A1 Activity Kidney	6.0417	UGT1A1 Turnover Kidney	8.333E-6	UGT1A4 Expression Kidney	0.02
+UGT1A4 Activity Kidney	8.0557	UGT1A4 Turnover Kidney	8.333E-6	UGT1A5 Expression Kidney	7.11E-4	UGT1A5 Activity Kidney	0.2864	UGT1A5 Turnover Kidney	8.333E-6
+UGT1A6 Expression Kidney	0.0052	UGT1A6 Activity Kidney	2.1066	UGT1A6 Turnover Kidney	8.333E-6	UGT1A7 Expression Kidney	0.027	UGT1A7 Activity Kidney	10.875
+UGT1A7 Turnover Kidney	8.333E-6	UGT1A8 Expression Kidney	0.012	UGT1A8 Activity Kidney	4.8334	UGT1A8 Turnover Kidney	8.333E-6	UGT1A9 Expression Kidney	0.171
+UGT1A9 Activity Kidney	68.876	UGT1A9 Turnover Kidney	8.333E-6	UGT1A10 Expression Kidney	0.036	UGT1A10 Activity Kidney	14.5	UGT1A10 Turnover Kidney	8.333E-6
+UGT2B4 Expression Kidney	0.0036	UGT2B4 Activity Kidney	1.4299	UGT2B4 Turnover Kidney	8.333E-6	UGT2B7 Expression Kidney	0.138	UGT2B7 Activity Kidney	55.584
+UGT2B7 Turnover Kidney	8.333E-6	UGT2B17 Expression Kidney	5.23E-4	UGT2B17 Activity Kidney	0.2107	UGT2B17 Turnover Kidney	8.333E-6	SULT1A1 Expression Kidney	0.0087
+SULT1A1 Activity Kidney	3.5002	SULT1A1 Turnover Kidney	8.333E-6	SULT1A3 Expression Kidney	0.0063	SULT1A3 Activity Kidney	2.5214	SULT1A3 Turnover Kidney	8.333E-6
+SULT1B1 Expression Kidney	0.0066	SULT1B1 Activity Kidney	2.6624	SULT1B1 Turnover Kidney	8.333E-6	SULT2A1 Expression Kidney	2.61E-4	SULT2A1 Activity Kidney	0.1051
+SULT2A1 Turnover Kidney	8.333E-6	P-gp Expression Kidney	0.018	P-gp Activity Kidney	7.2501	P-gp Turnover Kidney	8.333E-6	BCRP Expression Kidney	1.94E-4
+BCRP Activity Kidney	0.0781	BCRP Turnover Kidney	8.333E-6	MRP2 Expression Kidney	0.0077	MRP2 Activity Kidney	3.1095	MRP2 Turnover Kidney	8.333E-6
+MRP3 Expression Kidney	0.002	MRP3 Activity Kidney	0.7935	MRP3 Turnover Kidney	8.333E-6	MRP4 Expression Kidney	0.0068	MRP4 Activity Kidney	2.7349
+MRP4 Turnover Kidney	8.333E-6	MATE1 Expression Kidney	0.016	MATE1 Activity Kidney	6.4445	MATE1 Turnover Kidney	8.333E-6	OAT1 Expression Kidney	0.016
+OAT1 Activity Kidney	6.4445	OAT1 Turnover Kidney	8.333E-6	OAT2 Expression Kidney	0.0028	OAT2 Activity Kidney	1.1238	OAT2 Turnover Kidney	8.333E-6
+OAT3 Expression Kidney	0.01	OAT3 Activity Kidney	4.0278	OAT3 Turnover Kidney	8.333E-6	OAT4 Expression Kidney	0.0016	OAT4 Activity Kidney	0.6485
+OAT4 Turnover Kidney	8.333E-6	OCT2 Expression Kidney	0.023	OCT2 Activity Kidney	9.264	OCT2 Turnover Kidney	8.333E-6	OCTN1 Expression Kidney	0.0039
+OCTN1 Activity Kidney	1.587	OCTN1 Turnover Kidney	8.333E-6	OCTN2 Expression Kidney	0.0018	OCTN2 Activity Kidney	0.721	OCTN2 Turnover Kidney	8.333E-6
+SGLT2 Expression Kidney	0.013	SGLT2 Activity Kidney	5.2362	SGLT2 Turnover Kidney	8.333E-6	QUR-Kidney	0.0284	GFR-Kidney	2.0175
+VolTubule-Kidney	51.204	VolumeELF-Kidney	0.0	MCCL-Kidney	0.0	pHELF-Kidney	6.69	EIRatio-Brain-ZGB 60mg PO Joseph et al	0.0
+Kelf_p-Brain-ZGB 60mg PO Joseph et al	0.0	FuELF-Brain-ZGB 60mg PO Joseph et al	0.0	Kp-Brain-ZGB 60mg PO Joseph et al	1.3297	CL-Brain-ZGB 60mg PO Joseph et al	0.0	CLfilt-Brain-ZGB 60mg PO Joseph et al	0.0
+Fut-Brain-ZGB 60mg PO Joseph et al	0.0038	FutE-Brain-ZGB 60mg PO Joseph et al	0.0	FutLys-Brain-ZGB 60mg PO Joseph et al	1	PStcAp-Brain-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Brain-ZGB 60mg PO Joseph et al	0.0
+RenCombBox-Brain-ZGB 60mg PO Joseph et al	0.0	Modeltype-Brain-ZGB 60mg PO Joseph et al	1	SA-Brain	0.0	SAap-Brain	0.0	Vol-Brain	1493.2
+Q-Brain	12.692	LymFlowFr-Brain	0.4	FcRnDensity-Brain	1.66	Fvec-Brain	0.162	Fvv-Brain	0.05
+Fvendo-Brain	0.005	Vlys-Brain	0.0021	LyspH-Brain	5.1	Dens-Brain	0.97	Leak-Brain	1.5
+QUR-Brain	0.0	GFR-Brain	0.0	VolTubule-Brain	0.0	VolumeELF-Brain	0.0	MCCL-Brain	0.0
+pHELF-Brain	6.69	EIRatio-Heart-ZGB 60mg PO Joseph et al	0.0	Kelf_p-Heart-ZGB 60mg PO Joseph et al	0.0	FuELF-Heart-ZGB 60mg PO Joseph et al	0.0	Kp-Heart-ZGB 60mg PO Joseph et al	0.4741
+CL-Heart-ZGB 60mg PO Joseph et al	0.0	CLfilt-Heart-ZGB 60mg PO Joseph et al	0.0	Fut-Heart-ZGB 60mg PO Joseph et al	0.0107	FutE-Heart-ZGB 60mg PO Joseph et al	0.0	FutLys-Heart-ZGB 60mg PO Joseph et al	1
+PStcAp-Heart-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Heart-ZGB 60mg PO Joseph et al	0.0	RenCombBox-Heart-ZGB 60mg PO Joseph et al	0.0	Modeltype-Heart-ZGB 60mg PO Joseph et al	1	SA-Heart	0.0
+SAap-Heart	0.0	Vol-Heart	364.96	Q-Heart	4.4405	LymFlowFr-Heart	0.4	FcRnDensity-Heart	4.36
+Fvec-Heart	0.32	Fvv-Heart	0.05	Fvendo-Heart	0.005	Vlys-Heart	0.0057	LyspH-Heart	5.1
+Dens-Heart	1.03	Leak-Heart	0.7	QUR-Heart	0.0	GFR-Heart	0.0	VolTubule-Heart	0.0
+VolumeELF-Heart	0.0	MCCL-Heart	0.0	pHELF-Heart	6.69	EIRatio-Spleen-ZGB 60mg PO Joseph et al	0.0	Kelf_p-Spleen-ZGB 60mg PO Joseph et al	0.0
+FuELF-Spleen-ZGB 60mg PO Joseph et al	0.0	Kp-Spleen-ZGB 60mg PO Joseph et al	0.607	CL-Spleen-ZGB 60mg PO Joseph et al	0.0	CLfilt-Spleen-ZGB 60mg PO Joseph et al	0.0	Fut-Spleen-ZGB 60mg PO Joseph et al	0.0084
+FutE-Spleen-ZGB 60mg PO Joseph et al	0.0	FutLys-Spleen-ZGB 60mg PO Joseph et al	1	PStcAp-Spleen-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Spleen-ZGB 60mg PO Joseph et al	0.0	RenCombBox-Spleen-ZGB 60mg PO Joseph et al	0.0
+Modeltype-Spleen-ZGB 60mg PO Joseph et al	1	SA-Spleen	0.0	SAap-Spleen	0.0	Vol-Spleen	169.97	Q-Spleen	2.8329
+LymFlowFr-Spleen	0.4	FcRnDensity-Spleen	3.81	Fvec-Spleen	0.207	Fvv-Spleen	0.05	Fvendo-Spleen	0.005
+Vlys-Spleen	0.0074	LyspH-Spleen	5.1	Dens-Spleen	1.054	Leak-Spleen	0.7	QUR-Spleen	0.0
+GFR-Spleen	0.0	VolTubule-Spleen	0.0	VolumeELF-Spleen	0.0	MCCL-Spleen	0.0	pHELF-Spleen	6.69
+Q-ACAT Gut	13.935	LymFlowFr$TName$	0.0	FcRnDensity$TName$	0.0	EIRatio-Liver-ZGB 60mg PO Joseph et al	0.0	Kelf_p-Liver-ZGB 60mg PO Joseph et al	0.0
+FuELF-Liver-ZGB 60mg PO Joseph et al	0.0	Kp-Liver-ZGB 60mg PO Joseph et al	0.9148	CL-Liver-ZGB 60mg PO Joseph et al	0.0	CLfilt-Liver-ZGB 60mg PO Joseph et al	0.0	Fut-Liver-ZGB 60mg PO Joseph et al	0.0055
+FutE-Liver-ZGB 60mg PO Joseph et al	0.0	FutLys-Liver-ZGB 60mg PO Joseph et al	1	PStcAp-Liver-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Liver-ZGB 60mg PO Joseph et al	0.0	RenCombBox-Liver-ZGB 60mg PO Joseph et al	0.0
+Modeltype-Liver-ZGB 60mg PO Joseph et al	1	SA-Liver	0.0	SAap-Liver	0.0	Vol-Liver	1704.9	Q-Liver	26.101
+LymFlowFr-Liver	0.4	FcRnDensity-Liver	13	Fvec-Liver	0.161	Fvv-Liver	0.05	Fvendo-Liver	0.005
+Vlys-Liver	0.0094	LyspH-Liver	4.84	Dens-Liver	1.07	Leak-Liver	0.7	1A2 Expression Liver	0.115
+1A2 Activity Liver	209.78	1A2 Turnover Liver	8.333E-6	2A6 Expression Liver	0.077	2A6 Activity Liver	140.46	2A6 Turnover Liver	8.333E-6
+2B6 Expression Liver	0.024	2B6 Activity Liver	43.781	2B6 Turnover Liver	8.333E-6	2B6-EM Expression Liver	0.029	2B6-EM Activity Liver	52.902
+2B6-EM Turnover Liver	8.333E-6	2B6-PM Expression Liver	0.0058	2B6-PM Activity Liver	10.526	2B6-PM Turnover Liver	8.333E-6	2C8 Expression Liver	0.051
+2C8 Activity Liver	93.034	2C8 Turnover Liver	8.333E-6	2C9 Expression Liver	0.154	2C9 Activity Liver	280.93	2C9 Turnover Liver	8.333E-6
+2C9-EM Expression Liver	0.192	2C9-EM Activity Liver	350.25	2C9-EM Turnover Liver	8.333E-6	2C9-IM Expression Liver	0.095	2C9-IM Activity Liver	173.3
+2C9-IM Turnover Liver	8.333E-6	2C9-PM Expression Liver	0.0	2C9-PM Activity Liver	0.0	2C9-PM Turnover Liver	8.333E-6	2C19 Expression Liver	0.03
+2C19 Activity Liver	54.726	2C19 Turnover Liver	8.333E-6	2C19-UM Expression Liver	0.045	2C19-UM Activity Liver	82.089	2C19-UM Turnover Liver	8.333E-6
+2C19-EM Expression Liver	0.028	2C19-EM Activity Liver	51.078	2C19-EM Turnover Liver	8.333E-6	2C19-IM Expression Liver	0.016	2C19-IM Activity Liver	29.187
+2C19-IM Turnover Liver	8.333E-6	2C19-PM Expression Liver	0.0	2C19-PM Activity Liver	0.0	2C19-PM Turnover Liver	8.333E-6	2D6 Expression Liver	0.017
+2D6 Activity Liver	31.011	2D6 Turnover Liver	8.333E-6	2D6-UM Expression Liver	0.025	2D6-UM Activity Liver	45.605	2D6-UM Turnover Liver	8.333E-6
+2D6-EM Expression Liver	0.021	2D6-EM Activity Liver	38.308	2D6-EM Turnover Liver	8.333E-6	2D6-IM Expression Liver	0.0062	2D6-IM Activity Liver	11.219
+2D6-IM Turnover Liver	8.333E-6	2D6-PM Expression Liver	0.0024	2D6-PM Activity Liver	4.451	2D6-PM Turnover Liver	8.333E-6	2E1 Expression Liver	0.132
+2E1 Activity Liver	240.79	2E1 Turnover Liver	8.333E-6	3A4 Expression Liver	0.242	3A4 Activity Liver	441.46	3A4 Turnover Liver	8.333E-6
+3A5 Expression Liver	0.095	3A5 Activity Liver	173.3	3A5 Turnover Liver	8.333E-6	3A7 Expression Liver	0.0	3A7 Activity Liver	0.0
+3A7 Turnover Liver	8.333E-6	3A4/5 Expression Liver	0.337	3A4/5 Activity Liver	614.75	3A4/5 Turnover Liver	8.333E-6	3A Expression Liver	0.337
+3A Activity Liver	614.75	3A Turnover Liver	8.333E-6	LumpedMP Expression Liver	0.242	LumpedMP Activity Liver	441.46	LumpedMP Turnover Liver	8.333E-6
+UGT1A1 Expression Liver	0.052	UGT1A1 Activity Liver	94.858	UGT1A1 Turnover Liver	8.333E-6	UGT1A3 Expression Liver	0.016	UGT1A3 Activity Liver	29.187
+UGT1A3 Turnover Liver	8.333E-6	UGT1A4 Expression Liver	0.017	UGT1A4 Activity Liver	31.011	UGT1A4 Turnover Liver	8.333E-6	UGT1A5 Expression Liver	3.14E-4
+UGT1A5 Activity Liver	0.5728	UGT1A5 Turnover Liver	8.333E-6	UGT1A6 Expression Liver	0.016	UGT1A6 Activity Liver	29.187	UGT1A6 Turnover Liver	8.333E-6
+UGT1A7 Expression Liver	1.88E-4	UGT1A7 Activity Liver	0.3429	UGT1A7 Turnover Liver	8.333E-6	UGT1A9 Expression Liver	0.05	UGT1A9 Activity Liver	91.21
+UGT1A9 Turnover Liver	8.333E-6	UGT2B4 Expression Liver	1.411	UGT2B4 Activity Liver	2573.9	UGT2B4 Turnover Liver	8.333E-6	UGT2B7 Expression Liver	0.13
+UGT2B7 Activity Liver	237.15	UGT2B7 Turnover Liver	8.333E-6	UGT2B10 Expression Liver	0.083	UGT2B10 Activity Liver	151.41	UGT2B10 Turnover Liver	8.333E-6
+UGT2B15 Expression Liver	0.265	UGT2B15 Activity Liver	483.41	UGT2B15 Turnover Liver	8.333E-6	UGT2B17 Expression Liver	0.0037	UGT2B17 Activity Liver	6.6766
+UGT2B17 Turnover Liver	8.333E-6	SULT1A1 Expression Liver	0.257	SULT1A1 Activity Liver	468.82	SULT1A1 Turnover Liver	8.333E-6	SULT1A3 Expression Liver	0.038
+SULT1A3 Activity Liver	69.319	SULT1A3 Turnover Liver	8.333E-6	SULT1B1 Expression Liver	0.048	SULT1B1 Activity Liver	87.561	SULT1B1 Turnover Liver	8.333E-6
+SULT1E1 Expression Liver	0.027	SULT1E1 Activity Liver	49.253	SULT1E1 Turnover Liver	8.333E-6	SULT2A1 Expression Liver	0.155	SULT2A1 Activity Liver	282.75
+SULT2A1 Turnover Liver	8.333E-6	AOX1 Expression Liver	0.017	AOX1 Activity Liver	31.011	AOX1 Turnover Liver	8.333E-6	CES1 Expression Liver	2.166
+CES1 Activity Liver	3951.2	CES1 Turnover Liver	8.333E-6	CES2 Expression Liver	0.377	CES2 Activity Liver	687.72	CES2 Turnover Liver	8.333E-6
+GSTA1 Expression Liver	1.04	GSTA1 Activity Liver	1897.2	GSTA1 Turnover Liver	8.333E-6	GSTM Expression Liver	0.037	GSTM Activity Liver	67.495
+GSTM Turnover Liver	8.333E-6	GSTP Expression Liver	8.9E-4	GSTP Activity Liver	1.6235	GSTP Turnover Liver	8.333E-6	GSTZ Expression Liver	0.041
+GSTZ Activity Liver	74.792	GSTZ Turnover Liver	8.333E-6	NAT2 Expression Liver	0.0082	NAT2 Activity Liver	14.958	NAT2 Turnover Liver	8.333E-6
+P-gp Expression Liver	0.0034	P-gp Activity Liver	6.1111	P-gp Turnover Liver	8.333E-6	BCRP Expression Liver	2.63E-4	BCRP Activity Liver	0.4798
+BCRP Turnover Liver	8.333E-6	MRP2 Expression Liver	0.0052	MRP2 Activity Liver	9.4676	MRP2 Turnover Liver	8.333E-6	MRP3 Expression Liver	0.0037
+MRP3 Activity Liver	6.713	MRP3 Turnover Liver	8.333E-6	BSEP Expression Liver	0.012	BSEP Activity Liver	21.89	BSEP Turnover Liver	8.333E-6
+MATE1 Expression Liver	7.59E-4	MATE1 Activity Liver	1.3846	MATE1 Turnover Liver	8.333E-6	OCT1 Expression Liver	0.014	OCT1 Activity Liver	25.539
+OCT1 Turnover Liver	8.333E-6	OATP1B1 Expression Liver	0.0098	OATP1B1 Activity Liver	17.822	OATP1B1 Turnover Liver	8.333E-6	OATP1B3 Expression Liver	0.0049
+OATP1B3 Activity Liver	8.975	OATP1B3 Turnover Liver	8.333E-6	OATP2B1 Expression Liver	0.0061	OATP2B1 Activity Liver	11.091	OATP2B1 Turnover Liver	8.333E-6
+NTCP Expression Liver	0.0033	NTCP Activity Liver	6.0746	NTCP Turnover Liver	8.333E-6	QUR-Liver	0.0	GFR-Liver	0.0
+VolTubule-Liver	0.0	VolumeELF-Liver	0.0	MCCL-Liver	0.0	pHELF-Liver	6.69	EIRatio-Muscle-ZGB 60mg PO Joseph et al	0.0
+Kelf_p-Muscle-ZGB 60mg PO Joseph et al	0.0	FuELF-Muscle-ZGB 60mg PO Joseph et al	0.0	Kp-Muscle-ZGB 60mg PO Joseph et al	0.5625	CL-Muscle-ZGB 60mg PO Joseph et al	0.0	CLfilt-Muscle-ZGB 60mg PO Joseph et al	0.0
+Fut-Muscle-ZGB 60mg PO Joseph et al	0.009	FutE-Muscle-ZGB 60mg PO Joseph et al	0.0	FutLys-Muscle-ZGB 60mg PO Joseph et al	1	PStcAp-Muscle-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Muscle-ZGB 60mg PO Joseph et al	0.0
+RenCombBox-Muscle-ZGB 60mg PO Joseph et al	0.0	Modeltype-Muscle-ZGB 60mg PO Joseph et al	1	SA-Muscle	0.0	SAap-Muscle	0.0	Vol-Muscle	2.76E4
+Q-Muscle	13.79	LymFlowFr-Muscle	0.4	FcRnDensity-Muscle	1.66	Fvec-Muscle	0.118	Fvv-Muscle	0.05
+Fvendo-Muscle	0.005	Vlys-Muscle	0.0043	LyspH-Muscle	5.1	Dens-Muscle	1.041	Leak-Muscle	1
+QUR-Muscle	0.0	GFR-Muscle	0.0	VolTubule-Muscle	0.0	VolumeELF-Muscle	0.0	MCCL-Muscle	0.0
+pHELF-Muscle	6.69	EIRatio-Adipose-ZGB 60mg PO Joseph et al	0.0	Kelf_p-Adipose-ZGB 60mg PO Joseph et al	0.0	FuELF-Adipose-ZGB 60mg PO Joseph et al	0.0	Kp-Adipose-ZGB 60mg PO Joseph et al	1.7637
+CL-Adipose-ZGB 60mg PO Joseph et al	0.0	CLfilt-Adipose-ZGB 60mg PO Joseph et al	0.0	Fut-Adipose-ZGB 60mg PO Joseph et al	0.0029	FutE-Adipose-ZGB 60mg PO Joseph et al	0.0	FutLys-Adipose-ZGB 60mg PO Joseph et al	1
+PStcAp-Adipose-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Adipose-ZGB 60mg PO Joseph et al	0.0	RenCombBox-Adipose-ZGB 60mg PO Joseph et al	0.0	Modeltype-Adipose-ZGB 60mg PO Joseph et al	1	SA-Adipose	0.0
+SAap-Adipose	0.0	Vol-Adipose	3.1E4	Q-Adipose	10.314	LymFlowFr-Adipose	0.4	FcRnDensity-Adipose	1.66
+Fvec-Adipose	0.135	Fvv-Adipose	0.05	Fvendo-Adipose	0.005	Vlys-Adipose	0.002	LyspH-Adipose	5.1
+Dens-Adipose	0.915	Leak-Adipose	1	QUR-Adipose	0.0	GFR-Adipose	0.0	VolTubule-Adipose	0.0
+VolumeELF-Adipose	0.0	MCCL-Adipose	0.0	pHELF-Adipose	6.69	CL-Venous Return-ZGB 60mg PO Joseph et al	0.0	CLfilt-Venous Return-ZGB 60mg PO Joseph et al	0.0
+Vol-Venous Return	4452.6	Q-Venous Return	106.22	CL-Arterial Supply-ZGB 60mg PO Joseph et al	0.0	CLfilt-Arterial Supply-ZGB 60mg PO Joseph et al	0.0	Vol-Arterial Supply	2226.3
+Q-Arterial Supply	106.22	EIRatio-Lung-ZGB 60mg PO Joseph et al	0.0	Kelf_p-Lung-ZGB 60mg PO Joseph et al	103.21	FuELF-Lung-ZGB 60mg PO Joseph et al	0.0098	Kp-Lung-ZGB 60mg PO Joseph et al	0.3286
+CL-Lung-ZGB 60mg PO Joseph et al	0.0	CLfilt-Lung-ZGB 60mg PO Joseph et al	0.0	Fut-Lung-ZGB 60mg PO Joseph et al	0.0154	FutE-Lung-ZGB 60mg PO Joseph et al	0.0	FutLys-Lung-ZGB 60mg PO Joseph et al	1
+PStcAp-Lung-ZGB 60mg PO Joseph et al	0.0	FRACPerf-Lung-ZGB 60mg PO Joseph et al	0.0	RenCombBox-Lung-ZGB 60mg PO Joseph et al	0.0	Modeltype-Lung-ZGB 60mg PO Joseph et al	1	SA-Lung	0.0
+SAap-Lung	0.0	Vol-Lung	1125.5	Q-Lung	106.22	LymFlowFr-Lung	0.4	FcRnDensity-Lung	5.83
+Fvec-Lung	0.336	Fvv-Lung	0.05	Fvendo-Lung	0.005	Vlys-Lung	0.0096	LyspH-Lung	5.02
+Dens-Lung	1.05	Leak-Lung	0.7	SULT1A1 Expression Lung	0.0017	SULT1A1 Activity Lung	2.0327	SULT1A1 Turnover Lung	8.333E-6
+SULT1A3 Expression Lung	0.0017	SULT1A3 Activity Lung	2.0327	SULT1A3 Turnover Lung	8.333E-6	SULT1B1 Expression Lung	0.0012	SULT1B1 Activity Lung	1.359
+SULT1B1 Turnover Lung	8.333E-6	SULT1E1 Expression Lung	0.0031	SULT1E1 Activity Lung	3.628	SULT1E1 Turnover Lung	8.333E-6	SULT2A1 Expression Lung	8.62E-4
+SULT2A1 Activity Lung	1.0187	SULT2A1 Turnover Lung	8.333E-6	QUR-Lung	0.0	GFR-Lung	0.0	VolTubule-Lung	0.0
+VolumeELF-Lung	12.02	MCCL-Lung	2.749E-6	pHELF-Lung	6.69	Q-Hepatic Artery	9.3334	Km-LumpedMP-1-0ZGB 60mg PO Joseph et al	3.179
+Vmax-LumpedMP-1-0ZGB 60mg PO Joseph et al	0.0013	Km-3A4-1-0ZGB 60mg PO Joseph et al	3.179	Vmax-3A4-1-0ZGB 60mg PO Joseph et al	0.0013	Km-Gut3A4-1-0ZGB 60mg PO Joseph et al	3.179	Vmax-Gut3A4-1-0ZGB 60mg PO Joseph et al	0.371
+PBPKKmSF	1	PBPKVmSF	1	GutKmSF-ZGB 60mg PO Joseph et al	1	GutVmaxSF-ZGB 60mg PO Joseph et al	1	ConstGutEnzCL-ZGB 60mg PO Joseph et al	0.0
+
+
+Parameters included in Sensitivity Analysis
+
+Param Name	3A4 Activity 2 ()	3A4 Expression Liver ()	Km-3A4-1-0ZGB 60mg PO Joseph et al (mg)	Vmax-3A4-1-0ZGB 60mg PO Joseph et al (mg)	GutKmSF-ZGB 60mg PO Joseph et al ()	GutVmaxSF-ZGB 60mg PO Joseph et al ()
+Baseline	2.09E-3	0.242	3.179	1.26E-3	1.000	1.000
+Lower Limit	1.05E-3	0.121	1.590	6.32E-4	0.500	0.500
+Upper Limit	4.18E-3	0.484	6.358	2.53E-3	2.000	2.000
+
+RESULTS FOR INDIVIDUAL PARAMETERS:
+
+
+PARAMETER: ACTIVITY OF 3A4 IN DUOD
+
+Summary Results:
+
+Param Value	Amount Dissolved-ZGB 60mg PO Joseph et al (mg)	Amount Portal Vein-ZGB 60mg PO Joseph et al (mg)	Result-FDp-ZGB 60mg PO Joseph et al (%)	Amount Absorbed-ZGB 60mg PO Joseph et al (mg)	Result-Fa-ZGB 60mg PO Joseph et al (%)	Result-Fb-ZGB 60mg PO Joseph et al (%)	Result-AUC-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-AUC(0-t)-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-Cmax-ZGB 60mg PO Joseph et al (ug/mL)	Result-Tmax-ZGB 60mg PO Joseph et al (hrs)	Result-LCmax-ZGB 60mg PO Joseph et al (ug/mL)
+1.05E-3	60.00	48.45	80.76	59.99	99.99	73.40	7517.4	7516.3	0.544	1.200	0.807
+1.22E-3	60.00	46.89	78.16	59.99	99.99	71.04	7275.3	7274.2	0.531	1.200	0.792
+1.42E-3	60.00	45.17	75.29	59.99	99.99	68.43	7008.2	7007.1	0.517	1.100	0.776
+1.66E-3	60.00	43.29	72.14	59.99	99.99	65.57	6715.5	6714.5	0.501	1.100	0.756
+1.94E-3	60.00	41.24	68.73	60.00	99.99	62.47	6397.3	6396.3	0.483	1.100	0.735
+2.26E-3	60.00	39.03	65.04	60.00	99.99	59.12	6054.3	6053.5	0.463	1.000	0.710
+2.63E-3	60.00	36.67	61.11	60.00	99.99	55.55	5688.3	5687.4	0.442	1.000	0.681
+3.07E-3	60.00	34.17	56.96	60.00	99.99	51.77	5301.5	5300.7	0.418	1.000	0.653
+3.58E-3	60.00	31.57	52.62	60.00	99.99	47.82	4897.4	4896.7	0.392	0.900	0.621
+4.18E-3	60.00	28.88	48.13	60.00	99.99	43.75	4479.8	4479.1	0.365	0.900	0.585
+
+REGIONAL ABSORPTION:
+
+Param Value	Stom Fa%	Duod Fa%	Jej1 Fa%	Jej2 Fa%	Ile1 Fa%	Ile2 Fa%	Ile3 Fa%	Caec Fa%	Col Fa%
+1.05E-3	0.0	23.29	38.85	17.62	8.013	4.042	2.171	5.481	0.521
+1.22E-3	0.0	23.37	38.96	17.65	7.966	4.012	2.151	5.375	0.509
+1.42E-3	0.0	23.46	39.07	17.68	7.914	3.979	2.128	5.260	0.496
+1.66E-3	0.0	23.55	39.21	17.71	7.856	3.940	2.102	5.137	0.482
+1.94E-3	0.0	23.67	39.36	17.73	7.794	3.897	2.071	5.007	0.468
+2.26E-3	0.0	23.79	39.52	17.75	7.726	3.849	2.037	4.871	0.452
+2.63E-3	0.0	23.93	39.70	17.75	7.653	3.796	2.000	4.731	0.436
+3.07E-3	0.0	24.09	39.89	17.73	7.576	3.738	1.959	4.589	0.420
+3.58E-3	0.0	24.26	40.10	17.69	7.496	3.677	1.917	4.447	0.403
+4.18E-3	0.0	24.45	40.32	17.62	7.413	3.611	1.873	4.308	0.387
+
+
+
+Profiles vs. Time
+
+Param Value: 	1.05E-3	1.22E-3	1.42E-3	1.66E-3	1.94E-3	2.26E-3	2.63E-3	3.07E-3	3.58E-3	4.18E-3
+Time (hr)	Cp (ug/mL)
+0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+0.500	0.394	0.389	0.382	0.375	0.367	0.357	0.346	0.334	0.320	0.304	
+1.000	0.538	0.527	0.514	0.499	0.482	0.463	0.442	0.418	0.391	0.362	
+1.500	0.534	0.519	0.502	0.483	0.462	0.439	0.413	0.385	0.355	0.323	
+2.000	0.496	0.480	0.462	0.442	0.420	0.396	0.371	0.344	0.316	0.287	
+2.500	0.456	0.440	0.423	0.404	0.383	0.361	0.338	0.313	0.288	0.262	
+3.000	0.420	0.406	0.389	0.372	0.353	0.333	0.312	0.289	0.266	0.243	
+3.500	0.390	0.377	0.362	0.346	0.328	0.310	0.290	0.269	0.248	0.226	
+4.000	0.366	0.353	0.339	0.324	0.308	0.291	0.272	0.253	0.233	0.213	
+4.500	0.346	0.334	0.321	0.307	0.292	0.276	0.258	0.240	0.221	0.202	
+5.000	0.330	0.319	0.307	0.293	0.279	0.263	0.247	0.230	0.212	0.193	
+5.500	0.317	0.306	0.294	0.282	0.268	0.253	0.237	0.221	0.204	0.186	
+6.000	0.305	0.295	0.284	0.272	0.258	0.244	0.229	0.213	0.197	0.179	
+6.500	0.295	0.285	0.274	0.263	0.250	0.236	0.221	0.206	0.190	0.174	
+7.000	0.286	0.276	0.266	0.254	0.242	0.229	0.215	0.200	0.184	0.168	
+7.500	0.277	0.268	0.258	0.246	0.235	0.222	0.208	0.194	0.179	0.163	
+8.000	0.268	0.260	0.250	0.239	0.227	0.215	0.202	0.188	0.173	0.158	
+8.500	0.261	0.252	0.242	0.232	0.221	0.209	0.196	0.182	0.168	0.154	
+9.000	0.253	0.245	0.235	0.225	0.214	0.203	0.190	0.177	0.163	0.149	
+9.500	0.246	0.237	0.228	0.219	0.208	0.197	0.185	0.172	0.158	0.145	
+10.00	0.238	0.230	0.222	0.212	0.202	0.191	0.179	0.167	0.154	0.141	
+10.50	0.231	0.224	0.215	0.206	0.196	0.185	0.174	0.162	0.149	0.136	
+11.00	0.225	0.217	0.209	0.200	0.190	0.180	0.169	0.157	0.145	0.133	
+11.50	0.218	0.211	0.203	0.194	0.185	0.175	0.164	0.153	0.141	0.129	
+12.00	0.212	0.205	0.197	0.189	0.180	0.170	0.159	0.148	0.137	0.125	
+12.50	0.206	0.199	0.191	0.183	0.174	0.165	0.155	0.144	0.133	0.121	
+13.00	0.200	0.193	0.186	0.178	0.169	0.160	0.150	0.140	0.129	0.118	
+13.50	0.194	0.188	0.181	0.173	0.164	0.155	0.146	0.136	0.125	0.114	
+14.00	0.188	0.182	0.175	0.168	0.160	0.151	0.142	0.132	0.122	0.111	
+14.50	0.183	0.177	0.170	0.163	0.155	0.147	0.138	0.128	0.118	0.108	
+15.00	0.178	0.172	0.165	0.158	0.151	0.142	0.134	0.124	0.115	0.105	
+15.50	0.173	0.167	0.161	0.154	0.146	0.138	0.130	0.121	0.111	0.102	
+16.00	0.168	0.162	0.156	0.149	0.142	0.134	0.126	0.117	0.108	0.099	
+16.50	0.163	0.157	0.151	0.145	0.138	0.130	0.122	0.114	0.105	0.096	
+17.00	0.158	0.153	0.147	0.141	0.134	0.127	0.119	0.111	0.102	0.093	
+17.50	0.154	0.148	0.143	0.137	0.130	0.123	0.115	0.107	0.099	0.090	
+18.00	0.149	0.144	0.139	0.133	0.126	0.119	0.112	0.104	0.096	0.088	
+18.50	0.145	0.140	0.135	0.129	0.123	0.116	0.109	0.101	0.093	0.085	
+19.00	0.141	0.136	0.131	0.125	0.119	0.113	0.106	0.098	0.091	0.083	
+19.50	0.137	0.132	0.127	0.122	0.116	0.109	0.103	0.095	0.088	0.080	
+20.00	0.133	0.128	0.123	0.118	0.112	0.106	0.100	0.093	0.086	0.078	
+20.50	0.129	0.124	0.120	0.115	0.109	0.103	0.097	0.090	0.083	0.076	
+21.00	0.125	0.121	0.116	0.111	0.106	0.100	0.094	0.087	0.081	0.074	
+21.50	0.121	0.117	0.113	0.108	0.103	0.097	0.091	0.085	0.078	0.072	
+22.00	0.118	0.114	0.110	0.105	0.100	0.094	0.089	0.082	0.076	0.069	
+22.50	0.115	0.111	0.107	0.102	0.097	0.092	0.086	0.080	0.074	0.067	
+23.00	0.111	0.108	0.103	0.099	0.094	0.089	0.084	0.078	0.072	0.066	
+23.50	0.108	0.104	0.100	0.096	0.091	0.086	0.081	0.076	0.070	0.064	
+24.00	0.105	0.101	0.098	0.093	0.089	0.084	0.079	0.073	0.068	0.062	
+24.50	0.102	0.098	0.095	0.091	0.086	0.082	0.077	0.071	0.066	0.060	
+25.00	0.099	0.096	0.092	0.088	0.084	0.079	0.074	0.069	0.064	0.058	
+25.50	0.096	0.093	0.089	0.086	0.081	0.077	0.072	0.067	0.062	0.057	
+26.00	0.093	0.090	0.087	0.083	0.079	0.075	0.070	0.065	0.060	0.055	
+26.50	0.091	0.088	0.084	0.081	0.077	0.073	0.068	0.063	0.058	0.053	
+27.00	0.088	0.085	0.082	0.078	0.075	0.070	0.066	0.062	0.057	0.052	
+27.50	0.085	0.083	0.079	0.076	0.072	0.068	0.064	0.060	0.055	0.050	
+28.00	0.083	0.080	0.077	0.074	0.070	0.066	0.062	0.058	0.054	0.049	
+28.50	0.081	0.078	0.075	0.072	0.068	0.064	0.061	0.056	0.052	0.047	
+29.00	0.078	0.076	0.073	0.070	0.066	0.063	0.059	0.055	0.050	0.046	
+29.50	0.076	0.073	0.071	0.068	0.064	0.061	0.057	0.053	0.049	0.045	
+30.00	0.074	0.071	0.069	0.066	0.062	0.059	0.055	0.052	0.048	0.043	
+30.50	0.072	0.069	0.067	0.064	0.061	0.057	0.054	0.050	0.046	0.042	
+31.00	0.070	0.067	0.065	0.062	0.059	0.056	0.052	0.049	0.045	0.041	
+31.50	0.068	0.065	0.063	0.060	0.057	0.054	0.051	0.047	0.044	0.040	
+32.00	0.066	0.063	0.061	0.058	0.056	0.053	0.049	0.046	0.042	0.039	
+32.50	0.064	0.062	0.059	0.057	0.054	0.051	0.048	0.045	0.041	0.038	
+33.00	0.062	0.060	0.058	0.055	0.052	0.050	0.046	0.043	0.040	0.036	
+33.50	0.060	0.058	0.056	0.053	0.051	0.048	0.045	0.042	0.039	0.035	
+34.00	0.058	0.056	0.054	0.052	0.049	0.047	0.044	0.041	0.038	0.034	
+34.50	0.057	0.055	0.053	0.050	0.048	0.045	0.043	0.040	0.037	0.033	
+35.00	0.055	0.053	0.051	0.049	0.047	0.044	0.041	0.038	0.035	0.032	
+35.50	0.053	0.052	0.050	0.048	0.045	0.043	0.040	0.037	0.034	0.031	
+36.00	0.052	0.050	0.048	0.046	0.044	0.042	0.039	0.036	0.033	0.031	
+36.50	0.050	0.049	0.047	0.045	0.043	0.040	0.038	0.035	0.032	0.030	
+37.00	0.049	0.047	0.046	0.044	0.041	0.039	0.037	0.034	0.032	0.029	
+37.50	0.048	0.046	0.044	0.042	0.040	0.038	0.036	0.033	0.031	0.028	
+38.00	0.046	0.045	0.043	0.041	0.039	0.037	0.035	0.032	0.030	0.027	
+38.50	0.045	0.043	0.042	0.040	0.038	0.036	0.034	0.031	0.029	0.026	
+39.00	0.044	0.042	0.040	0.039	0.037	0.035	0.033	0.030	0.028	0.026	
+39.50	0.042	0.041	0.039	0.038	0.036	0.034	0.032	0.030	0.027	0.025	
+40.00	0.041	0.040	0.038	0.037	0.035	0.033	0.031	0.029	0.026	0.024	
+40.50	0.040	0.039	0.037	0.035	0.034	0.032	0.030	0.028	0.026	0.023	
+41.00	0.039	0.037	0.036	0.034	0.033	0.031	0.029	0.027	0.025	0.023	
+41.50	0.038	0.036	0.035	0.033	0.032	0.030	0.028	0.026	0.024	0.022	
+42.00	0.037	0.035	0.034	0.032	0.031	0.029	0.027	0.026	0.024	0.021	
+42.50	0.035	0.034	0.033	0.032	0.030	0.028	0.027	0.025	0.023	0.021	
+43.00	0.034	0.033	0.032	0.031	0.029	0.028	0.026	0.024	0.022	0.020	
+43.50	0.033	0.032	0.031	0.030	0.028	0.027	0.025	0.023	0.022	0.020	
+44.00	0.032	0.031	0.030	0.029	0.027	0.026	0.024	0.023	0.021	0.019	
+44.50	0.032	0.030	0.029	0.028	0.027	0.025	0.024	0.022	0.020	0.019	
+45.00	0.031	0.030	0.028	0.027	0.026	0.025	0.023	0.021	0.020	0.018	
+45.50	0.030	0.029	0.028	0.026	0.025	0.024	0.022	0.021	0.019	0.018	
+46.00	0.029	0.028	0.027	0.026	0.024	0.023	0.022	0.020	0.019	0.017	
+46.50	0.028	0.027	0.026	0.025	0.024	0.022	0.021	0.020	0.018	0.017	
+47.00	0.027	0.026	0.025	0.024	0.023	0.022	0.020	0.019	0.018	0.016	
+47.50	0.026	0.026	0.025	0.024	0.022	0.021	0.020	0.018	0.017	0.016	
+48.00	0.026	0.025	0.024	0.023	0.022	0.021	0.019	0.018	0.017	0.015	
+48.50	0.025	0.024	0.023	0.022	0.021	0.020	0.019	0.017	0.016	0.015	
+49.00	0.024	0.023	0.023	0.022	0.021	0.019	0.018	0.017	0.016	0.014	
+49.50	0.024	0.023	0.022	0.021	0.020	0.019	0.018	0.016	0.015	0.014	
+50.00	0.023	0.022	0.021	0.020	0.019	0.018	0.017	0.016	0.015	0.013	
+50.50	0.022	0.021	0.021	0.020	0.019	0.018	0.017	0.015	0.014	0.013	
+51.00	0.022	0.021	0.020	0.019	0.018	0.017	0.016	0.015	0.014	0.013	
+51.50	0.021	0.020	0.019	0.019	0.018	0.017	0.016	0.015	0.013	0.012	
+52.00	0.020	0.020	0.019	0.018	0.017	0.016	0.015	0.014	0.013	0.012	
+52.50	0.020	0.019	0.018	0.018	0.017	0.016	0.015	0.014	0.013	0.012	
+53.00	0.019	0.019	0.018	0.017	0.016	0.015	0.014	0.013	0.012	0.011	
+53.50	0.019	0.018	0.017	0.017	0.016	0.015	0.014	0.013	0.012	0.011	
+54.00	0.018	0.017	0.017	0.016	0.015	0.014	0.014	0.013	0.012	0.011	
+54.50	0.018	0.017	0.016	0.016	0.015	0.014	0.013	0.012	0.011	0.010	
+55.00	0.017	0.016	0.016	0.015	0.014	0.014	0.013	0.012	0.011	0.010	
+55.50	0.017	0.016	0.015	0.015	0.014	0.013	0.012	0.012	0.011	9.74E-3	
+56.00	0.016	0.016	0.015	0.014	0.014	0.013	0.012	0.011	0.010	9.46E-3	
+56.50	0.016	0.015	0.015	0.014	0.013	0.012	0.012	0.011	0.010	9.18E-3	
+57.00	0.015	0.015	0.014	0.013	0.013	0.012	0.011	0.011	9.76E-3	8.92E-3	
+57.50	0.015	0.014	0.014	0.013	0.012	0.012	0.011	0.010	9.48E-3	8.66E-3	
+58.00	0.014	0.014	0.013	0.013	0.012	0.011	0.011	9.98E-3	9.21E-3	8.41E-3	
+58.50	0.014	0.013	0.013	0.012	0.012	0.011	0.010	9.69E-3	8.94E-3	8.17E-3	
+59.00	0.013	0.013	0.013	0.012	0.011	0.011	0.010	9.41E-3	8.68E-3	7.93E-3	
+59.50	0.013	0.013	0.012	0.012	0.011	0.010	9.82E-3	9.14E-3	8.43E-3	7.7E-3	
+60.00	0.013	0.012	0.012	0.011	0.011	0.010	9.54E-3	8.88E-3	8.19E-3	7.48E-3	
+60.50	0.012	0.012	0.011	0.011	0.010	9.87E-3	9.26E-3	8.62E-3	7.95E-3	7.26E-3	
+61.00	0.012	0.012	0.011	0.011	0.010	9.59E-3	8.99E-3	8.37E-3	7.72E-3	7.05E-3	
+61.50	0.012	0.011	0.011	0.010	9.85E-3	9.31E-3	8.73E-3	8.13E-3	7.5E-3	6.85E-3	
+62.00	0.011	0.011	0.011	0.010	9.57E-3	9.04E-3	8.48E-3	7.89E-3	7.28E-3	6.65E-3	
+62.50	0.011	0.011	0.010	9.77E-3	9.29E-3	8.78E-3	8.24E-3	7.67E-3	7.07E-3	6.46E-3	
+63.00	0.011	0.010	9.91E-3	9.48E-3	9.02E-3	8.53E-3	8.0E-3	7.44E-3	6.87E-3	6.27E-3	
+63.50	0.010	0.010	9.63E-3	9.21E-3	8.76E-3	8.28E-3	7.77E-3	7.23E-3	6.67E-3	6.09E-3	
+64.00	0.010	9.72E-3	9.35E-3	8.94E-3	8.51E-3	8.04E-3	7.54E-3	7.02E-3	6.47E-3	5.91E-3	
+64.50	9.76E-3	9.43E-3	9.08E-3	8.69E-3	8.26E-3	7.81E-3	7.33E-3	6.82E-3	6.29E-3	5.74E-3	
+65.00	9.48E-3	9.16E-3	8.81E-3	8.44E-3	8.02E-3	7.58E-3	7.11E-3	6.62E-3	6.11E-3	5.58E-3	
+65.50	9.2E-3	8.9E-3	8.56E-3	8.19E-3	7.79E-3	7.36E-3	6.91E-3	6.43E-3	5.93E-3	5.42E-3	
+66.00	8.94E-3	8.64E-3	8.31E-3	7.95E-3	7.57E-3	7.15E-3	6.71E-3	6.24E-3	5.76E-3	5.26E-3	
+66.50	8.68E-3	8.39E-3	8.07E-3	7.72E-3	7.35E-3	6.94E-3	6.51E-3	6.06E-3	5.59E-3	5.11E-3	
+67.00	8.43E-3	8.15E-3	7.84E-3	7.5E-3	7.14E-3	6.74E-3	6.33E-3	5.89E-3	5.43E-3	4.96E-3	
+67.50	8.19E-3	7.91E-3	7.61E-3	7.28E-3	6.93E-3	6.55E-3	6.14E-3	5.72E-3	5.27E-3	4.82E-3	
+68.00	7.95E-3	7.68E-3	7.39E-3	7.07E-3	6.73E-3	6.36E-3	5.97E-3	5.55E-3	5.12E-3	4.68E-3	
+68.50	7.72E-3	7.46E-3	7.18E-3	6.87E-3	6.54E-3	6.18E-3	5.79E-3	5.39E-3	4.97E-3	4.54E-3	
+69.00	7.5E-3	7.25E-3	6.97E-3	6.67E-3	6.35E-3	6.0E-3	5.63E-3	5.24E-3	4.83E-3	4.41E-3	
+69.50	7.28E-3	7.04E-3	6.77E-3	6.48E-3	6.16E-3	5.82E-3	5.46E-3	5.08E-3	4.69E-3	4.28E-3	
+70.00	7.07E-3	6.83E-3	6.57E-3	6.29E-3	5.98E-3	5.66E-3	5.31E-3	4.94E-3	4.55E-3	4.16E-3	
+70.50	6.87E-3	6.64E-3	6.38E-3	6.11E-3	5.81E-3	5.49E-3	5.15E-3	4.79E-3	4.42E-3	4.04E-3	
+71.00	6.67E-3	6.44E-3	6.2E-3	5.93E-3	5.64E-3	5.33E-3	5.0E-3	4.66E-3	4.29E-3	3.92E-3	
+71.50	6.47E-3	6.26E-3	6.02E-3	5.76E-3	5.48E-3	5.18E-3	4.86E-3	4.52E-3	4.17E-3	3.81E-3	
+72.00	6.29E-3	6.08E-3	5.85E-3	5.6E-3	5.32E-3	5.03E-3	4.72E-3	4.39E-3	4.05E-3	3.7E-3	
+72.50	6.11E-3	5.9E-3	5.68E-3	5.43E-3	5.17E-3	4.88E-3	4.58E-3	4.26E-3	3.93E-3	3.59E-3	
+73.00	5.93E-3	5.73E-3	5.51E-3	5.28E-3	5.02E-3	4.74E-3	4.45E-3	4.14E-3	3.82E-3	3.49E-3	
+73.50	5.76E-3	5.57E-3	5.35E-3	5.12E-3	4.87E-3	4.61E-3	4.32E-3	4.02E-3	3.71E-3	3.39E-3	
+74.00	5.59E-3	5.41E-3	5.2E-3	4.98E-3	4.73E-3	4.47E-3	4.2E-3	3.9E-3	3.6E-3	3.29E-3	
+74.50	5.43E-3	5.25E-3	5.05E-3	4.83E-3	4.6E-3	4.34E-3	4.07E-3	3.79E-3	3.5E-3	3.19E-3	
+75.00	5.27E-3	5.1E-3	4.9E-3	4.69E-3	4.46E-3	4.22E-3	3.96E-3	3.68E-3	3.4E-3	3.1E-3	
+75.50	5.12E-3	4.95E-3	4.76E-3	4.56E-3	4.33E-3	4.1E-3	3.84E-3	3.58E-3	3.3E-3	3.01E-3	
+76.00	4.97E-3	4.81E-3	4.62E-3	4.43E-3	4.21E-3	3.98E-3	3.73E-3	3.47E-3	3.2E-3	2.92E-3	
+76.50	4.83E-3	4.67E-3	4.49E-3	4.3E-3	4.09E-3	3.86E-3	3.62E-3	3.37E-3	3.11E-3	2.84E-3	
+77.00	4.69E-3	4.53E-3	4.36E-3	4.17E-3	3.97E-3	3.75E-3	3.52E-3	3.27E-3	3.02E-3	2.76E-3	
+77.50	4.55E-3	4.4E-3	4.24E-3	4.05E-3	3.86E-3	3.64E-3	3.42E-3	3.18E-3	2.93E-3	2.68E-3	
+78.00	4.42E-3	4.28E-3	4.11E-3	3.94E-3	3.74E-3	3.54E-3	3.32E-3	3.09E-3	2.85E-3	2.6E-3	
+78.50	4.3E-3	4.15E-3	3.99E-3	3.82E-3	3.64E-3	3.44E-3	3.22E-3	3.0E-3	2.77E-3	2.53E-3	
+79.00	4.17E-3	4.03E-3	3.88E-3	3.71E-3	3.53E-3	3.34E-3	3.13E-3	2.91E-3	2.69E-3	2.45E-3	
+79.50	4.05E-3	3.92E-3	3.77E-3	3.6E-3	3.43E-3	3.24E-3	3.04E-3	2.83E-3	2.61E-3	2.38E-3	
+80.00	3.93E-3	3.8E-3	3.66E-3	3.5E-3	3.33E-3	3.15E-3	2.95E-3	2.75E-3	2.53E-3	2.31E-3	
+80.50	3.82E-3	3.69E-3	3.55E-3	3.4E-3	3.23E-3	3.06E-3	2.87E-3	2.67E-3	2.46E-3	2.25E-3	
+81.00	3.71E-3	3.59E-3	3.45E-3	3.3E-3	3.14E-3	2.97E-3	2.78E-3	2.59E-3	2.39E-3	2.18E-3	
+81.50	3.6E-3	3.48E-3	3.35E-3	3.21E-3	3.05E-3	2.88E-3	2.7E-3	2.51E-3	2.32E-3	2.12E-3	
+82.00	3.5E-3	3.38E-3	3.25E-3	3.11E-3	2.96E-3	2.8E-3	2.62E-3	2.44E-3	2.25E-3	2.06E-3	
+82.50	3.4E-3	3.28E-3	3.16E-3	3.02E-3	2.88E-3	2.72E-3	2.55E-3	2.37E-3	2.19E-3	2.0E-3	
+83.00	3.3E-3	3.19E-3	3.07E-3	2.94E-3	2.79E-3	2.64E-3	2.47E-3	2.3E-3	2.12E-3	1.94E-3	
+83.50	3.2E-3	3.1E-3	2.98E-3	2.85E-3	2.71E-3	2.56E-3	2.4E-3	2.24E-3	2.06E-3	1.88E-3	
+84.00	3.11E-3	3.01E-3	2.89E-3	2.77E-3	2.63E-3	2.49E-3	2.33E-3	2.17E-3	2.0E-3	1.83E-3	
+84.50	3.02E-3	2.92E-3	2.81E-3	2.69E-3	2.56E-3	2.42E-3	2.27E-3	2.11E-3	1.95E-3	1.78E-3	
+85.00	2.93E-3	2.84E-3	2.73E-3	2.61E-3	2.48E-3	2.35E-3	2.2E-3	2.05E-3	1.89E-3	1.72E-3	
+85.50	2.85E-3	2.75E-3	2.65E-3	2.54E-3	2.41E-3	2.28E-3	2.14E-3	1.99E-3	1.83E-3	1.68E-3	
+86.00	2.77E-3	2.67E-3	2.57E-3	2.46E-3	2.34E-3	2.21E-3	2.08E-3	1.93E-3	1.78E-3	1.63E-3	
+86.50	2.69E-3	2.6E-3	2.5E-3	2.39E-3	2.27E-3	2.15E-3	2.02E-3	1.88E-3	1.73E-3	1.58E-3	
+87.00	2.61E-3	2.52E-3	2.43E-3	2.32E-3	2.21E-3	2.09E-3	1.96E-3	1.82E-3	1.68E-3	1.53E-3	
+87.50	2.53E-3	2.45E-3	2.36E-3	2.25E-3	2.14E-3	2.03E-3	1.9E-3	1.77E-3	1.63E-3	1.49E-3	
+88.00	2.46E-3	2.38E-3	2.29E-3	2.19E-3	2.08E-3	1.97E-3	1.85E-3	1.72E-3	1.58E-3	1.45E-3	
+88.50	2.39E-3	2.31E-3	2.22E-3	2.13E-3	2.02E-3	1.91E-3	1.79E-3	1.67E-3	1.54E-3	1.4E-3	
+89.00	2.32E-3	2.24E-3	2.16E-3	2.06E-3	1.96E-3	1.86E-3	1.74E-3	1.62E-3	1.49E-3	1.36E-3	
+89.50	2.25E-3	2.18E-3	2.1E-3	2.01E-3	1.91E-3	1.8E-3	1.69E-3	1.57E-3	1.45E-3	1.32E-3	
+90.00	2.19E-3	2.12E-3	2.03E-3	1.95E-3	1.85E-3	1.75E-3	1.64E-3	1.53E-3	1.41E-3	1.29E-3	
+90.50	2.13E-3	2.05E-3	1.98E-3	1.89E-3	1.8E-3	1.7E-3	1.59E-3	1.48E-3	1.37E-3	1.25E-3	
+91.00	2.06E-3	1.99E-3	1.92E-3	1.84E-3	1.75E-3	1.65E-3	1.55E-3	1.44E-3	1.33E-3	1.21E-3	
+91.50	2.0E-3	1.94E-3	1.86E-3	1.78E-3	1.7E-3	1.6E-3	1.5E-3	1.4E-3	1.29E-3	1.18E-3	
+92.00	1.95E-3	1.88E-3	1.81E-3	1.73E-3	1.65E-3	1.56E-3	1.46E-3	1.36E-3	1.25E-3	1.14E-3	
+92.50	1.89E-3	1.83E-3	1.76E-3	1.68E-3	1.6E-3	1.51E-3	1.42E-3	1.32E-3	1.22E-3	1.11E-3	
+93.00	1.84E-3	1.77E-3	1.71E-3	1.63E-3	1.55E-3	1.47E-3	1.38E-3	1.28E-3	1.18E-3	1.08E-3	
+93.50	1.78E-3	1.72E-3	1.66E-3	1.59E-3	1.51E-3	1.43E-3	1.34E-3	1.24E-3	1.15E-3	1.05E-3	
+94.00	1.73E-3	1.67E-3	1.61E-3	1.54E-3	1.46E-3	1.38E-3	1.3E-3	1.21E-3	1.11E-3	1.02E-3	
+94.50	1.68E-3	1.62E-3	1.56E-3	1.5E-3	1.42E-3	1.34E-3	1.26E-3	1.17E-3	1.08E-3	9.88E-4	
+95.00	1.63E-3	1.58E-3	1.52E-3	1.45E-3	1.38E-3	1.31E-3	1.22E-3	1.14E-3	1.05E-3	9.59E-4	
+95.50	1.59E-3	1.53E-3	1.47E-3	1.41E-3	1.34E-3	1.27E-3	1.19E-3	1.11E-3	1.02E-3	9.32E-4	
+96.00	1.54E-3	1.49E-3	1.43E-3	1.37E-3	1.3E-3	1.23E-3	1.15E-3	1.07E-3	9.91E-4	9.05E-4	
+96.50	1.5E-3	1.45E-3	1.39E-3	1.33E-3	1.27E-3	1.2E-3	1.12E-3	1.04E-3	9.62E-4	8.79E-4	
+97.00	1.45E-3	1.4E-3	1.35E-3	1.29E-3	1.23E-3	1.16E-3	1.09E-3	1.01E-3	9.34E-4	8.53E-4	
+97.50	1.41E-3	1.36E-3	1.31E-3	1.25E-3	1.19E-3	1.13E-3	1.06E-3	9.84E-4	9.07E-4	8.28E-4	
+98.00	1.37E-3	1.32E-3	1.27E-3	1.22E-3	1.16E-3	1.09E-3	1.03E-3	9.55E-4	8.81E-4	8.05E-4	
+98.50	1.33E-3	1.29E-3	1.24E-3	1.18E-3	1.13E-3	1.06E-3	9.97E-4	9.28E-4	8.56E-4	7.81E-4	
+99.00	1.29E-3	1.25E-3	1.2E-3	1.15E-3	1.09E-3	1.03E-3	9.68E-4	9.01E-4	8.31E-4	7.59E-4	
+99.50	1.25E-3	1.21E-3	1.17E-3	1.12E-3	1.06E-3	1.0E-3	9.4E-4	8.75E-4	8.07E-4	7.37E-4	
+100.0	1.22E-3	1.18E-3	1.13E-3	1.08E-3	1.03E-3	9.73E-4	9.13E-4	8.5E-4	7.83E-4	7.15E-4	
+100.5	1.18E-3	1.14E-3	1.1E-3	1.05E-3	1.0E-3	9.45E-4	8.87E-4	8.25E-4	7.61E-4	6.95E-4	
+101.0	1.15E-3	1.11E-3	1.07E-3	1.02E-3	9.72E-4	9.18E-4	8.61E-4	8.01E-4	7.39E-4	6.75E-4	
+101.5	1.12E-3	1.08E-3	1.04E-3	9.92E-4	9.44E-4	8.91E-4	8.36E-4	7.78E-4	7.17E-4	6.55E-4	
+102.0	1.08E-3	1.05E-3	1.01E-3	9.63E-4	9.16E-4	8.66E-4	8.12E-4	7.56E-4	6.97E-4	6.36E-4	
+102.5	1.05E-3	1.02E-3	9.78E-4	9.36E-4	8.9E-4	8.41E-4	7.89E-4	7.34E-4	6.77E-4	6.18E-4	
+103.0	1.02E-3	9.87E-4	9.5E-4	9.08E-4	8.64E-4	8.16E-4	7.66E-4	7.12E-4	6.57E-4	6.0E-4	
+103.5	9.92E-4	9.59E-4	9.22E-4	8.82E-4	8.39E-4	7.93E-4	7.44E-4	6.92E-4	6.38E-4	5.83E-4	
+104.0	9.63E-4	9.31E-4	8.95E-4	8.57E-4	8.15E-4	7.7E-4	7.22E-4	6.72E-4	6.2E-4	5.66E-4	
+104.5	9.35E-4	9.04E-4	8.7E-4	8.32E-4	7.91E-4	7.48E-4	7.01E-4	6.52E-4	6.02E-4	5.49E-4	
+105.0	9.08E-4	8.78E-4	8.44E-4	8.08E-4	7.68E-4	7.26E-4	6.81E-4	6.34E-4	5.84E-4	5.34E-4	
+105.5	8.82E-4	8.53E-4	8.2E-4	7.85E-4	7.46E-4	7.05E-4	6.61E-4	6.15E-4	5.67E-4	5.18E-4	
+106.0	8.57E-4	8.28E-4	7.96E-4	7.62E-4	7.25E-4	6.85E-4	6.42E-4	5.97E-4	5.51E-4	5.03E-4	
+106.5	8.32E-4	8.04E-4	7.73E-4	7.4E-4	7.04E-4	6.65E-4	6.24E-4	5.8E-4	5.35E-4	4.89E-4	
+107.0	8.08E-4	7.81E-4	7.51E-4	7.19E-4	6.83E-4	6.46E-4	6.06E-4	5.63E-4	5.2E-4	4.74E-4	
+107.5	7.84E-4	7.58E-4	7.29E-4	6.98E-4	6.64E-4	6.27E-4	5.88E-4	5.47E-4	5.05E-4	4.61E-4	
+108.0	7.62E-4	7.36E-4	7.08E-4	6.78E-4	6.44E-4	6.09E-4	5.71E-4	5.31E-4	4.9E-4	4.47E-4	
+108.5	7.4E-4	7.15E-4	6.88E-4	6.58E-4	6.26E-4	5.91E-4	5.55E-4	5.16E-4	4.76E-4	4.35E-4	
+109.0	7.18E-4	6.94E-4	6.68E-4	6.39E-4	6.08E-4	5.74E-4	5.39E-4	5.01E-4	4.62E-4	4.22E-4	
+109.5	6.98E-4	6.74E-4	6.49E-4	6.21E-4	5.9E-4	5.58E-4	5.23E-4	4.87E-4	4.49E-4	4.1E-4	
+110.0	6.78E-4	6.55E-4	6.3E-4	6.03E-4	5.73E-4	5.42E-4	5.08E-4	4.73E-4	4.36E-4	3.98E-4	
+110.5	6.58E-4	6.36E-4	6.12E-4	5.85E-4	5.57E-4	5.26E-4	4.93E-4	4.59E-4	4.23E-4	3.86E-4	
+111.0	6.39E-4	6.18E-4	5.94E-4	5.68E-4	5.4E-4	5.11E-4	4.79E-4	4.46E-4	4.11E-4	3.75E-4	
+111.5	6.2E-4	6.0E-4	5.77E-4	5.52E-4	5.25E-4	4.96E-4	4.65E-4	4.33E-4	3.99E-4	3.64E-4	
+112.0	6.03E-4	5.82E-4	5.6E-4	5.36E-4	5.1E-4	4.82E-4	4.52E-4	4.2E-4	3.88E-4	3.54E-4	
+112.5	5.85E-4	5.66E-4	5.44E-4	5.2E-4	4.95E-4	4.68E-4	4.39E-4	4.08E-4	3.76E-4	3.44E-4	
+113.0	5.68E-4	5.49E-4	5.28E-4	5.05E-4	4.81E-4	4.54E-4	4.26E-4	3.96E-4	3.65E-4	3.34E-4	
+113.5	5.52E-4	5.33E-4	5.13E-4	4.91E-4	4.67E-4	4.41E-4	4.14E-4	3.85E-4	3.55E-4	3.24E-4	
+114.0	5.36E-4	5.18E-4	4.98E-4	4.77E-4	4.53E-4	4.28E-4	4.02E-4	3.74E-4	3.45E-4	3.15E-4	
+114.5	5.2E-4	5.03E-4	4.84E-4	4.63E-4	4.4E-4	4.16E-4	3.9E-4	3.63E-4	3.35E-4	3.06E-4	
+115.0	5.05E-4	4.88E-4	4.7E-4	4.49E-4	4.27E-4	4.04E-4	3.79E-4	3.52E-4	3.25E-4	2.97E-4	
+115.5	4.91E-4	4.74E-4	4.56E-4	4.36E-4	4.15E-4	3.92E-4	3.68E-4	3.42E-4	3.16E-4	2.88E-4	
+116.0	4.77E-4	4.61E-4	4.43E-4	4.24E-4	4.03E-4	3.81E-4	3.57E-4	3.32E-4	3.06E-4	2.8E-4	
+116.5	4.63E-4	4.47E-4	4.3E-4	4.12E-4	3.91E-4	3.7E-4	3.47E-4	3.23E-4	2.98E-4	2.72E-4	
+117.0	4.49E-4	4.34E-4	4.18E-4	4.0E-4	3.8E-4	3.59E-4	3.37E-4	3.13E-4	2.89E-4	2.64E-4	
+117.5	4.36E-4	4.22E-4	4.06E-4	3.88E-4	3.69E-4	3.49E-4	3.27E-4	3.04E-4	2.81E-4	2.56E-4	
+118.0	4.24E-4	4.1E-4	3.94E-4	3.77E-4	3.59E-4	3.39E-4	3.18E-4	2.96E-4	2.73E-4	2.49E-4	
+118.5	4.12E-4	3.98E-4	3.83E-4	3.66E-4	3.48E-4	3.29E-4	3.08E-4	2.87E-4	2.65E-4	2.42E-4	
+119.0	4.0E-4	3.86E-4	3.72E-4	3.55E-4	3.38E-4	3.19E-4	3.0E-4	2.79E-4	2.57E-4	2.35E-4	
+119.5	3.88E-4	3.75E-4	3.61E-4	3.45E-4	3.28E-4	3.1E-4	2.91E-4	2.71E-4	2.5E-4	2.28E-4	
+120.0	3.77E-4	3.64E-4	3.5E-4	3.35E-4	3.19E-4	3.01E-4	2.83E-4	2.63E-4	2.42E-4	2.21E-4	
+120.5	3.66E-4	3.54E-4	3.4E-4	3.26E-4	3.1E-4	2.93E-4	2.74E-4	2.55E-4	2.35E-4	2.15E-4	
+121.0	3.56E-4	3.44E-4	3.3E-4	3.16E-4	3.01E-4	2.84E-4	2.66E-4	2.48E-4	2.29E-4	2.09E-4	
+121.5	3.45E-4	3.34E-4	3.21E-4	3.07E-4	2.92E-4	2.76E-4	2.59E-4	2.41E-4	2.22E-4	2.03E-4	
+122.0	3.35E-4	3.24E-4	3.12E-4	2.98E-4	2.84E-4	2.68E-4	2.51E-4	2.34E-4	2.16E-4	1.97E-4	
+122.5	3.26E-4	3.15E-4	3.03E-4	2.9E-4	2.75E-4	2.6E-4	2.44E-4	2.27E-4	2.09E-4	1.91E-4	
+123.0	3.16E-4	3.06E-4	2.94E-4	2.81E-4	2.67E-4	2.53E-4	2.37E-4	2.2E-4	2.03E-4	1.86E-4	
+123.5	3.07E-4	2.97E-4	2.85E-4	2.73E-4	2.6E-4	2.45E-4	2.3E-4	2.14E-4	1.97E-4	1.8E-4	
+124.0	2.98E-4	2.88E-4	2.77E-4	2.65E-4	2.52E-4	2.38E-4	2.23E-4	2.08E-4	1.92E-4	1.75E-4	
+124.5	2.9E-4	2.8E-4	2.69E-4	2.57E-4	2.45E-4	2.31E-4	2.17E-4	2.02E-4	1.86E-4	1.7E-4	
+125.0	2.81E-4	2.72E-4	2.61E-4	2.5E-4	2.38E-4	2.25E-4	2.11E-4	1.96E-4	1.81E-4	1.65E-4	
+125.5	2.73E-4	2.64E-4	2.54E-4	2.43E-4	2.31E-4	2.18E-4	2.05E-4	1.9E-4	1.76E-4	1.6E-4	
+126.0	2.65E-4	2.56E-4	2.46E-4	2.36E-4	2.24E-4	2.12E-4	1.99E-4	1.85E-4	1.7E-4	1.56E-4	
+126.5	2.58E-4	2.49E-4	2.39E-4	2.29E-4	2.18E-4	2.06E-4	1.93E-4	1.8E-4	1.66E-4	1.51E-4	
+127.0	2.5E-4	2.42E-4	2.32E-4	2.22E-4	2.11E-4	2.0E-4	1.87E-4	1.74E-4	1.61E-4	1.47E-4	
+127.5	2.43E-4	2.35E-4	2.26E-4	2.16E-4	2.05E-4	1.94E-4	1.82E-4	1.69E-4	1.56E-4	1.43E-4	
+128.0	2.36E-4	2.28E-4	2.19E-4	2.1E-4	1.99E-4	1.88E-4	1.77E-4	1.64E-4	1.52E-4	1.38E-4	
+128.5	2.29E-4	2.21E-4	2.13E-4	2.04E-4	1.94E-4	1.83E-4	1.72E-4	1.6E-4	1.47E-4	1.34E-4	
+129.0	2.22E-4	2.15E-4	2.07E-4	1.98E-4	1.88E-4	1.78E-4	1.67E-4	1.55E-4	1.43E-4	1.31E-4	
+129.5	2.16E-4	2.09E-4	2.01E-4	1.92E-4	1.83E-4	1.73E-4	1.62E-4	1.51E-4	1.39E-4	1.27E-4	
+130.0	2.1E-4	2.03E-4	1.95E-4	1.87E-4	1.77E-4	1.68E-4	1.57E-4	1.46E-4	1.35E-4	1.23E-4	
+130.5	2.04E-4	1.97E-4	1.89E-4	1.81E-4	1.72E-4	1.63E-4	1.53E-4	1.42E-4	1.31E-4	1.2E-4	
+131.0	1.98E-4	1.91E-4	1.84E-4	1.76E-4	1.67E-4	1.58E-4	1.48E-4	1.38E-4	1.27E-4	1.16E-4	
+131.5	1.92E-4	1.86E-4	1.79E-4	1.71E-4	1.62E-4	1.53E-4	1.44E-4	1.34E-4	1.23E-4	1.13E-4	
+132.0	1.87E-4	1.8E-4	1.73E-4	1.66E-4	1.58E-4	1.49E-4	1.4E-4	1.3E-4	1.2E-4	1.09E-4	
+132.5	1.81E-4	1.75E-4	1.68E-4	1.61E-4	1.53E-4	1.45E-4	1.36E-4	1.26E-4	1.16E-4	1.06E-4	
+133.0	1.76E-4	1.7E-4	1.63E-4	1.56E-4	1.49E-4	1.41E-4	1.32E-4	1.23E-4	1.13E-4	1.03E-4	
+133.5	1.71E-4	1.65E-4	1.59E-4	1.52E-4	1.44E-4	1.36E-4	1.28E-4	1.19E-4	1.1E-4	1.0E-4	
+134.0	1.66E-4	1.6E-4	1.54E-4	1.48E-4	1.4E-4	1.33E-4	1.24E-4	1.16E-4	1.07E-4	9.73E-5	
+134.5	1.61E-4	1.56E-4	1.5E-4	1.43E-4	1.36E-4	1.29E-4	1.21E-4	1.12E-4	1.04E-4	9.45E-5	
+135.0	1.56E-4	1.51E-4	1.45E-4	1.39E-4	1.32E-4	1.25E-4	1.17E-4	1.09E-4	1.01E-4	9.18E-5	
+135.5	1.52E-4	1.47E-4	1.41E-4	1.35E-4	1.28E-4	1.21E-4	1.14E-4	1.06E-4	9.76E-5	8.91E-5	
+136.0	1.48E-4	1.43E-4	1.37E-4	1.31E-4	1.25E-4	1.18E-4	1.11E-4	1.03E-4	9.48E-5	8.66E-5	
+136.5	1.43E-4	1.38E-4	1.33E-4	1.27E-4	1.21E-4	1.14E-4	1.07E-4	9.98E-5	9.21E-5	8.41E-5	
+137.0	1.39E-4	1.34E-4	1.29E-4	1.24E-4	1.18E-4	1.11E-4	1.04E-4	9.7E-5	8.94E-5	8.16E-5	
+137.5	1.35E-4	1.31E-4	1.26E-4	1.2E-4	1.14E-4	1.08E-4	1.01E-4	9.42E-5	8.68E-5	7.93E-5	
+138.0	1.31E-4	1.27E-4	1.22E-4	1.17E-4	1.11E-4	1.05E-4	9.83E-5	9.14E-5	8.43E-5	7.7E-5	
+138.5	1.27E-4	1.23E-4	1.18E-4	1.13E-4	1.08E-4	1.02E-4	9.54E-5	8.88E-5	8.19E-5	7.48E-5	
+139.0	1.24E-4	1.2E-4	1.15E-4	1.1E-4	1.05E-4	9.88E-5	9.27E-5	8.62E-5	7.95E-5	7.26E-5	
+139.5	1.2E-4	1.16E-4	1.12E-4	1.07E-4	1.02E-4	9.6E-5	9.0E-5	8.37E-5	7.72E-5	7.05E-5	
+140.0	1.17E-4	1.13E-4	1.08E-4	1.04E-4	9.87E-5	9.32E-5	8.74E-5	8.13E-5	7.5E-5	6.85E-5	
+140.5	1.13E-4	1.1E-4	1.05E-4	1.01E-4	9.58E-5	9.05E-5	8.49E-5	7.9E-5	7.28E-5	6.65E-5	
+141.0	1.1E-4	1.06E-4	1.02E-4	9.78E-5	9.3E-5	8.79E-5	8.24E-5	7.67E-5	7.07E-5	6.46E-5	
+141.5	1.07E-4	1.03E-4	9.93E-5	9.5E-5	9.04E-5	8.54E-5	8.0E-5	7.45E-5	6.87E-5	6.27E-5	
+142.0	1.04E-4	1.0E-4	9.65E-5	9.23E-5	8.77E-5	8.29E-5	7.77E-5	7.23E-5	6.67E-5	6.09E-5	
+142.5	1.01E-4	9.74E-5	9.37E-5	8.96E-5	8.52E-5	8.05E-5	7.55E-5	7.02E-5	6.47E-5	5.91E-5	
+143.0	9.79E-5	9.46E-5	9.1E-5	8.7E-5	8.27E-5	7.82E-5	7.33E-5	6.82E-5	6.29E-5	5.74E-5	
+143.5	9.5E-5	9.18E-5	8.83E-5	8.45E-5	8.04E-5	7.59E-5	7.12E-5	6.62E-5	6.11E-5	5.57E-5	
+144.0	9.23E-5	8.92E-5	8.58E-5	8.21E-5	7.8E-5	7.37E-5	6.91E-5	6.43E-5	5.93E-5	5.41E-5	
+144.5	8.96E-5	8.66E-5	8.33E-5	7.97E-5	7.58E-5	7.16E-5	6.71E-5	6.24E-5	5.76E-5	5.26E-5	
+145.0	8.7E-5	8.41E-5	8.09E-5	7.74E-5	7.36E-5	6.95E-5	6.52E-5	6.06E-5	5.59E-5	5.11E-5	
+145.5	8.45E-5	8.17E-5	7.86E-5	7.51E-5	7.15E-5	6.75E-5	6.33E-5	5.89E-5	5.43E-5	4.96E-5	
+146.0	8.21E-5	7.93E-5	7.63E-5	7.3E-5	6.94E-5	6.56E-5	6.15E-5	5.72E-5	5.27E-5	4.81E-5	
+146.5	7.97E-5	7.7E-5	7.41E-5	7.09E-5	6.74E-5	6.37E-5	5.97E-5	5.55E-5	5.12E-5	4.67E-5	
+147.0	7.74E-5	7.48E-5	7.19E-5	6.88E-5	6.54E-5	6.18E-5	5.8E-5	5.39E-5	4.97E-5	4.54E-5	
+147.5	7.52E-5	7.26E-5	6.99E-5	6.68E-5	6.36E-5	6.0E-5	5.63E-5	5.24E-5	4.83E-5	4.41E-5	
+148.0	7.3E-5	7.05E-5	6.78E-5	6.49E-5	6.17E-5	5.83E-5	5.47E-5	5.09E-5	4.69E-5	4.28E-5	
+148.5	7.09E-5	6.85E-5	6.59E-5	6.3E-5	5.99E-5	5.66E-5	5.31E-5	4.94E-5	4.55E-5	4.16E-5	
+149.0	6.89E-5	6.65E-5	6.4E-5	6.12E-5	5.82E-5	5.5E-5	5.16E-5	4.8E-5	4.42E-5	4.04E-5	
+149.5	6.69E-5	6.46E-5	6.21E-5	5.94E-5	5.65E-5	5.34E-5	5.01E-5	4.66E-5	4.29E-5	3.92E-5	
+150.0	6.49E-5	6.27E-5	6.03E-5	5.77E-5	5.49E-5	5.18E-5	4.86E-5	4.52E-5	4.17E-5	3.81E-5	
+
+
+PARAMETER: EXPRESSION OF 3A4 IN LIVER
+
+Summary Results:
+
+Param Value	Amount Dissolved-ZGB 60mg PO Joseph et al (mg)	Amount Portal Vein-ZGB 60mg PO Joseph et al (mg)	Result-FDp-ZGB 60mg PO Joseph et al (%)	Amount Absorbed-ZGB 60mg PO Joseph et al (mg)	Result-Fa-ZGB 60mg PO Joseph et al (%)	Result-Fb-ZGB 60mg PO Joseph et al (%)	Result-AUC-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-AUC(0-t)-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-Cmax-ZGB 60mg PO Joseph et al (ug/mL)	Result-Tmax-ZGB 60mg PO Joseph et al (hrs)	Result-LCmax-ZGB 60mg PO Joseph et al (ug/mL)
+0.121	60.00	40.13	66.89	60.00	99.99	62.21	8285.8	8277.8	0.496	1.100	0.754
+0.141	60.00	40.14	66.89	60.00	99.99	61.98	7853.9	7848.4	0.492	1.100	0.748
+0.165	60.00	40.14	66.90	60.00	99.99	61.71	7403.7	7400.1	0.488	1.100	0.742
+0.192	60.00	40.14	66.91	60.00	99.99	61.39	6939.7	6937.5	0.482	1.100	0.735
+0.224	60.00	40.15	66.91	60.00	99.99	61.03	6466.8	6465.6	0.476	1.100	0.727
+0.261	60.00	40.15	66.92	60.00	99.99	60.61	5990.7	5990.0	0.470	1.000	0.718
+0.305	60.00	40.16	66.93	60.00	99.99	60.12	5516.8	5516.5	0.462	1.000	0.707
+0.356	60.00	40.16	66.93	60.00	99.99	59.56	5050.8	5050.7	0.454	1.000	0.695
+0.415	60.00	40.16	66.94	60.00	99.99	58.93	4597.7	4597.7	0.444	1.000	0.682
+0.484	60.00	40.17	66.95	60.00	99.99	58.20	4162.2	4162.2	0.434	1.000	0.667
+
+REGIONAL ABSORPTION:
+
+Param Value	Stom Fa%	Duod Fa%	Jej1 Fa%	Jej2 Fa%	Ile1 Fa%	Ile2 Fa%	Ile3 Fa%	Caec Fa%	Col Fa%
+0.121	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.941	0.460
+0.141	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.941	0.460
+0.165	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+0.192	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+0.224	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+0.261	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+0.305	0.0	23.73	39.44	17.74	7.760	3.874	2.055	4.940	0.460
+0.356	0.0	23.73	39.44	17.74	7.760	3.874	2.055	4.939	0.460
+0.415	0.0	23.73	39.44	17.74	7.761	3.874	2.055	4.939	0.460
+0.484	0.0	23.73	39.44	17.74	7.761	3.874	2.055	4.939	0.460
+
+
+
+Profiles vs. Time
+
+Param Value: 	0.121	0.141	0.165	0.192	0.224	0.261	0.305	0.356	0.415	0.484
+Time (hr)	Cp (ug/mL)
+0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+0.500	0.375	0.372	0.370	0.367	0.364	0.360	0.356	0.351	0.345	0.339	
+1.000	0.495	0.491	0.487	0.482	0.476	0.470	0.462	0.454	0.444	0.434	
+1.500	0.477	0.472	0.467	0.461	0.455	0.447	0.438	0.429	0.418	0.406	
+2.000	0.436	0.431	0.425	0.419	0.412	0.404	0.395	0.385	0.374	0.362	
+2.500	0.401	0.396	0.390	0.384	0.376	0.368	0.359	0.348	0.337	0.324	
+3.000	0.373	0.368	0.362	0.355	0.347	0.339	0.329	0.319	0.307	0.294	
+3.500	0.349	0.344	0.338	0.331	0.323	0.315	0.305	0.294	0.282	0.270	
+4.000	0.331	0.325	0.319	0.312	0.304	0.295	0.285	0.274	0.262	0.250	
+4.500	0.316	0.310	0.304	0.296	0.288	0.279	0.269	0.258	0.246	0.233	
+5.000	0.304	0.298	0.291	0.284	0.276	0.266	0.256	0.245	0.233	0.220	
+5.500	0.294	0.288	0.281	0.274	0.265	0.256	0.245	0.234	0.222	0.209	
+6.000	0.285	0.279	0.272	0.265	0.256	0.246	0.236	0.225	0.212	0.199	
+6.500	0.278	0.272	0.264	0.257	0.248	0.238	0.227	0.216	0.203	0.190	
+7.000	0.271	0.264	0.257	0.249	0.240	0.230	0.220	0.208	0.195	0.182	
+7.500	0.264	0.258	0.250	0.242	0.233	0.223	0.212	0.200	0.188	0.175	
+8.000	0.258	0.251	0.244	0.236	0.226	0.216	0.205	0.193	0.181	0.168	
+8.500	0.252	0.245	0.238	0.229	0.220	0.210	0.199	0.187	0.174	0.161	
+9.000	0.246	0.239	0.232	0.223	0.214	0.203	0.192	0.180	0.168	0.154	
+9.500	0.241	0.234	0.226	0.217	0.208	0.197	0.186	0.174	0.161	0.148	
+10.00	0.235	0.228	0.220	0.211	0.202	0.191	0.180	0.168	0.155	0.142	
+10.50	0.230	0.222	0.214	0.206	0.196	0.186	0.174	0.162	0.150	0.137	
+11.00	0.224	0.217	0.209	0.200	0.190	0.180	0.169	0.157	0.144	0.131	
+11.50	0.219	0.212	0.204	0.195	0.185	0.175	0.163	0.151	0.139	0.126	
+12.00	0.214	0.207	0.199	0.190	0.180	0.169	0.158	0.146	0.134	0.121	
+12.50	0.209	0.202	0.194	0.185	0.175	0.164	0.153	0.141	0.129	0.116	
+13.00	0.205	0.197	0.189	0.180	0.170	0.159	0.148	0.136	0.124	0.112	
+13.50	0.200	0.192	0.184	0.175	0.165	0.155	0.143	0.132	0.120	0.107	
+14.00	0.195	0.188	0.180	0.170	0.161	0.150	0.139	0.127	0.115	0.103	
+14.50	0.191	0.183	0.175	0.166	0.156	0.146	0.134	0.123	0.111	0.099	
+15.00	0.187	0.179	0.171	0.162	0.152	0.141	0.130	0.119	0.107	0.095	
+15.50	0.182	0.175	0.166	0.157	0.147	0.137	0.126	0.115	0.103	0.091	
+16.00	0.178	0.171	0.162	0.153	0.143	0.133	0.122	0.111	0.099	0.088	
+16.50	0.174	0.167	0.158	0.149	0.139	0.129	0.118	0.107	0.096	0.084	
+17.00	0.170	0.163	0.154	0.145	0.135	0.125	0.114	0.103	0.092	0.081	
+17.50	0.166	0.159	0.150	0.141	0.132	0.121	0.111	0.100	0.089	0.078	
+18.00	0.163	0.155	0.147	0.138	0.128	0.118	0.107	0.096	0.085	0.075	
+18.50	0.159	0.151	0.143	0.134	0.124	0.114	0.104	0.093	0.082	0.072	
+19.00	0.155	0.148	0.139	0.130	0.121	0.111	0.100	0.090	0.079	0.069	
+19.50	0.152	0.144	0.136	0.127	0.117	0.108	0.097	0.087	0.076	0.066	
+20.00	0.148	0.141	0.132	0.124	0.114	0.104	0.094	0.084	0.074	0.063	
+20.50	0.145	0.137	0.129	0.120	0.111	0.101	0.091	0.081	0.071	0.061	
+21.00	0.142	0.134	0.126	0.117	0.108	0.098	0.088	0.078	0.068	0.059	
+21.50	0.138	0.131	0.123	0.114	0.105	0.095	0.085	0.076	0.066	0.056	
+22.00	0.135	0.128	0.120	0.111	0.102	0.092	0.083	0.073	0.063	0.054	
+22.50	0.132	0.125	0.117	0.108	0.099	0.090	0.080	0.070	0.061	0.052	
+23.00	0.129	0.122	0.114	0.105	0.096	0.087	0.078	0.068	0.059	0.050	
+23.50	0.126	0.119	0.111	0.102	0.094	0.084	0.075	0.066	0.057	0.048	
+24.00	0.123	0.116	0.108	0.100	0.091	0.082	0.073	0.063	0.055	0.046	
+24.50	0.120	0.113	0.105	0.097	0.088	0.079	0.070	0.061	0.053	0.044	
+25.00	0.118	0.111	0.103	0.095	0.086	0.077	0.068	0.059	0.051	0.042	
+25.50	0.115	0.108	0.100	0.092	0.084	0.075	0.066	0.057	0.049	0.041	
+26.00	0.112	0.105	0.098	0.090	0.081	0.073	0.064	0.055	0.047	0.039	
+26.50	0.110	0.103	0.095	0.087	0.079	0.070	0.062	0.053	0.045	0.038	
+27.00	0.107	0.100	0.093	0.085	0.077	0.068	0.060	0.052	0.044	0.036	
+27.50	0.105	0.098	0.091	0.083	0.075	0.066	0.058	0.050	0.042	0.035	
+28.00	0.103	0.096	0.088	0.080	0.072	0.064	0.056	0.048	0.040	0.033	
+28.50	0.100	0.093	0.086	0.078	0.070	0.062	0.054	0.046	0.039	0.032	
+29.00	0.098	0.091	0.084	0.076	0.068	0.060	0.053	0.045	0.037	0.031	
+29.50	0.096	0.089	0.082	0.074	0.067	0.059	0.051	0.043	0.036	0.029	
+30.00	0.094	0.087	0.080	0.072	0.065	0.057	0.049	0.042	0.035	0.028	
+30.50	0.091	0.085	0.078	0.070	0.063	0.055	0.048	0.040	0.034	0.027	
+31.00	0.089	0.083	0.076	0.069	0.061	0.054	0.046	0.039	0.032	0.026	
+31.50	0.087	0.081	0.074	0.067	0.059	0.052	0.045	0.038	0.031	0.025	
+32.00	0.085	0.079	0.072	0.065	0.058	0.050	0.043	0.036	0.030	0.024	
+32.50	0.083	0.077	0.070	0.063	0.056	0.049	0.042	0.035	0.029	0.023	
+33.00	0.081	0.075	0.068	0.062	0.055	0.047	0.041	0.034	0.028	0.022	
+33.50	0.080	0.073	0.067	0.060	0.053	0.046	0.039	0.033	0.027	0.021	
+34.00	0.078	0.072	0.065	0.058	0.052	0.045	0.038	0.032	0.026	0.020	
+34.50	0.076	0.070	0.063	0.057	0.050	0.043	0.037	0.031	0.025	0.020	
+35.00	0.074	0.068	0.062	0.055	0.049	0.042	0.036	0.030	0.024	0.019	
+35.50	0.073	0.067	0.060	0.054	0.047	0.041	0.035	0.029	0.023	0.018	
+36.00	0.071	0.065	0.059	0.052	0.046	0.040	0.033	0.028	0.022	0.017	
+36.50	0.069	0.063	0.057	0.051	0.045	0.038	0.032	0.027	0.021	0.017	
+37.00	0.068	0.062	0.056	0.050	0.043	0.037	0.031	0.026	0.021	0.016	
+37.50	0.066	0.060	0.054	0.048	0.042	0.036	0.030	0.025	0.020	0.015	
+38.00	0.065	0.059	0.053	0.047	0.041	0.035	0.029	0.024	0.019	0.015	
+38.50	0.063	0.058	0.052	0.046	0.040	0.034	0.028	0.023	0.018	0.014	
+39.00	0.062	0.056	0.051	0.045	0.039	0.033	0.028	0.022	0.018	0.014	
+39.50	0.060	0.055	0.049	0.043	0.038	0.032	0.027	0.022	0.017	0.013	
+40.00	0.059	0.054	0.048	0.042	0.037	0.031	0.026	0.021	0.016	0.013	
+40.50	0.058	0.052	0.047	0.041	0.036	0.030	0.025	0.020	0.016	0.012	
+41.00	0.056	0.051	0.046	0.040	0.035	0.029	0.024	0.019	0.015	0.012	
+41.50	0.055	0.050	0.044	0.039	0.034	0.028	0.023	0.019	0.015	0.011	
+42.00	0.054	0.049	0.043	0.038	0.033	0.028	0.023	0.018	0.014	0.011	
+42.50	0.053	0.048	0.042	0.037	0.032	0.027	0.022	0.018	0.014	0.010	
+43.00	0.051	0.046	0.041	0.036	0.031	0.026	0.021	0.017	0.013	9.91E-3	
+43.50	0.050	0.045	0.040	0.035	0.030	0.025	0.021	0.016	0.013	9.51E-3	
+44.00	0.049	0.044	0.039	0.034	0.029	0.024	0.020	0.016	0.012	9.14E-3	
+44.50	0.048	0.043	0.038	0.033	0.028	0.024	0.019	0.015	0.012	8.78E-3	
+45.00	0.047	0.042	0.037	0.032	0.028	0.023	0.019	0.015	0.011	8.43E-3	
+45.50	0.046	0.041	0.036	0.032	0.027	0.022	0.018	0.014	0.011	8.09E-3	
+46.00	0.045	0.040	0.035	0.031	0.026	0.022	0.017	0.014	0.011	7.77E-3	
+46.50	0.044	0.039	0.035	0.030	0.025	0.021	0.017	0.013	0.010	7.47E-3	
+47.00	0.043	0.038	0.034	0.029	0.025	0.020	0.016	0.013	9.75E-3	7.17E-3	
+47.50	0.042	0.037	0.033	0.028	0.024	0.020	0.016	0.012	9.39E-3	6.89E-3	
+48.00	0.041	0.036	0.032	0.028	0.023	0.019	0.015	0.012	9.05E-3	6.61E-3	
+48.50	0.040	0.036	0.031	0.027	0.023	0.019	0.015	0.012	8.72E-3	6.35E-3	
+49.00	0.039	0.035	0.030	0.026	0.022	0.018	0.014	0.011	8.4E-3	6.1E-3	
+49.50	0.038	0.034	0.030	0.025	0.021	0.017	0.014	0.011	8.09E-3	5.86E-3	
+50.00	0.037	0.033	0.029	0.025	0.021	0.017	0.013	0.010	7.79E-3	5.63E-3	
+50.50	0.036	0.032	0.028	0.024	0.020	0.016	0.013	0.010	7.51E-3	5.41E-3	
+51.00	0.036	0.032	0.027	0.023	0.020	0.016	0.013	9.72E-3	7.23E-3	5.19E-3	
+51.50	0.035	0.031	0.027	0.023	0.019	0.015	0.012	9.39E-3	6.96E-3	4.99E-3	
+52.00	0.034	0.030	0.026	0.022	0.019	0.015	0.012	9.07E-3	6.71E-3	4.79E-3	
+52.50	0.033	0.029	0.025	0.022	0.018	0.015	0.011	8.76E-3	6.46E-3	4.6E-3	
+53.00	0.032	0.029	0.025	0.021	0.017	0.014	0.011	8.46E-3	6.23E-3	4.42E-3	
+53.50	0.032	0.028	0.024	0.021	0.017	0.014	0.011	8.17E-3	6.0E-3	4.24E-3	
+54.00	0.031	0.027	0.024	0.020	0.017	0.013	0.010	7.89E-3	5.78E-3	4.07E-3	
+54.50	0.030	0.027	0.023	0.019	0.016	0.013	0.010	7.62E-3	5.56E-3	3.91E-3	
+55.00	0.030	0.026	0.022	0.019	0.016	0.013	9.76E-3	7.36E-3	5.36E-3	3.76E-3	
+55.50	0.029	0.025	0.022	0.018	0.015	0.012	9.45E-3	7.11E-3	5.16E-3	3.61E-3	
+56.00	0.028	0.025	0.021	0.018	0.015	0.012	9.15E-3	6.87E-3	4.97E-3	3.47E-3	
+56.50	0.028	0.024	0.021	0.017	0.014	0.011	8.86E-3	6.63E-3	4.79E-3	3.33E-3	
+57.00	0.027	0.024	0.020	0.017	0.014	0.011	8.57E-3	6.41E-3	4.61E-3	3.2E-3	
+57.50	0.026	0.023	0.020	0.017	0.014	0.011	8.3E-3	6.19E-3	4.45E-3	3.07E-3	
+58.00	0.026	0.022	0.019	0.016	0.013	0.010	8.04E-3	5.98E-3	4.28E-3	2.95E-3	
+58.50	0.025	0.022	0.019	0.016	0.013	0.010	7.78E-3	5.77E-3	4.13E-3	2.83E-3	
+59.00	0.025	0.021	0.018	0.015	0.012	9.83E-3	7.53E-3	5.57E-3	3.97E-3	2.72E-3	
+59.50	0.024	0.021	0.018	0.015	0.012	9.54E-3	7.29E-3	5.38E-3	3.83E-3	2.61E-3	
+60.00	0.023	0.020	0.017	0.014	0.012	9.26E-3	7.06E-3	5.2E-3	3.69E-3	2.51E-3	
+60.50	0.023	0.020	0.017	0.014	0.011	8.98E-3	6.84E-3	5.02E-3	3.55E-3	2.41E-3	
+61.00	0.022	0.019	0.017	0.014	0.011	8.71E-3	6.62E-3	4.85E-3	3.42E-3	2.32E-3	
+61.50	0.022	0.019	0.016	0.013	0.011	8.45E-3	6.41E-3	4.69E-3	3.3E-3	2.22E-3	
+62.00	0.021	0.019	0.016	0.013	0.010	8.2E-3	6.2E-3	4.53E-3	3.17E-3	2.14E-3	
+62.50	0.021	0.018	0.015	0.013	0.010	7.95E-3	6.01E-3	4.37E-3	3.06E-3	2.05E-3	
+63.00	0.020	0.018	0.015	0.012	9.91E-3	7.72E-3	5.81E-3	4.22E-3	2.95E-3	1.97E-3	
+63.50	0.020	0.017	0.015	0.012	9.63E-3	7.49E-3	5.63E-3	4.08E-3	2.84E-3	1.89E-3	
+64.00	0.020	0.017	0.014	0.012	9.36E-3	7.26E-3	5.45E-3	3.94E-3	2.73E-3	1.82E-3	
+64.50	0.019	0.016	0.014	0.011	9.1E-3	7.05E-3	5.28E-3	3.8E-3	2.63E-3	1.75E-3	
+65.00	0.019	0.016	0.014	0.011	8.84E-3	6.84E-3	5.11E-3	3.67E-3	2.54E-3	1.68E-3	
+65.50	0.018	0.016	0.013	0.011	8.59E-3	6.63E-3	4.94E-3	3.55E-3	2.44E-3	1.61E-3	
+66.00	0.018	0.015	0.013	0.011	8.35E-3	6.44E-3	4.79E-3	3.43E-3	2.35E-3	1.55E-3	
+66.50	0.017	0.015	0.013	0.010	8.12E-3	6.24E-3	4.63E-3	3.31E-3	2.27E-3	1.48E-3	
+67.00	0.017	0.015	0.012	9.96E-3	7.89E-3	6.06E-3	4.49E-3	3.2E-3	2.18E-3	1.43E-3	
+67.50	0.017	0.014	0.012	9.69E-3	7.67E-3	5.88E-3	4.34E-3	3.09E-3	2.1E-3	1.37E-3	
+68.00	0.016	0.014	0.012	9.44E-3	7.46E-3	5.7E-3	4.21E-3	2.98E-3	2.03E-3	1.32E-3	
+68.50	0.016	0.014	0.011	9.19E-3	7.25E-3	5.53E-3	4.07E-3	2.88E-3	1.95E-3	1.26E-3	
+69.00	0.016	0.013	0.011	8.94E-3	7.04E-3	5.37E-3	3.94E-3	2.78E-3	1.88E-3	1.21E-3	
+69.50	0.015	0.013	0.011	8.71E-3	6.85E-3	5.21E-3	3.82E-3	2.69E-3	1.81E-3	1.17E-3	
+70.00	0.015	0.013	0.010	8.48E-3	6.65E-3	5.05E-3	3.69E-3	2.6E-3	1.74E-3	1.12E-3	
+70.50	0.014	0.012	0.010	8.25E-3	6.47E-3	4.9E-3	3.58E-3	2.51E-3	1.68E-3	1.08E-3	
+71.00	0.014	0.012	9.96E-3	8.03E-3	6.29E-3	4.75E-3	3.46E-3	2.42E-3	1.62E-3	1.03E-3	
+71.50	0.014	0.012	9.71E-3	7.82E-3	6.11E-3	4.61E-3	3.35E-3	2.34E-3	1.56E-3	9.92E-4	
+72.00	0.014	0.011	9.47E-3	7.62E-3	5.94E-3	4.47E-3	3.25E-3	2.26E-3	1.5E-3	9.52E-4	
+72.50	0.013	0.011	9.23E-3	7.41E-3	5.77E-3	4.34E-3	3.14E-3	2.18E-3	1.45E-3	9.15E-4	
+73.00	0.013	0.011	9.0E-3	7.22E-3	5.61E-3	4.21E-3	3.04E-3	2.11E-3	1.39E-3	8.78E-4	
+73.50	0.013	0.011	8.77E-3	7.03E-3	5.45E-3	4.09E-3	2.95E-3	2.03E-3	1.34E-3	8.44E-4	
+74.00	0.012	0.010	8.55E-3	6.84E-3	5.3E-3	3.96E-3	2.85E-3	1.97E-3	1.29E-3	8.1E-4	
+74.50	0.012	0.010	8.34E-3	6.66E-3	5.15E-3	3.85E-3	2.76E-3	1.9E-3	1.25E-3	7.78E-4	
+75.00	0.012	9.9E-3	8.13E-3	6.48E-3	5.01E-3	3.73E-3	2.67E-3	1.83E-3	1.2E-3	7.47E-4	
+75.50	0.011	9.67E-3	7.93E-3	6.31E-3	4.87E-3	3.62E-3	2.59E-3	1.77E-3	1.16E-3	7.18E-4	
+76.00	0.011	9.44E-3	7.73E-3	6.15E-3	4.73E-3	3.51E-3	2.51E-3	1.71E-3	1.11E-3	6.89E-4	
+76.50	0.011	9.21E-3	7.53E-3	5.98E-3	4.6E-3	3.41E-3	2.43E-3	1.65E-3	1.07E-3	6.62E-4	
+77.00	0.011	8.99E-3	7.35E-3	5.82E-3	4.47E-3	3.31E-3	2.35E-3	1.6E-3	1.03E-3	6.36E-4	
+77.50	0.010	8.78E-3	7.16E-3	5.67E-3	4.34E-3	3.21E-3	2.27E-3	1.54E-3	9.96E-4	6.11E-4	
+78.00	0.010	8.57E-3	6.98E-3	5.52E-3	4.22E-3	3.11E-3	2.2E-3	1.49E-3	9.59E-4	5.87E-4	
+78.50	0.010	8.37E-3	6.81E-3	5.38E-3	4.1E-3	3.02E-3	2.13E-3	1.44E-3	9.24E-4	5.63E-4	
+79.00	9.78E-3	8.17E-3	6.64E-3	5.23E-3	3.99E-3	2.93E-3	2.06E-3	1.39E-3	8.9E-4	5.41E-4	
+79.50	9.56E-3	7.97E-3	6.47E-3	5.09E-3	3.88E-3	2.84E-3	2.0E-3	1.34E-3	8.57E-4	5.2E-4	
+80.00	9.34E-3	7.78E-3	6.31E-3	4.96E-3	3.77E-3	2.76E-3	1.93E-3	1.3E-3	8.26E-4	4.99E-4	
+80.50	9.13E-3	7.6E-3	6.15E-3	4.83E-3	3.66E-3	2.67E-3	1.87E-3	1.25E-3	7.95E-4	4.79E-4	
+81.00	8.92E-3	7.42E-3	6.0E-3	4.7E-3	3.56E-3	2.59E-3	1.81E-3	1.21E-3	7.66E-4	4.6E-4	
+81.50	8.72E-3	7.24E-3	5.85E-3	4.58E-3	3.46E-3	2.52E-3	1.75E-3	1.17E-3	7.38E-4	4.42E-4	
+82.00	8.52E-3	7.07E-3	5.7E-3	4.46E-3	3.36E-3	2.44E-3	1.7E-3	1.13E-3	7.11E-4	4.25E-4	
+82.50	8.33E-3	6.9E-3	5.56E-3	4.34E-3	3.27E-3	2.37E-3	1.64E-3	1.09E-3	6.85E-4	4.08E-4	
+83.00	8.14E-3	6.73E-3	5.42E-3	4.22E-3	3.18E-3	2.3E-3	1.59E-3	1.05E-3	6.6E-4	3.92E-4	
+83.50	7.95E-3	6.57E-3	5.28E-3	4.11E-3	3.09E-3	2.23E-3	1.54E-3	1.02E-3	6.35E-4	3.76E-4	
+84.00	7.77E-3	6.42E-3	5.15E-3	4.0E-3	3.0E-3	2.16E-3	1.49E-3	9.81E-4	6.12E-4	3.61E-4	
+84.50	7.59E-3	6.26E-3	5.02E-3	3.9E-3	2.92E-3	2.1E-3	1.44E-3	9.47E-4	5.9E-4	3.47E-4	
+85.00	7.42E-3	6.11E-3	4.89E-3	3.79E-3	2.84E-3	2.04E-3	1.4E-3	9.15E-4	5.68E-4	3.33E-4	
+85.50	7.25E-3	5.97E-3	4.77E-3	3.69E-3	2.76E-3	1.98E-3	1.35E-3	8.84E-4	5.47E-4	3.2E-4	
+86.00	7.09E-3	5.83E-3	4.65E-3	3.6E-3	2.68E-3	1.92E-3	1.31E-3	8.54E-4	5.27E-4	3.07E-4	
+86.50	6.92E-3	5.69E-3	4.54E-3	3.5E-3	2.6E-3	1.86E-3	1.27E-3	8.24E-4	5.08E-4	2.95E-4	
+87.00	6.77E-3	5.55E-3	4.42E-3	3.41E-3	2.53E-3	1.8E-3	1.23E-3	7.96E-4	4.89E-4	2.84E-4	
+87.50	6.61E-3	5.42E-3	4.31E-3	3.32E-3	2.46E-3	1.75E-3	1.19E-3	7.69E-4	4.71E-4	2.72E-4	
+88.00	6.46E-3	5.29E-3	4.2E-3	3.23E-3	2.39E-3	1.7E-3	1.15E-3	7.43E-4	4.54E-4	2.62E-4	
+88.50	6.32E-3	5.16E-3	4.1E-3	3.15E-3	2.32E-3	1.65E-3	1.11E-3	7.17E-4	4.37E-4	2.51E-4	
+89.00	6.17E-3	5.04E-3	4.0E-3	3.06E-3	2.26E-3	1.6E-3	1.08E-3	6.93E-4	4.21E-4	2.41E-4	
+89.50	6.03E-3	4.92E-3	3.9E-3	2.98E-3	2.2E-3	1.55E-3	1.05E-3	6.69E-4	4.06E-4	2.32E-4	
+90.00	5.89E-3	4.8E-3	3.8E-3	2.9E-3	2.13E-3	1.5E-3	1.01E-3	6.46E-4	3.91E-4	2.23E-4	
+90.50	5.76E-3	4.69E-3	3.7E-3	2.83E-3	2.07E-3	1.46E-3	9.79E-4	6.24E-4	3.76E-4	2.14E-4	
+91.00	5.63E-3	4.58E-3	3.61E-3	2.75E-3	2.02E-3	1.42E-3	9.48E-4	6.03E-4	3.63E-4	2.05E-4	
+91.50	5.5E-3	4.47E-3	3.52E-3	2.68E-3	1.96E-3	1.37E-3	9.18E-4	5.82E-4	3.49E-4	1.97E-4	
+92.00	5.37E-3	4.36E-3	3.43E-3	2.61E-3	1.9E-3	1.33E-3	8.89E-4	5.63E-4	3.36E-4	1.89E-4	
+92.50	5.25E-3	4.26E-3	3.35E-3	2.54E-3	1.85E-3	1.29E-3	8.6E-4	5.43E-4	3.24E-4	1.82E-4	
+93.00	5.13E-3	4.16E-3	3.26E-3	2.47E-3	1.8E-3	1.25E-3	8.33E-4	5.25E-4	3.12E-4	1.75E-4	
+93.50	5.02E-3	4.06E-3	3.18E-3	2.41E-3	1.75E-3	1.22E-3	8.07E-4	5.07E-4	3.01E-4	1.68E-4	
+94.00	4.9E-3	3.96E-3	3.1E-3	2.34E-3	1.7E-3	1.18E-3	7.81E-4	4.9E-4	2.9E-4	1.61E-4	
+94.50	4.79E-3	3.87E-3	3.02E-3	2.28E-3	1.65E-3	1.15E-3	7.56E-4	4.73E-4	2.79E-4	1.55E-4	
+95.00	4.68E-3	3.77E-3	2.95E-3	2.22E-3	1.61E-3	1.11E-3	7.32E-4	4.57E-4	2.69E-4	1.49E-4	
+95.50	4.57E-3	3.68E-3	2.87E-3	2.16E-3	1.56E-3	1.08E-3	7.09E-4	4.41E-4	2.59E-4	1.43E-4	
+96.00	4.47E-3	3.6E-3	2.8E-3	2.1E-3	1.52E-3	1.05E-3	6.86E-4	4.26E-4	2.49E-4	1.37E-4	
+96.50	4.37E-3	3.51E-3	2.73E-3	2.05E-3	1.47E-3	1.01E-3	6.64E-4	4.11E-4	2.4E-4	1.32E-4	
+97.00	4.27E-3	3.43E-3	2.66E-3	1.99E-3	1.43E-3	9.85E-4	6.43E-4	3.97E-4	2.31E-4	1.26E-4	
+97.50	4.17E-3	3.35E-3	2.6E-3	1.94E-3	1.39E-3	9.55E-4	6.22E-4	3.84E-4	2.23E-4	1.21E-4	
+98.00	4.08E-3	3.27E-3	2.53E-3	1.89E-3	1.35E-3	9.27E-4	6.03E-4	3.71E-4	2.15E-4	1.17E-4	
+98.50	3.98E-3	3.19E-3	2.47E-3	1.84E-3	1.32E-3	8.99E-4	5.83E-4	3.58E-4	2.07E-4	1.12E-4	
+99.00	3.89E-3	3.11E-3	2.41E-3	1.79E-3	1.28E-3	8.72E-4	5.65E-4	3.46E-4	1.99E-4	1.08E-4	
+99.50	3.8E-3	3.04E-3	2.35E-3	1.74E-3	1.24E-3	8.46E-4	5.47E-4	3.34E-4	1.92E-4	1.03E-4	
+100.0	3.72E-3	2.97E-3	2.29E-3	1.7E-3	1.21E-3	8.21E-4	5.29E-4	3.23E-4	1.85E-4	9.93E-5	
+100.5	3.63E-3	2.89E-3	2.23E-3	1.65E-3	1.17E-3	7.96E-4	5.13E-4	3.12E-4	1.78E-4	9.53E-5	
+101.0	3.55E-3	2.83E-3	2.17E-3	1.61E-3	1.14E-3	7.73E-4	4.96E-4	3.01E-4	1.72E-4	9.16E-5	
+101.5	3.47E-3	2.76E-3	2.12E-3	1.57E-3	1.11E-3	7.5E-4	4.8E-4	2.91E-4	1.65E-4	8.79E-5	
+102.0	3.39E-3	2.69E-3	2.07E-3	1.53E-3	1.08E-3	7.27E-4	4.65E-4	2.81E-4	1.59E-4	8.45E-5	
+102.5	3.31E-3	2.63E-3	2.01E-3	1.49E-3	1.05E-3	7.06E-4	4.5E-4	2.71E-4	1.53E-4	8.11E-5	
+103.0	3.24E-3	2.57E-3	1.96E-3	1.45E-3	1.02E-3	6.85E-4	4.36E-4	2.62E-4	1.48E-4	7.79E-5	
+103.5	3.16E-3	2.5E-3	1.91E-3	1.41E-3	9.91E-4	6.64E-4	4.22E-4	2.53E-4	1.42E-4	7.48E-5	
+104.0	3.09E-3	2.44E-3	1.87E-3	1.37E-3	9.63E-4	6.44E-4	4.09E-4	2.44E-4	1.37E-4	7.19E-5	
+104.5	3.02E-3	2.39E-3	1.82E-3	1.33E-3	9.36E-4	6.25E-4	3.96E-4	2.36E-4	1.32E-4	6.9E-5	
+105.0	2.95E-3	2.33E-3	1.77E-3	1.3E-3	9.1E-4	6.06E-4	3.83E-4	2.28E-4	1.27E-4	6.63E-5	
+105.5	2.89E-3	2.27E-3	1.73E-3	1.26E-3	8.84E-4	5.88E-4	3.71E-4	2.2E-4	1.23E-4	6.37E-5	
+106.0	2.82E-3	2.22E-3	1.69E-3	1.23E-3	8.59E-4	5.71E-4	3.59E-4	2.13E-4	1.18E-4	6.11E-5	
+106.5	2.76E-3	2.17E-3	1.64E-3	1.2E-3	8.35E-4	5.54E-4	3.48E-4	2.05E-4	1.14E-4	5.87E-5	
+107.0	2.69E-3	2.12E-3	1.6E-3	1.17E-3	8.12E-4	5.37E-4	3.36E-4	1.98E-4	1.1E-4	5.64E-5	
+107.5	2.63E-3	2.06E-3	1.56E-3	1.14E-3	7.89E-4	5.21E-4	3.26E-4	1.92E-4	1.05E-4	5.42E-5	
+108.0	2.57E-3	2.02E-3	1.52E-3	1.11E-3	7.67E-4	5.06E-4	3.15E-4	1.85E-4	1.02E-4	5.2E-5	
+108.5	2.51E-3	1.97E-3	1.49E-3	1.08E-3	7.46E-4	4.91E-4	3.05E-4	1.79E-4	9.79E-5	5.0E-5	
+109.0	2.46E-3	1.92E-3	1.45E-3	1.05E-3	7.25E-4	4.76E-4	2.96E-4	1.73E-4	9.43E-5	4.8E-5	
+109.5	2.4E-3	1.87E-3	1.41E-3	1.02E-3	7.04E-4	4.62E-4	2.86E-4	1.67E-4	9.08E-5	4.61E-5	
+110.0	2.35E-3	1.83E-3	1.38E-3	9.94E-4	6.85E-4	4.48E-4	2.77E-4	1.61E-4	8.75E-5	4.43E-5	
+110.5	2.29E-3	1.79E-3	1.34E-3	9.67E-4	6.65E-4	4.35E-4	2.68E-4	1.55E-4	8.43E-5	4.25E-5	
+111.0	2.24E-3	1.74E-3	1.31E-3	9.42E-4	6.47E-4	4.22E-4	2.6E-4	1.5E-4	8.12E-5	4.08E-5	
+111.5	2.19E-3	1.7E-3	1.28E-3	9.17E-4	6.29E-4	4.09E-4	2.51E-4	1.45E-4	7.82E-5	3.92E-5	
+112.0	2.14E-3	1.66E-3	1.24E-3	8.93E-4	6.11E-4	3.97E-4	2.43E-4	1.4E-4	7.53E-5	3.77E-5	
+112.5	2.09E-3	1.62E-3	1.21E-3	8.69E-4	5.94E-4	3.85E-4	2.36E-4	1.35E-4	7.26E-5	3.62E-5	
+113.0	2.04E-3	1.58E-3	1.18E-3	8.46E-4	5.77E-4	3.74E-4	2.28E-4	1.31E-4	6.99E-5	3.47E-5	
+113.5	2.0E-3	1.55E-3	1.15E-3	8.24E-4	5.61E-4	3.62E-4	2.21E-4	1.26E-4	6.73E-5	3.34E-5	
+114.0	1.95E-3	1.51E-3	1.12E-3	8.02E-4	5.45E-4	3.52E-4	2.14E-4	1.22E-4	6.49E-5	3.2E-5	
+114.5	1.91E-3	1.47E-3	1.1E-3	7.81E-4	5.3E-4	3.41E-4	2.07E-4	1.18E-4	6.25E-5	3.08E-5	
+115.0	1.86E-3	1.44E-3	1.07E-3	7.6E-4	5.15E-4	3.31E-4	2.0E-4	1.14E-4	6.02E-5	2.96E-5	
+115.5	1.82E-3	1.4E-3	1.04E-3	7.4E-4	5.01E-4	3.21E-4	1.94E-4	1.1E-4	5.8E-5	2.84E-5	
+116.0	1.78E-3	1.37E-3	1.02E-3	7.2E-4	4.87E-4	3.12E-4	1.88E-4	1.06E-4	5.58E-5	2.73E-5	
+116.5	1.74E-3	1.34E-3	9.9E-4	7.01E-4	4.73E-4	3.02E-4	1.82E-4	1.02E-4	5.38E-5	2.62E-5	
+117.0	1.7E-3	1.31E-3	9.65E-4	6.83E-4	4.6E-4	2.93E-4	1.76E-4	9.9E-5	5.18E-5	2.52E-5	
+117.5	1.66E-3	1.27E-3	9.41E-4	6.65E-4	4.47E-4	2.84E-4	1.7E-4	9.56E-5	4.99E-5	2.42E-5	
+118.0	1.62E-3	1.24E-3	9.17E-4	6.47E-4	4.34E-4	2.76E-4	1.65E-4	9.23E-5	4.81E-5	2.32E-5	
+118.5	1.59E-3	1.21E-3	8.94E-4	6.3E-4	4.22E-4	2.68E-4	1.6E-4	8.92E-5	4.63E-5	2.23E-5	
+119.0	1.55E-3	1.19E-3	8.72E-4	6.13E-4	4.1E-4	2.6E-4	1.55E-4	8.61E-5	4.46E-5	2.14E-5	
+119.5	1.51E-3	1.16E-3	8.5E-4	5.97E-4	3.99E-4	2.52E-4	1.5E-4	8.32E-5	4.3E-5	2.06E-5	
+120.0	1.48E-3	1.13E-3	8.29E-4	5.81E-4	3.88E-4	2.45E-4	1.45E-4	8.03E-5	4.14E-5	1.97E-5	
+120.5	1.45E-3	1.1E-3	8.08E-4	5.66E-4	3.77E-4	2.37E-4	1.4E-4	7.76E-5	3.99E-5	1.9E-5	
+121.0	1.41E-3	1.08E-3	7.88E-4	5.51E-4	3.66E-4	2.3E-4	1.36E-4	7.5E-5	3.84E-5	1.82E-5	
+121.5	1.38E-3	1.05E-3	7.68E-4	5.36E-4	3.56E-4	2.23E-4	1.32E-4	7.24E-5	3.7E-5	1.75E-5	
+122.0	1.35E-3	1.03E-3	7.49E-4	5.22E-4	3.46E-4	2.17E-4	1.27E-4	6.99E-5	3.56E-5	1.68E-5	
+122.5	1.32E-3	1.0E-3	7.3E-4	5.08E-4	3.36E-4	2.1E-4	1.23E-4	6.75E-5	3.43E-5	1.61E-5	
+123.0	1.29E-3	9.78E-4	7.12E-4	4.95E-4	3.27E-4	2.04E-4	1.19E-4	6.52E-5	3.31E-5	1.55E-5	
+123.5	1.26E-3	9.54E-4	6.94E-4	4.82E-4	3.18E-4	1.98E-4	1.16E-4	6.3E-5	3.19E-5	1.49E-5	
+124.0	1.23E-3	9.32E-4	6.77E-4	4.69E-4	3.09E-4	1.92E-4	1.12E-4	6.08E-5	3.07E-5	1.43E-5	
+124.5	1.2E-3	9.09E-4	6.6E-4	4.57E-4	3.0E-4	1.86E-4	1.08E-4	5.88E-5	2.96E-5	1.37E-5	
+125.0	1.18E-3	8.88E-4	6.43E-4	4.45E-4	2.92E-4	1.81E-4	1.05E-4	5.68E-5	2.85E-5	1.32E-5	
+125.5	1.15E-3	8.66E-4	6.27E-4	4.33E-4	2.84E-4	1.75E-4	1.02E-4	5.48E-5	2.74E-5	1.27E-5	
+126.0	1.12E-3	8.46E-4	6.11E-4	4.21E-4	2.76E-4	1.7E-4	9.83E-5	5.3E-5	2.64E-5	1.22E-5	
+126.5	1.1E-3	8.26E-4	5.96E-4	4.1E-4	2.68E-4	1.65E-4	9.52E-5	5.11E-5	2.55E-5	1.17E-5	
+127.0	1.07E-3	8.06E-4	5.81E-4	3.99E-4	2.6E-4	1.6E-4	9.21E-5	4.94E-5	2.45E-5	1.12E-5	
+127.5	1.05E-3	7.87E-4	5.67E-4	3.89E-4	2.53E-4	1.55E-4	8.92E-5	4.77E-5	2.36E-5	1.08E-5	
+128.0	1.02E-3	7.68E-4	5.52E-4	3.79E-4	2.46E-4	1.51E-4	8.63E-5	4.61E-5	2.28E-5	1.03E-5	
+128.5	1.0E-3	7.5E-4	5.38E-4	3.69E-4	2.39E-4	1.46E-4	8.36E-5	4.45E-5	2.19E-5	9.94E-6	
+129.0	9.77E-4	7.32E-4	5.25E-4	3.59E-4	2.32E-4	1.42E-4	8.09E-5	4.3E-5	2.11E-5	9.54E-6	
+129.5	9.55E-4	7.14E-4	5.12E-4	3.49E-4	2.26E-4	1.38E-4	7.84E-5	4.15E-5	2.03E-5	9.17E-6	
+130.0	9.33E-4	6.97E-4	4.99E-4	3.4E-4	2.2E-4	1.33E-4	7.59E-5	4.01E-5	1.96E-5	8.8E-6	
+130.5	9.12E-4	6.81E-4	4.87E-4	3.31E-4	2.13E-4	1.29E-4	7.34E-5	3.87E-5	1.89E-5	8.46E-6	
+131.0	8.91E-4	6.65E-4	4.74E-4	3.22E-4	2.07E-4	1.26E-4	7.11E-5	3.74E-5	1.82E-5	8.12E-6	
+131.5	8.71E-4	6.49E-4	4.62E-4	3.14E-4	2.02E-4	1.22E-4	6.88E-5	3.61E-5	1.75E-5	7.8E-6	
+132.0	8.51E-4	6.33E-4	4.51E-4	3.06E-4	1.96E-4	1.18E-4	6.66E-5	3.49E-5	1.69E-5	7.49E-6	
+132.5	8.32E-4	6.18E-4	4.4E-4	2.98E-4	1.9E-4	1.15E-4	6.45E-5	3.37E-5	1.63E-5	7.19E-6	
+133.0	8.13E-4	6.03E-4	4.29E-4	2.9E-4	1.85E-4	1.11E-4	6.25E-5	3.26E-5	1.57E-5	6.91E-6	
+133.5	7.94E-4	5.89E-4	4.18E-4	2.82E-4	1.8E-4	1.08E-4	6.05E-5	3.14E-5	1.51E-5	6.64E-6	
+134.0	7.76E-4	5.75E-4	4.07E-4	2.75E-4	1.75E-4	1.05E-4	5.85E-5	3.04E-5	1.45E-5	6.37E-6	
+134.5	7.59E-4	5.61E-4	3.97E-4	2.67E-4	1.7E-4	1.02E-4	5.67E-5	2.93E-5	1.4E-5	6.12E-6	
+135.0	7.41E-4	5.48E-4	3.87E-4	2.6E-4	1.65E-4	9.86E-5	5.49E-5	2.83E-5	1.35E-5	5.88E-6	
+135.5	7.24E-4	5.35E-4	3.78E-4	2.53E-4	1.61E-4	9.56E-5	5.31E-5	2.74E-5	1.3E-5	5.65E-6	
+136.0	7.08E-4	5.22E-4	3.68E-4	2.47E-4	1.56E-4	9.28E-5	5.14E-5	2.64E-5	1.25E-5	5.42E-6	
+136.5	6.92E-4	5.1E-4	3.59E-4	2.4E-4	1.52E-4	9.0E-5	4.98E-5	2.55E-5	1.2E-5	5.21E-6	
+137.0	6.76E-4	4.98E-4	3.5E-4	2.34E-4	1.47E-4	8.73E-5	4.82E-5	2.47E-5	1.16E-5	5.0E-6	
+137.5	6.61E-4	4.86E-4	3.41E-4	2.28E-4	1.43E-4	8.47E-5	4.67E-5	2.38E-5	1.12E-5	4.8E-6	
+138.0	6.46E-4	4.74E-4	3.33E-4	2.22E-4	1.39E-4	8.22E-5	4.52E-5	2.3E-5	1.08E-5	4.61E-6	
+138.5	6.31E-4	4.63E-4	3.24E-4	2.16E-4	1.35E-4	7.97E-5	4.37E-5	2.22E-5	1.04E-5	4.43E-6	
+139.0	6.17E-4	4.52E-4	3.16E-4	2.1E-4	1.32E-4	7.74E-5	4.24E-5	2.15E-5	9.99E-6	4.26E-6	
+139.5	6.03E-4	4.41E-4	3.08E-4	2.04E-4	1.28E-4	7.51E-5	4.1E-5	2.07E-5	9.63E-6	4.09E-6	
+140.0	5.89E-4	4.3E-4	3.0E-4	1.99E-4	1.24E-4	7.28E-5	3.97E-5	2.0E-5	9.27E-6	3.93E-6	
+140.5	5.75E-4	4.2E-4	2.93E-4	1.94E-4	1.21E-4	7.06E-5	3.84E-5	1.93E-5	8.93E-6	3.77E-6	
+141.0	5.62E-4	4.1E-4	2.86E-4	1.89E-4	1.17E-4	6.85E-5	3.72E-5	1.87E-5	8.6E-6	3.62E-6	
+141.5	5.5E-4	4.0E-4	2.78E-4	1.84E-4	1.14E-4	6.65E-5	3.6E-5	1.8E-5	8.29E-6	3.48E-6	
+142.0	5.37E-4	3.91E-4	2.71E-4	1.79E-4	1.11E-4	6.45E-5	3.49E-5	1.74E-5	7.98E-6	3.34E-6	
+142.5	5.25E-4	3.82E-4	2.65E-4	1.74E-4	1.08E-4	6.26E-5	3.38E-5	1.68E-5	7.69E-6	3.21E-6	
+143.0	5.13E-4	3.72E-4	2.58E-4	1.69E-4	1.05E-4	6.07E-5	3.27E-5	1.62E-5	7.41E-6	3.08E-6	
+143.5	5.01E-4	3.64E-4	2.52E-4	1.65E-4	1.02E-4	5.89E-5	3.16E-5	1.57E-5	7.14E-6	2.96E-6	
+144.0	4.9E-4	3.55E-4	2.45E-4	1.61E-4	9.91E-5	5.72E-5	3.06E-5	1.52E-5	6.87E-6	2.84E-6	
+144.5	4.79E-4	3.46E-4	2.39E-4	1.56E-4	9.63E-5	5.55E-5	2.97E-5	1.46E-5	6.62E-6	2.73E-6	
+145.0	4.68E-4	3.38E-4	2.33E-4	1.52E-4	9.36E-5	5.38E-5	2.87E-5	1.41E-5	6.38E-6	2.62E-6	
+145.5	4.57E-4	3.3E-4	2.27E-4	1.48E-4	9.1E-5	5.22E-5	2.78E-5	1.37E-5	6.14E-6	2.52E-6	
+146.0	4.47E-4	3.22E-4	2.22E-4	1.44E-4	8.84E-5	5.06E-5	2.69E-5	1.32E-5	5.92E-6	2.42E-6	
+146.5	4.36E-4	3.15E-4	2.16E-4	1.4E-4	8.59E-5	4.91E-5	2.61E-5	1.27E-5	5.7E-6	2.32E-6	
+147.0	4.27E-4	3.07E-4	2.11E-4	1.37E-4	8.35E-5	4.77E-5	2.52E-5	1.23E-5	5.49E-6	2.23E-6	
+147.5	4.17E-4	3.0E-4	2.05E-4	1.33E-4	8.12E-5	4.62E-5	2.44E-5	1.19E-5	5.29E-6	2.14E-6	
+148.0	4.07E-4	2.93E-4	2.0E-4	1.3E-4	7.89E-5	4.49E-5	2.36E-5	1.15E-5	5.1E-6	2.06E-6	
+148.5	3.98E-4	2.86E-4	1.95E-4	1.26E-4	7.67E-5	4.35E-5	2.29E-5	1.11E-5	4.91E-6	1.98E-6	
+149.0	3.89E-4	2.79E-4	1.9E-4	1.23E-4	7.46E-5	4.22E-5	2.22E-5	1.07E-5	4.73E-6	1.9E-6	
+149.5	3.8E-4	2.72E-4	1.86E-4	1.2E-4	7.25E-5	4.1E-5	2.15E-5	1.03E-5	4.55E-6	1.82E-6	
+150.0	3.71E-4	2.66E-4	1.81E-4	1.16E-4	7.04E-5	3.97E-5	2.08E-5	9.99E-6	4.39E-6	1.75E-6	
+
+
+PARAMETER: MICHAELIS-MENTEN KM CONSTANT FOR 3A4-1-0
+
+Summary Results:
+
+Param Value	Amount Dissolved-ZGB 60mg PO Joseph et al (mg)	Amount Portal Vein-ZGB 60mg PO Joseph et al (mg)	Result-FDp-ZGB 60mg PO Joseph et al (%)	Amount Absorbed-ZGB 60mg PO Joseph et al (mg)	Result-Fa-ZGB 60mg PO Joseph et al (%)	Result-Fb-ZGB 60mg PO Joseph et al (%)	Result-AUC-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-AUC(0-t)-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-Cmax-ZGB 60mg PO Joseph et al (ug/mL)	Result-Tmax-ZGB 60mg PO Joseph et al (hrs)	Result-LCmax-ZGB 60mg PO Joseph et al (ug/mL)
+1.590	60.00	40.17	66.95	60.00	99.99	58.20	4163.3	4163.3	0.434	1.000	0.667
+1.854	60.00	40.16	66.94	60.00	99.99	58.93	4598.6	4598.5	0.444	1.000	0.682
+2.163	60.00	40.16	66.93	60.00	99.99	59.57	5051.4	5051.2	0.454	1.000	0.695
+2.523	60.00	40.16	66.93	60.00	99.99	60.12	5517.2	5516.8	0.462	1.000	0.707
+2.943	60.00	40.15	66.92	60.00	99.99	60.61	5990.8	5990.1	0.470	1.000	0.718
+3.434	60.00	40.15	66.91	60.00	99.99	61.03	6466.7	6465.5	0.476	1.100	0.727
+4.005	60.00	40.14	66.91	60.00	99.99	61.39	6939.4	6937.2	0.482	1.100	0.735
+4.672	60.00	40.14	66.90	60.00	99.99	61.71	7403.3	7399.8	0.488	1.100	0.742
+5.450	60.00	40.14	66.89	60.00	99.99	61.98	7853.4	7847.9	0.492	1.100	0.748
+6.358	60.00	40.13	66.89	60.00	99.99	62.21	8285.3	8277.2	0.496	1.100	0.754
+
+REGIONAL ABSORPTION:
+
+Param Value	Stom Fa%	Duod Fa%	Jej1 Fa%	Jej2 Fa%	Ile1 Fa%	Ile2 Fa%	Ile3 Fa%	Caec Fa%	Col Fa%
+1.590	0.0	23.73	39.44	17.74	7.761	3.874	2.055	4.939	0.460
+1.854	0.0	23.73	39.44	17.74	7.761	3.874	2.055	4.939	0.460
+2.163	0.0	23.73	39.44	17.74	7.760	3.874	2.055	4.939	0.460
+2.523	0.0	23.73	39.44	17.74	7.760	3.874	2.055	4.940	0.460
+2.943	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+3.434	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+4.005	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+4.672	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+5.450	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.941	0.460
+6.358	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.941	0.460
+
+
+
+Profiles vs. Time
+
+Param Value: 	1.590	1.854	2.163	2.523	2.943	3.434	4.005	4.672	5.450	6.358
+Time (hr)	Cp (ug/mL)
+0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+0.500	0.339	0.345	0.351	0.356	0.360	0.364	0.367	0.370	0.372	0.375	
+1.000	0.434	0.444	0.454	0.462	0.470	0.476	0.482	0.487	0.491	0.495	
+1.500	0.406	0.418	0.429	0.438	0.447	0.455	0.461	0.467	0.472	0.477	
+2.000	0.362	0.374	0.385	0.395	0.404	0.412	0.419	0.425	0.431	0.436	
+2.500	0.325	0.337	0.348	0.359	0.368	0.376	0.384	0.390	0.396	0.401	
+3.000	0.295	0.307	0.319	0.329	0.339	0.347	0.355	0.362	0.368	0.373	
+3.500	0.270	0.283	0.294	0.305	0.315	0.323	0.331	0.338	0.344	0.349	
+4.000	0.250	0.263	0.274	0.285	0.295	0.304	0.312	0.319	0.325	0.331	
+4.500	0.233	0.246	0.258	0.269	0.279	0.288	0.296	0.304	0.310	0.316	
+5.000	0.220	0.233	0.245	0.256	0.266	0.276	0.284	0.291	0.298	0.304	
+5.500	0.209	0.222	0.234	0.245	0.256	0.265	0.274	0.281	0.288	0.294	
+6.000	0.199	0.212	0.225	0.236	0.246	0.256	0.265	0.272	0.279	0.285	
+6.500	0.190	0.204	0.216	0.227	0.238	0.248	0.257	0.264	0.272	0.278	
+7.000	0.182	0.195	0.208	0.220	0.230	0.240	0.249	0.257	0.264	0.271	
+7.500	0.175	0.188	0.200	0.212	0.223	0.233	0.242	0.250	0.258	0.264	
+8.000	0.168	0.181	0.193	0.205	0.216	0.226	0.236	0.244	0.251	0.258	
+8.500	0.161	0.174	0.187	0.199	0.210	0.220	0.229	0.238	0.245	0.252	
+9.000	0.154	0.168	0.180	0.192	0.203	0.214	0.223	0.232	0.239	0.246	
+9.500	0.148	0.161	0.174	0.186	0.197	0.208	0.217	0.226	0.234	0.240	
+10.00	0.142	0.155	0.168	0.180	0.191	0.202	0.211	0.220	0.228	0.235	
+10.50	0.137	0.150	0.162	0.174	0.186	0.196	0.206	0.214	0.222	0.230	
+11.00	0.131	0.144	0.157	0.169	0.180	0.190	0.200	0.209	0.217	0.224	
+11.50	0.126	0.139	0.151	0.163	0.175	0.185	0.195	0.204	0.212	0.219	
+12.00	0.121	0.134	0.146	0.158	0.169	0.180	0.190	0.199	0.207	0.214	
+12.50	0.116	0.129	0.141	0.153	0.164	0.175	0.185	0.194	0.202	0.209	
+13.00	0.112	0.124	0.136	0.148	0.159	0.170	0.180	0.189	0.197	0.205	
+13.50	0.107	0.120	0.132	0.143	0.155	0.165	0.175	0.184	0.192	0.200	
+14.00	0.103	0.115	0.127	0.139	0.150	0.161	0.170	0.180	0.188	0.195	
+14.50	0.099	0.111	0.123	0.134	0.146	0.156	0.166	0.175	0.183	0.191	
+15.00	0.095	0.107	0.119	0.130	0.141	0.152	0.162	0.171	0.179	0.187	
+15.50	0.091	0.103	0.115	0.126	0.137	0.147	0.157	0.166	0.175	0.182	
+16.00	0.088	0.099	0.111	0.122	0.133	0.143	0.153	0.162	0.171	0.178	
+16.50	0.084	0.096	0.107	0.118	0.129	0.139	0.149	0.158	0.167	0.174	
+17.00	0.081	0.092	0.103	0.114	0.125	0.135	0.145	0.154	0.163	0.170	
+17.50	0.078	0.089	0.100	0.111	0.121	0.132	0.141	0.150	0.159	0.166	
+18.00	0.075	0.085	0.096	0.107	0.118	0.128	0.138	0.147	0.155	0.162	
+18.50	0.072	0.082	0.093	0.104	0.114	0.124	0.134	0.143	0.151	0.159	
+19.00	0.069	0.079	0.090	0.100	0.111	0.121	0.130	0.139	0.148	0.155	
+19.50	0.066	0.076	0.087	0.097	0.108	0.117	0.127	0.136	0.144	0.152	
+20.00	0.063	0.074	0.084	0.094	0.104	0.114	0.124	0.132	0.141	0.148	
+20.50	0.061	0.071	0.081	0.091	0.101	0.111	0.120	0.129	0.137	0.145	
+21.00	0.059	0.068	0.078	0.088	0.098	0.108	0.117	0.126	0.134	0.142	
+21.50	0.056	0.066	0.076	0.085	0.095	0.105	0.114	0.123	0.131	0.138	
+22.00	0.054	0.063	0.073	0.083	0.092	0.102	0.111	0.120	0.128	0.135	
+22.50	0.052	0.061	0.070	0.080	0.090	0.099	0.108	0.117	0.125	0.132	
+23.00	0.050	0.059	0.068	0.078	0.087	0.096	0.105	0.114	0.122	0.129	
+23.50	0.048	0.057	0.066	0.075	0.084	0.094	0.102	0.111	0.119	0.126	
+24.00	0.046	0.055	0.063	0.073	0.082	0.091	0.100	0.108	0.116	0.123	
+24.50	0.044	0.053	0.061	0.070	0.079	0.088	0.097	0.105	0.113	0.120	
+25.00	0.042	0.051	0.059	0.068	0.077	0.086	0.095	0.103	0.110	0.118	
+25.50	0.041	0.049	0.057	0.066	0.075	0.084	0.092	0.100	0.108	0.115	
+26.00	0.039	0.047	0.055	0.064	0.073	0.081	0.090	0.098	0.105	0.112	
+26.50	0.038	0.045	0.053	0.062	0.070	0.079	0.087	0.095	0.103	0.110	
+27.00	0.036	0.044	0.052	0.060	0.068	0.077	0.085	0.093	0.100	0.107	
+27.50	0.035	0.042	0.050	0.058	0.066	0.075	0.083	0.091	0.098	0.105	
+28.00	0.033	0.040	0.048	0.056	0.064	0.072	0.080	0.088	0.096	0.103	
+28.50	0.032	0.039	0.046	0.054	0.062	0.070	0.078	0.086	0.093	0.100	
+29.00	0.031	0.038	0.045	0.053	0.060	0.068	0.076	0.084	0.091	0.098	
+29.50	0.029	0.036	0.043	0.051	0.059	0.067	0.074	0.082	0.089	0.096	
+30.00	0.028	0.035	0.042	0.049	0.057	0.065	0.072	0.080	0.087	0.093	
+30.50	0.027	0.034	0.040	0.048	0.055	0.063	0.070	0.078	0.085	0.091	
+31.00	0.026	0.032	0.039	0.046	0.054	0.061	0.069	0.076	0.083	0.089	
+31.50	0.025	0.031	0.038	0.045	0.052	0.059	0.067	0.074	0.081	0.087	
+32.00	0.024	0.030	0.036	0.043	0.050	0.058	0.065	0.072	0.079	0.085	
+32.50	0.023	0.029	0.035	0.042	0.049	0.056	0.063	0.070	0.077	0.083	
+33.00	0.022	0.028	0.034	0.041	0.047	0.055	0.062	0.068	0.075	0.081	
+33.50	0.021	0.027	0.033	0.039	0.046	0.053	0.060	0.067	0.073	0.080	
+34.00	0.020	0.026	0.032	0.038	0.045	0.052	0.058	0.065	0.072	0.078	
+34.50	0.020	0.025	0.031	0.037	0.043	0.050	0.057	0.063	0.070	0.076	
+35.00	0.019	0.024	0.030	0.036	0.042	0.049	0.055	0.062	0.068	0.074	
+35.50	0.018	0.023	0.029	0.035	0.041	0.047	0.054	0.060	0.067	0.073	
+36.00	0.017	0.022	0.028	0.033	0.040	0.046	0.052	0.059	0.065	0.071	
+36.50	0.017	0.021	0.027	0.032	0.038	0.045	0.051	0.057	0.063	0.069	
+37.00	0.016	0.021	0.026	0.031	0.037	0.043	0.050	0.056	0.062	0.068	
+37.50	0.015	0.020	0.025	0.030	0.036	0.042	0.048	0.054	0.060	0.066	
+38.00	0.015	0.019	0.024	0.029	0.035	0.041	0.047	0.053	0.059	0.065	
+38.50	0.014	0.018	0.023	0.028	0.034	0.040	0.046	0.052	0.058	0.063	
+39.00	0.014	0.018	0.022	0.028	0.033	0.039	0.045	0.051	0.056	0.062	
+39.50	0.013	0.017	0.022	0.027	0.032	0.038	0.043	0.049	0.055	0.060	
+40.00	0.013	0.016	0.021	0.026	0.031	0.037	0.042	0.048	0.054	0.059	
+40.50	0.012	0.016	0.020	0.025	0.030	0.036	0.041	0.047	0.052	0.058	
+41.00	0.012	0.015	0.019	0.024	0.029	0.035	0.040	0.046	0.051	0.056	
+41.50	0.011	0.015	0.019	0.023	0.028	0.034	0.039	0.044	0.050	0.055	
+42.00	0.011	0.014	0.018	0.023	0.028	0.033	0.038	0.043	0.049	0.054	
+42.50	0.010	0.014	0.018	0.022	0.027	0.032	0.037	0.042	0.048	0.053	
+43.00	9.91E-3	0.013	0.017	0.021	0.026	0.031	0.036	0.041	0.046	0.051	
+43.50	9.52E-3	0.013	0.016	0.021	0.025	0.030	0.035	0.040	0.045	0.050	
+44.00	9.14E-3	0.012	0.016	0.020	0.024	0.029	0.034	0.039	0.044	0.049	
+44.50	8.78E-3	0.012	0.015	0.019	0.024	0.028	0.033	0.038	0.043	0.048	
+45.00	8.43E-3	0.011	0.015	0.019	0.023	0.028	0.032	0.037	0.042	0.047	
+45.50	8.1E-3	0.011	0.014	0.018	0.022	0.027	0.032	0.036	0.041	0.046	
+46.00	7.78E-3	0.011	0.014	0.017	0.022	0.026	0.031	0.035	0.040	0.045	
+46.50	7.47E-3	0.010	0.013	0.017	0.021	0.025	0.030	0.035	0.039	0.044	
+47.00	7.17E-3	9.75E-3	0.013	0.016	0.020	0.025	0.029	0.034	0.038	0.043	
+47.50	6.89E-3	9.4E-3	0.012	0.016	0.020	0.024	0.028	0.033	0.037	0.042	
+48.00	6.62E-3	9.05E-3	0.012	0.015	0.019	0.023	0.028	0.032	0.036	0.041	
+48.50	6.36E-3	8.72E-3	0.012	0.015	0.019	0.023	0.027	0.031	0.036	0.040	
+49.00	6.1E-3	8.4E-3	0.011	0.014	0.018	0.022	0.026	0.030	0.035	0.039	
+49.50	5.86E-3	8.09E-3	0.011	0.014	0.017	0.021	0.025	0.030	0.034	0.038	
+50.00	5.63E-3	7.79E-3	0.010	0.013	0.017	0.021	0.025	0.029	0.033	0.037	
+50.50	5.41E-3	7.51E-3	0.010	0.013	0.016	0.020	0.024	0.028	0.032	0.036	
+51.00	5.19E-3	7.23E-3	9.72E-3	0.013	0.016	0.020	0.023	0.027	0.032	0.036	
+51.50	4.99E-3	6.97E-3	9.39E-3	0.012	0.015	0.019	0.023	0.027	0.031	0.035	
+52.00	4.79E-3	6.71E-3	9.07E-3	0.012	0.015	0.019	0.022	0.026	0.030	0.034	
+52.50	4.6E-3	6.46E-3	8.76E-3	0.011	0.015	0.018	0.022	0.025	0.029	0.033	
+53.00	4.42E-3	6.23E-3	8.46E-3	0.011	0.014	0.017	0.021	0.025	0.029	0.032	
+53.50	4.24E-3	6.0E-3	8.17E-3	0.011	0.014	0.017	0.021	0.024	0.028	0.032	
+54.00	4.08E-3	5.78E-3	7.89E-3	0.010	0.013	0.017	0.020	0.024	0.027	0.031	
+54.50	3.91E-3	5.57E-3	7.62E-3	0.010	0.013	0.016	0.019	0.023	0.027	0.030	
+55.00	3.76E-3	5.36E-3	7.36E-3	9.76E-3	0.013	0.016	0.019	0.022	0.026	0.030	
+55.50	3.61E-3	5.16E-3	7.11E-3	9.45E-3	0.012	0.015	0.018	0.022	0.025	0.029	
+56.00	3.47E-3	4.97E-3	6.87E-3	9.15E-3	0.012	0.015	0.018	0.021	0.025	0.028	
+56.50	3.33E-3	4.79E-3	6.63E-3	8.86E-3	0.011	0.014	0.017	0.021	0.024	0.028	
+57.00	3.2E-3	4.62E-3	6.41E-3	8.58E-3	0.011	0.014	0.017	0.020	0.024	0.027	
+57.50	3.07E-3	4.45E-3	6.19E-3	8.3E-3	0.011	0.014	0.017	0.020	0.023	0.026	
+58.00	2.95E-3	4.28E-3	5.98E-3	8.04E-3	0.010	0.013	0.016	0.019	0.022	0.026	
+58.50	2.83E-3	4.13E-3	5.77E-3	7.78E-3	0.010	0.013	0.016	0.019	0.022	0.025	
+59.00	2.72E-3	3.97E-3	5.58E-3	7.53E-3	9.83E-3	0.012	0.015	0.018	0.021	0.025	
+59.50	2.61E-3	3.83E-3	5.39E-3	7.29E-3	9.54E-3	0.012	0.015	0.018	0.021	0.024	
+60.00	2.51E-3	3.69E-3	5.2E-3	7.06E-3	9.26E-3	0.012	0.014	0.017	0.020	0.023	
+60.50	2.41E-3	3.55E-3	5.02E-3	6.84E-3	8.98E-3	0.011	0.014	0.017	0.020	0.023	
+61.00	2.32E-3	3.42E-3	4.85E-3	6.62E-3	8.71E-3	0.011	0.014	0.017	0.019	0.022	
+61.50	2.22E-3	3.3E-3	4.69E-3	6.41E-3	8.45E-3	0.011	0.013	0.016	0.019	0.022	
+62.00	2.14E-3	3.18E-3	4.53E-3	6.2E-3	8.2E-3	0.010	0.013	0.016	0.019	0.021	
+62.50	2.05E-3	3.06E-3	4.37E-3	6.01E-3	7.96E-3	0.010	0.013	0.015	0.018	0.021	
+63.00	1.97E-3	2.95E-3	4.22E-3	5.81E-3	7.72E-3	9.91E-3	0.012	0.015	0.018	0.020	
+63.50	1.89E-3	2.84E-3	4.08E-3	5.63E-3	7.49E-3	9.63E-3	0.012	0.015	0.017	0.020	
+64.00	1.82E-3	2.73E-3	3.94E-3	5.45E-3	7.26E-3	9.36E-3	0.012	0.014	0.017	0.020	
+64.50	1.75E-3	2.63E-3	3.8E-3	5.28E-3	7.05E-3	9.1E-3	0.011	0.014	0.016	0.019	
+65.00	1.68E-3	2.54E-3	3.67E-3	5.11E-3	6.84E-3	8.84E-3	0.011	0.014	0.016	0.019	
+65.50	1.61E-3	2.44E-3	3.55E-3	4.95E-3	6.63E-3	8.59E-3	0.011	0.013	0.016	0.018	
+66.00	1.55E-3	2.35E-3	3.43E-3	4.79E-3	6.44E-3	8.35E-3	0.011	0.013	0.015	0.018	
+66.50	1.49E-3	2.27E-3	3.31E-3	4.64E-3	6.24E-3	8.12E-3	0.010	0.013	0.015	0.017	
+67.00	1.43E-3	2.18E-3	3.2E-3	4.49E-3	6.06E-3	7.89E-3	9.95E-3	0.012	0.015	0.017	
+67.50	1.37E-3	2.1E-3	3.09E-3	4.34E-3	5.88E-3	7.67E-3	9.69E-3	0.012	0.014	0.017	
+68.00	1.32E-3	2.03E-3	2.98E-3	4.21E-3	5.7E-3	7.46E-3	9.44E-3	0.012	0.014	0.016	
+68.50	1.26E-3	1.95E-3	2.88E-3	4.07E-3	5.53E-3	7.25E-3	9.19E-3	0.011	0.014	0.016	
+69.00	1.21E-3	1.88E-3	2.78E-3	3.94E-3	5.37E-3	7.04E-3	8.94E-3	0.011	0.013	0.016	
+69.50	1.17E-3	1.81E-3	2.69E-3	3.82E-3	5.21E-3	6.85E-3	8.71E-3	0.011	0.013	0.015	
+70.00	1.12E-3	1.75E-3	2.6E-3	3.7E-3	5.05E-3	6.65E-3	8.48E-3	0.010	0.013	0.015	
+70.50	1.08E-3	1.68E-3	2.51E-3	3.58E-3	4.9E-3	6.47E-3	8.25E-3	0.010	0.012	0.014	
+71.00	1.03E-3	1.62E-3	2.42E-3	3.46E-3	4.75E-3	6.29E-3	8.03E-3	9.96E-3	0.012	0.014	
+71.50	9.92E-4	1.56E-3	2.34E-3	3.35E-3	4.61E-3	6.11E-3	7.82E-3	9.71E-3	0.012	0.014	
+72.00	9.53E-4	1.5E-3	2.26E-3	3.25E-3	4.47E-3	5.94E-3	7.61E-3	9.47E-3	0.011	0.014	
+72.50	9.15E-4	1.45E-3	2.18E-3	3.14E-3	4.34E-3	5.77E-3	7.41E-3	9.23E-3	0.011	0.013	
+73.00	8.79E-4	1.39E-3	2.11E-3	3.04E-3	4.21E-3	5.61E-3	7.22E-3	9.0E-3	0.011	0.013	
+73.50	8.44E-4	1.34E-3	2.04E-3	2.95E-3	4.09E-3	5.45E-3	7.03E-3	8.77E-3	0.011	0.013	
+74.00	8.11E-4	1.29E-3	1.97E-3	2.85E-3	3.96E-3	5.3E-3	6.84E-3	8.55E-3	0.010	0.012	
+74.50	7.79E-4	1.25E-3	1.9E-3	2.76E-3	3.85E-3	5.15E-3	6.66E-3	8.34E-3	0.010	0.012	
+75.00	7.48E-4	1.2E-3	1.83E-3	2.67E-3	3.73E-3	5.01E-3	6.48E-3	8.13E-3	9.9E-3	0.012	
+75.50	7.18E-4	1.16E-3	1.77E-3	2.59E-3	3.62E-3	4.87E-3	6.31E-3	7.93E-3	9.67E-3	0.011	
+76.00	6.9E-4	1.11E-3	1.71E-3	2.51E-3	3.51E-3	4.73E-3	6.15E-3	7.73E-3	9.44E-3	0.011	
+76.50	6.62E-4	1.07E-3	1.65E-3	2.43E-3	3.41E-3	4.6E-3	5.98E-3	7.53E-3	9.21E-3	0.011	
+77.00	6.36E-4	1.03E-3	1.6E-3	2.35E-3	3.31E-3	4.47E-3	5.82E-3	7.34E-3	8.99E-3	0.011	
+77.50	6.11E-4	9.96E-4	1.54E-3	2.27E-3	3.21E-3	4.34E-3	5.67E-3	7.16E-3	8.78E-3	0.010	
+78.00	5.87E-4	9.59E-4	1.49E-3	2.2E-3	3.11E-3	4.22E-3	5.52E-3	6.98E-3	8.57E-3	0.010	
+78.50	5.64E-4	9.24E-4	1.44E-3	2.13E-3	3.02E-3	4.1E-3	5.37E-3	6.81E-3	8.36E-3	0.010	
+79.00	5.41E-4	8.9E-4	1.39E-3	2.06E-3	2.93E-3	3.99E-3	5.23E-3	6.64E-3	8.17E-3	9.78E-3	
+79.50	5.2E-4	8.57E-4	1.34E-3	2.0E-3	2.84E-3	3.88E-3	5.09E-3	6.47E-3	7.97E-3	9.56E-3	
+80.00	4.99E-4	8.26E-4	1.3E-3	1.93E-3	2.76E-3	3.77E-3	4.96E-3	6.31E-3	7.78E-3	9.34E-3	
+80.50	4.8E-4	7.96E-4	1.25E-3	1.87E-3	2.67E-3	3.66E-3	4.83E-3	6.15E-3	7.6E-3	9.13E-3	
+81.00	4.61E-4	7.66E-4	1.21E-3	1.81E-3	2.59E-3	3.56E-3	4.7E-3	6.0E-3	7.41E-3	8.92E-3	
+81.50	4.42E-4	7.38E-4	1.17E-3	1.75E-3	2.52E-3	3.46E-3	4.58E-3	5.85E-3	7.24E-3	8.72E-3	
+82.00	4.25E-4	7.11E-4	1.13E-3	1.7E-3	2.44E-3	3.36E-3	4.46E-3	5.7E-3	7.07E-3	8.52E-3	
+82.50	4.08E-4	6.85E-4	1.09E-3	1.64E-3	2.37E-3	3.27E-3	4.34E-3	5.56E-3	6.9E-3	8.33E-3	
+83.00	3.92E-4	6.6E-4	1.05E-3	1.59E-3	2.3E-3	3.18E-3	4.22E-3	5.42E-3	6.73E-3	8.14E-3	
+83.50	3.76E-4	6.36E-4	1.02E-3	1.54E-3	2.23E-3	3.09E-3	4.11E-3	5.28E-3	6.57E-3	7.95E-3	
+84.00	3.62E-4	6.12E-4	9.81E-4	1.49E-3	2.16E-3	3.0E-3	4.0E-3	5.15E-3	6.42E-3	7.77E-3	
+84.50	3.47E-4	5.9E-4	9.48E-4	1.44E-3	2.1E-3	2.92E-3	3.9E-3	5.02E-3	6.26E-3	7.59E-3	
+85.00	3.33E-4	5.68E-4	9.15E-4	1.4E-3	2.04E-3	2.84E-3	3.79E-3	4.89E-3	6.11E-3	7.42E-3	
+85.50	3.2E-4	5.47E-4	8.84E-4	1.35E-3	1.98E-3	2.76E-3	3.69E-3	4.77E-3	5.97E-3	7.25E-3	
+86.00	3.08E-4	5.27E-4	8.54E-4	1.31E-3	1.92E-3	2.68E-3	3.6E-3	4.65E-3	5.83E-3	7.09E-3	
+86.50	2.95E-4	5.08E-4	8.25E-4	1.27E-3	1.86E-3	2.6E-3	3.5E-3	4.54E-3	5.69E-3	6.92E-3	
+87.00	2.84E-4	4.89E-4	7.96E-4	1.23E-3	1.8E-3	2.53E-3	3.41E-3	4.42E-3	5.55E-3	6.77E-3	
+87.50	2.72E-4	4.71E-4	7.69E-4	1.19E-3	1.75E-3	2.46E-3	3.32E-3	4.31E-3	5.42E-3	6.61E-3	
+88.00	2.62E-4	4.54E-4	7.43E-4	1.15E-3	1.7E-3	2.39E-3	3.23E-3	4.2E-3	5.29E-3	6.46E-3	
+88.50	2.51E-4	4.37E-4	7.18E-4	1.12E-3	1.65E-3	2.32E-3	3.14E-3	4.1E-3	5.16E-3	6.31E-3	
+89.00	2.41E-4	4.21E-4	6.93E-4	1.08E-3	1.6E-3	2.26E-3	3.06E-3	4.0E-3	5.04E-3	6.17E-3	
+89.50	2.32E-4	4.06E-4	6.69E-4	1.05E-3	1.55E-3	2.2E-3	2.98E-3	3.9E-3	4.92E-3	6.03E-3	
+90.00	2.23E-4	3.91E-4	6.47E-4	1.01E-3	1.5E-3	2.13E-3	2.9E-3	3.8E-3	4.8E-3	5.89E-3	
+90.50	2.14E-4	3.76E-4	6.24E-4	9.8E-4	1.46E-3	2.07E-3	2.83E-3	3.7E-3	4.69E-3	5.76E-3	
+91.00	2.05E-4	3.63E-4	6.03E-4	9.48E-4	1.42E-3	2.02E-3	2.75E-3	3.61E-3	4.58E-3	5.63E-3	
+91.50	1.97E-4	3.49E-4	5.82E-4	9.18E-4	1.37E-3	1.96E-3	2.68E-3	3.52E-3	4.47E-3	5.5E-3	
+92.00	1.89E-4	3.37E-4	5.63E-4	8.89E-4	1.33E-3	1.9E-3	2.61E-3	3.43E-3	4.36E-3	5.37E-3	
+92.50	1.82E-4	3.24E-4	5.43E-4	8.61E-4	1.29E-3	1.85E-3	2.54E-3	3.35E-3	4.26E-3	5.25E-3	
+93.00	1.75E-4	3.12E-4	5.25E-4	8.33E-4	1.25E-3	1.8E-3	2.47E-3	3.26E-3	4.16E-3	5.13E-3	
+93.50	1.68E-4	3.01E-4	5.07E-4	8.07E-4	1.22E-3	1.75E-3	2.41E-3	3.18E-3	4.06E-3	5.02E-3	
+94.00	1.61E-4	2.9E-4	4.9E-4	7.81E-4	1.18E-3	1.7E-3	2.34E-3	3.1E-3	3.96E-3	4.9E-3	
+94.50	1.55E-4	2.79E-4	4.73E-4	7.56E-4	1.15E-3	1.65E-3	2.28E-3	3.02E-3	3.87E-3	4.79E-3	
+95.00	1.49E-4	2.69E-4	4.57E-4	7.32E-4	1.11E-3	1.61E-3	2.22E-3	2.95E-3	3.77E-3	4.68E-3	
+95.50	1.43E-4	2.59E-4	4.41E-4	7.09E-4	1.08E-3	1.56E-3	2.16E-3	2.87E-3	3.68E-3	4.57E-3	
+96.00	1.37E-4	2.49E-4	4.26E-4	6.86E-4	1.05E-3	1.52E-3	2.1E-3	2.8E-3	3.6E-3	4.47E-3	
+96.50	1.32E-4	2.4E-4	4.12E-4	6.64E-4	1.01E-3	1.47E-3	2.05E-3	2.73E-3	3.51E-3	4.37E-3	
+97.00	1.27E-4	2.31E-4	3.97E-4	6.43E-4	9.85E-4	1.43E-3	1.99E-3	2.66E-3	3.43E-3	4.27E-3	
+97.50	1.22E-4	2.23E-4	3.84E-4	6.23E-4	9.55E-4	1.39E-3	1.94E-3	2.6E-3	3.34E-3	4.17E-3	
+98.00	1.17E-4	2.15E-4	3.71E-4	6.03E-4	9.27E-4	1.35E-3	1.89E-3	2.53E-3	3.27E-3	4.08E-3	
+98.50	1.12E-4	2.07E-4	3.58E-4	5.83E-4	8.99E-4	1.32E-3	1.84E-3	2.47E-3	3.19E-3	3.98E-3	
+99.00	1.08E-4	1.99E-4	3.46E-4	5.65E-4	8.72E-4	1.28E-3	1.79E-3	2.41E-3	3.11E-3	3.89E-3	
+99.50	1.03E-4	1.92E-4	3.34E-4	5.47E-4	8.46E-4	1.24E-3	1.74E-3	2.35E-3	3.04E-3	3.8E-3	
+100.0	9.93E-5	1.85E-4	3.23E-4	5.29E-4	8.21E-4	1.21E-3	1.7E-3	2.29E-3	2.96E-3	3.72E-3	
+100.5	9.54E-5	1.78E-4	3.12E-4	5.13E-4	7.97E-4	1.17E-3	1.65E-3	2.23E-3	2.89E-3	3.63E-3	
+101.0	9.16E-5	1.72E-4	3.01E-4	4.96E-4	7.73E-4	1.14E-3	1.61E-3	2.17E-3	2.83E-3	3.55E-3	
+101.5	8.8E-5	1.65E-4	2.91E-4	4.8E-4	7.5E-4	1.11E-3	1.57E-3	2.12E-3	2.76E-3	3.47E-3	
+102.0	8.45E-5	1.59E-4	2.81E-4	4.65E-4	7.27E-4	1.08E-3	1.53E-3	2.07E-3	2.69E-3	3.39E-3	
+102.5	8.11E-5	1.53E-4	2.71E-4	4.5E-4	7.06E-4	1.05E-3	1.49E-3	2.01E-3	2.63E-3	3.31E-3	
+103.0	7.79E-5	1.48E-4	2.62E-4	4.36E-4	6.85E-4	1.02E-3	1.45E-3	1.96E-3	2.57E-3	3.24E-3	
+103.5	7.49E-5	1.42E-4	2.53E-4	4.22E-4	6.64E-4	9.91E-4	1.41E-3	1.91E-3	2.5E-3	3.16E-3	
+104.0	7.19E-5	1.37E-4	2.44E-4	4.09E-4	6.44E-4	9.63E-4	1.37E-3	1.87E-3	2.44E-3	3.09E-3	
+104.5	6.9E-5	1.32E-4	2.36E-4	3.96E-4	6.25E-4	9.36E-4	1.33E-3	1.82E-3	2.39E-3	3.02E-3	
+105.0	6.63E-5	1.27E-4	2.28E-4	3.83E-4	6.06E-4	9.1E-4	1.3E-3	1.77E-3	2.33E-3	2.95E-3	
+105.5	6.37E-5	1.23E-4	2.2E-4	3.71E-4	5.88E-4	8.84E-4	1.26E-3	1.73E-3	2.27E-3	2.89E-3	
+106.0	6.12E-5	1.18E-4	2.13E-4	3.59E-4	5.71E-4	8.59E-4	1.23E-3	1.69E-3	2.22E-3	2.82E-3	
+106.5	5.87E-5	1.14E-4	2.05E-4	3.48E-4	5.54E-4	8.35E-4	1.2E-3	1.64E-3	2.17E-3	2.76E-3	
+107.0	5.64E-5	1.1E-4	1.98E-4	3.36E-4	5.37E-4	8.12E-4	1.17E-3	1.6E-3	2.12E-3	2.69E-3	
+107.5	5.42E-5	1.06E-4	1.92E-4	3.26E-4	5.21E-4	7.89E-4	1.14E-3	1.56E-3	2.06E-3	2.63E-3	
+108.0	5.2E-5	1.02E-4	1.85E-4	3.15E-4	5.06E-4	7.67E-4	1.11E-3	1.52E-3	2.02E-3	2.57E-3	
+108.5	5.0E-5	9.79E-5	1.79E-4	3.05E-4	4.91E-4	7.46E-4	1.08E-3	1.49E-3	1.97E-3	2.51E-3	
+109.0	4.8E-5	9.43E-5	1.73E-4	2.96E-4	4.76E-4	7.25E-4	1.05E-3	1.45E-3	1.92E-3	2.46E-3	
+109.5	4.61E-5	9.09E-5	1.67E-4	2.86E-4	4.62E-4	7.04E-4	1.02E-3	1.41E-3	1.87E-3	2.4E-3	
+110.0	4.43E-5	8.75E-5	1.61E-4	2.77E-4	4.48E-4	6.85E-4	9.94E-4	1.38E-3	1.83E-3	2.35E-3	
+110.5	4.25E-5	8.43E-5	1.56E-4	2.68E-4	4.35E-4	6.65E-4	9.67E-4	1.34E-3	1.79E-3	2.29E-3	
+111.0	4.08E-5	8.12E-5	1.5E-4	2.6E-4	4.22E-4	6.47E-4	9.42E-4	1.31E-3	1.74E-3	2.24E-3	
+111.5	3.92E-5	7.82E-5	1.45E-4	2.51E-4	4.09E-4	6.29E-4	9.17E-4	1.28E-3	1.7E-3	2.19E-3	
+112.0	3.77E-5	7.54E-5	1.4E-4	2.43E-4	3.97E-4	6.11E-4	8.93E-4	1.24E-3	1.66E-3	2.14E-3	
+112.5	3.62E-5	7.26E-5	1.35E-4	2.36E-4	3.85E-4	5.94E-4	8.69E-4	1.21E-3	1.62E-3	2.09E-3	
+113.0	3.48E-5	6.99E-5	1.31E-4	2.28E-4	3.74E-4	5.77E-4	8.46E-4	1.18E-3	1.58E-3	2.04E-3	
+113.5	3.34E-5	6.74E-5	1.26E-4	2.21E-4	3.62E-4	5.61E-4	8.24E-4	1.15E-3	1.55E-3	2.0E-3	
+114.0	3.21E-5	6.49E-5	1.22E-4	2.14E-4	3.52E-4	5.45E-4	8.02E-4	1.12E-3	1.51E-3	1.95E-3	
+114.5	3.08E-5	6.25E-5	1.18E-4	2.07E-4	3.41E-4	5.3E-4	7.81E-4	1.1E-3	1.47E-3	1.91E-3	
+115.0	2.96E-5	6.02E-5	1.14E-4	2.0E-4	3.31E-4	5.15E-4	7.6E-4	1.07E-3	1.44E-3	1.86E-3	
+115.5	2.84E-5	5.8E-5	1.1E-4	1.94E-4	3.21E-4	5.01E-4	7.4E-4	1.04E-3	1.4E-3	1.82E-3	
+116.0	2.73E-5	5.59E-5	1.06E-4	1.88E-4	3.12E-4	4.87E-4	7.2E-4	1.02E-3	1.37E-3	1.78E-3	
+116.5	2.62E-5	5.38E-5	1.02E-4	1.82E-4	3.02E-4	4.73E-4	7.01E-4	9.9E-4	1.34E-3	1.74E-3	
+117.0	2.52E-5	5.18E-5	9.9E-5	1.76E-4	2.93E-4	4.6E-4	6.83E-4	9.65E-4	1.31E-3	1.7E-3	
+117.5	2.42E-5	4.99E-5	9.56E-5	1.7E-4	2.84E-4	4.47E-4	6.65E-4	9.41E-4	1.27E-3	1.66E-3	
+118.0	2.32E-5	4.81E-5	9.23E-5	1.65E-4	2.76E-4	4.34E-4	6.47E-4	9.17E-4	1.24E-3	1.62E-3	
+118.5	2.23E-5	4.63E-5	8.92E-5	1.6E-4	2.68E-4	4.22E-4	6.3E-4	8.94E-4	1.21E-3	1.59E-3	
+119.0	2.14E-5	4.46E-5	8.61E-5	1.55E-4	2.6E-4	4.1E-4	6.13E-4	8.72E-4	1.19E-3	1.55E-3	
+119.5	2.06E-5	4.3E-5	8.32E-5	1.5E-4	2.52E-4	3.99E-4	5.97E-4	8.5E-4	1.16E-3	1.51E-3	
+120.0	1.97E-5	4.14E-5	8.04E-5	1.45E-4	2.45E-4	3.88E-4	5.81E-4	8.29E-4	1.13E-3	1.48E-3	
+120.5	1.9E-5	3.99E-5	7.76E-5	1.4E-4	2.37E-4	3.77E-4	5.66E-4	8.08E-4	1.1E-3	1.45E-3	
+121.0	1.82E-5	3.84E-5	7.5E-5	1.36E-4	2.3E-4	3.66E-4	5.51E-4	7.88E-4	1.08E-3	1.41E-3	
+121.5	1.75E-5	3.7E-5	7.24E-5	1.32E-4	2.23E-4	3.56E-4	5.36E-4	7.68E-4	1.05E-3	1.38E-3	
+122.0	1.68E-5	3.57E-5	6.99E-5	1.27E-4	2.17E-4	3.46E-4	5.22E-4	7.49E-4	1.03E-3	1.35E-3	
+122.5	1.61E-5	3.43E-5	6.75E-5	1.23E-4	2.1E-4	3.36E-4	5.08E-4	7.3E-4	1.0E-3	1.32E-3	
+123.0	1.55E-5	3.31E-5	6.52E-5	1.19E-4	2.04E-4	3.27E-4	4.95E-4	7.12E-4	9.77E-4	1.29E-3	
+123.5	1.49E-5	3.19E-5	6.3E-5	1.16E-4	1.98E-4	3.18E-4	4.82E-4	6.94E-4	9.54E-4	1.26E-3	
+124.0	1.43E-5	3.07E-5	6.09E-5	1.12E-4	1.92E-4	3.09E-4	4.69E-4	6.77E-4	9.31E-4	1.23E-3	
+124.5	1.37E-5	2.96E-5	5.88E-5	1.08E-4	1.86E-4	3.0E-4	4.57E-4	6.6E-4	9.09E-4	1.2E-3	
+125.0	1.32E-5	2.85E-5	5.68E-5	1.05E-4	1.81E-4	2.92E-4	4.45E-4	6.43E-4	8.88E-4	1.18E-3	
+125.5	1.27E-5	2.74E-5	5.48E-5	1.02E-4	1.75E-4	2.84E-4	4.33E-4	6.27E-4	8.66E-4	1.15E-3	
+126.0	1.22E-5	2.64E-5	5.3E-5	9.83E-5	1.7E-4	2.76E-4	4.21E-4	6.11E-4	8.46E-4	1.12E-3	
+126.5	1.17E-5	2.55E-5	5.12E-5	9.52E-5	1.65E-4	2.68E-4	4.1E-4	5.96E-4	8.26E-4	1.1E-3	
+127.0	1.12E-5	2.45E-5	4.94E-5	9.21E-5	1.6E-4	2.6E-4	3.99E-4	5.81E-4	8.06E-4	1.07E-3	
+127.5	1.08E-5	2.36E-5	4.77E-5	8.92E-5	1.55E-4	2.53E-4	3.89E-4	5.66E-4	7.87E-4	1.05E-3	
+128.0	1.04E-5	2.28E-5	4.61E-5	8.64E-5	1.51E-4	2.46E-4	3.79E-4	5.52E-4	7.68E-4	1.02E-3	
+128.5	9.94E-6	2.19E-5	4.45E-5	8.36E-5	1.46E-4	2.39E-4	3.69E-4	5.38E-4	7.5E-4	1.0E-3	
+129.0	9.55E-6	2.11E-5	4.3E-5	8.09E-5	1.42E-4	2.32E-4	3.59E-4	5.25E-4	7.32E-4	9.77E-4	
+129.5	9.17E-6	2.03E-5	4.15E-5	7.84E-5	1.38E-4	2.26E-4	3.49E-4	5.12E-4	7.14E-4	9.55E-4	
+130.0	8.81E-6	1.96E-5	4.01E-5	7.59E-5	1.33E-4	2.2E-4	3.4E-4	4.99E-4	6.97E-4	9.33E-4	
+130.5	8.46E-6	1.89E-5	3.87E-5	7.34E-5	1.29E-4	2.13E-4	3.31E-4	4.86E-4	6.81E-4	9.12E-4	
+131.0	8.12E-6	1.82E-5	3.74E-5	7.11E-5	1.26E-4	2.07E-4	3.22E-4	4.74E-4	6.64E-4	8.91E-4	
+131.5	7.8E-6	1.75E-5	3.61E-5	6.88E-5	1.22E-4	2.02E-4	3.14E-4	4.62E-4	6.49E-4	8.71E-4	
+132.0	7.49E-6	1.69E-5	3.49E-5	6.66E-5	1.18E-4	1.96E-4	3.06E-4	4.51E-4	6.33E-4	8.51E-4	
+132.5	7.2E-6	1.63E-5	3.37E-5	6.45E-5	1.15E-4	1.9E-4	2.97E-4	4.4E-4	6.18E-4	8.32E-4	
+133.0	6.91E-6	1.57E-5	3.26E-5	6.25E-5	1.11E-4	1.85E-4	2.9E-4	4.29E-4	6.03E-4	8.13E-4	
+133.5	6.64E-6	1.51E-5	3.14E-5	6.05E-5	1.08E-4	1.8E-4	2.82E-4	4.18E-4	5.89E-4	7.94E-4	
+134.0	6.38E-6	1.45E-5	3.04E-5	5.86E-5	1.05E-4	1.75E-4	2.75E-4	4.07E-4	5.75E-4	7.76E-4	
+134.5	6.12E-6	1.4E-5	2.93E-5	5.67E-5	1.02E-4	1.7E-4	2.67E-4	3.97E-4	5.61E-4	7.59E-4	
+135.0	5.88E-6	1.35E-5	2.83E-5	5.49E-5	9.86E-5	1.65E-4	2.6E-4	3.87E-4	5.48E-4	7.41E-4	
+135.5	5.65E-6	1.3E-5	2.74E-5	5.31E-5	9.56E-5	1.61E-4	2.53E-4	3.77E-4	5.35E-4	7.24E-4	
+136.0	5.42E-6	1.25E-5	2.64E-5	5.14E-5	9.28E-5	1.56E-4	2.47E-4	3.68E-4	5.22E-4	7.08E-4	
+136.5	5.21E-6	1.21E-5	2.55E-5	4.98E-5	9.0E-5	1.52E-4	2.4E-4	3.59E-4	5.1E-4	6.92E-4	
+137.0	5.0E-6	1.16E-5	2.47E-5	4.82E-5	8.73E-5	1.47E-4	2.34E-4	3.5E-4	4.97E-4	6.76E-4	
+137.5	4.81E-6	1.12E-5	2.38E-5	4.67E-5	8.47E-5	1.43E-4	2.28E-4	3.41E-4	4.86E-4	6.61E-4	
+138.0	4.62E-6	1.08E-5	2.3E-5	4.52E-5	8.22E-5	1.39E-4	2.22E-4	3.33E-4	4.74E-4	6.46E-4	
+138.5	4.43E-6	1.04E-5	2.22E-5	4.37E-5	7.97E-5	1.35E-4	2.16E-4	3.24E-4	4.63E-4	6.31E-4	
+139.0	4.26E-6	9.99E-6	2.15E-5	4.24E-5	7.74E-5	1.32E-4	2.1E-4	3.16E-4	4.52E-4	6.17E-4	
+139.5	4.09E-6	9.63E-6	2.07E-5	4.1E-5	7.51E-5	1.28E-4	2.04E-4	3.08E-4	4.41E-4	6.02E-4	
+140.0	3.93E-6	9.27E-6	2.0E-5	3.97E-5	7.28E-5	1.24E-4	1.99E-4	3.0E-4	4.3E-4	5.89E-4	
+140.5	3.77E-6	8.93E-6	1.93E-5	3.84E-5	7.07E-5	1.21E-4	1.94E-4	2.93E-4	4.2E-4	5.75E-4	
+141.0	3.62E-6	8.61E-6	1.87E-5	3.72E-5	6.85E-5	1.17E-4	1.89E-4	2.86E-4	4.1E-4	5.62E-4	
+141.5	3.48E-6	8.29E-6	1.8E-5	3.6E-5	6.65E-5	1.14E-4	1.84E-4	2.78E-4	4.0E-4	5.49E-4	
+142.0	3.34E-6	7.99E-6	1.74E-5	3.49E-5	6.45E-5	1.11E-4	1.79E-4	2.71E-4	3.91E-4	5.37E-4	
+142.5	3.21E-6	7.69E-6	1.68E-5	3.38E-5	6.26E-5	1.08E-4	1.74E-4	2.65E-4	3.82E-4	5.25E-4	
+143.0	3.08E-6	7.41E-6	1.62E-5	3.27E-5	6.07E-5	1.05E-4	1.69E-4	2.58E-4	3.72E-4	5.13E-4	
+143.5	2.96E-6	7.14E-6	1.57E-5	3.16E-5	5.89E-5	1.02E-4	1.65E-4	2.52E-4	3.64E-4	5.01E-4	
+144.0	2.84E-6	6.88E-6	1.52E-5	3.06E-5	5.72E-5	9.91E-5	1.61E-4	2.45E-4	3.55E-4	4.9E-4	
+144.5	2.73E-6	6.62E-6	1.46E-5	2.97E-5	5.55E-5	9.63E-5	1.56E-4	2.39E-4	3.46E-4	4.79E-4	
+145.0	2.62E-6	6.38E-6	1.41E-5	2.87E-5	5.38E-5	9.36E-5	1.52E-4	2.33E-4	3.38E-4	4.68E-4	
+145.5	2.52E-6	6.15E-6	1.37E-5	2.78E-5	5.22E-5	9.1E-5	1.48E-4	2.27E-4	3.3E-4	4.57E-4	
+146.0	2.42E-6	5.92E-6	1.32E-5	2.69E-5	5.06E-5	8.84E-5	1.44E-4	2.22E-4	3.22E-4	4.47E-4	
+146.5	2.32E-6	5.7E-6	1.27E-5	2.61E-5	4.91E-5	8.59E-5	1.4E-4	2.16E-4	3.15E-4	4.36E-4	
+147.0	2.23E-6	5.49E-6	1.23E-5	2.52E-5	4.77E-5	8.35E-5	1.37E-4	2.11E-4	3.07E-4	4.26E-4	
+147.5	2.14E-6	5.29E-6	1.19E-5	2.44E-5	4.62E-5	8.12E-5	1.33E-4	2.05E-4	3.0E-4	4.17E-4	
+148.0	2.06E-6	5.1E-6	1.15E-5	2.36E-5	4.49E-5	7.89E-5	1.3E-4	2.0E-4	2.93E-4	4.07E-4	
+148.5	1.98E-6	4.91E-6	1.11E-5	2.29E-5	4.35E-5	7.67E-5	1.26E-4	1.95E-4	2.86E-4	3.98E-4	
+149.0	1.9E-6	4.73E-6	1.07E-5	2.22E-5	4.22E-5	7.46E-5	1.23E-4	1.9E-4	2.79E-4	3.89E-4	
+149.5	1.82E-6	4.56E-6	1.03E-5	2.15E-5	4.1E-5	7.25E-5	1.2E-4	1.86E-4	2.72E-4	3.8E-4	
+150.0	1.75E-6	4.39E-6	9.99E-6	2.08E-5	3.97E-5	7.04E-5	1.16E-4	1.81E-4	2.66E-4	3.71E-4	
+
+
+PARAMETER: MICHAELIS-MENTEN VMAX CONSTANT FOR 3A4-1-0
+
+Summary Results:
+
+Param Value	Amount Dissolved-ZGB 60mg PO Joseph et al (mg)	Amount Portal Vein-ZGB 60mg PO Joseph et al (mg)	Result-FDp-ZGB 60mg PO Joseph et al (%)	Amount Absorbed-ZGB 60mg PO Joseph et al (mg)	Result-Fa-ZGB 60mg PO Joseph et al (%)	Result-Fb-ZGB 60mg PO Joseph et al (%)	Result-AUC-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-AUC(0-t)-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-Cmax-ZGB 60mg PO Joseph et al (ug/mL)	Result-Tmax-ZGB 60mg PO Joseph et al (hrs)	Result-LCmax-ZGB 60mg PO Joseph et al (ug/mL)
+6.32E-4	60.00	40.13	66.89	60.00	99.99	62.21	8285.8	8277.8	0.496	1.100	0.754
+7.37E-4	60.00	40.14	66.89	60.00	99.99	61.98	7853.9	7848.4	0.492	1.100	0.748
+8.59E-4	60.00	40.14	66.90	60.00	99.99	61.71	7403.7	7400.1	0.488	1.100	0.742
+1.0E-3	60.00	40.14	66.91	60.00	99.99	61.39	6939.7	6937.5	0.482	1.100	0.735
+1.17E-3	60.00	40.15	66.91	60.00	99.99	61.03	6466.8	6465.6	0.476	1.100	0.727
+1.36E-3	60.00	40.15	66.92	60.00	99.99	60.61	5990.7	5990.0	0.470	1.000	0.718
+1.59E-3	60.00	40.16	66.93	60.00	99.99	60.12	5516.8	5516.5	0.462	1.000	0.707
+1.86E-3	60.00	40.16	66.93	60.00	99.99	59.56	5050.8	5050.7	0.454	1.000	0.695
+2.17E-3	60.00	40.16	66.94	60.00	99.99	58.93	4597.7	4597.7	0.444	1.000	0.682
+2.53E-3	60.00	40.17	66.95	60.00	99.99	58.20	4162.2	4162.2	0.434	1.000	0.667
+
+REGIONAL ABSORPTION:
+
+Param Value	Stom Fa%	Duod Fa%	Jej1 Fa%	Jej2 Fa%	Ile1 Fa%	Ile2 Fa%	Ile3 Fa%	Caec Fa%	Col Fa%
+6.32E-4	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.941	0.460
+7.37E-4	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.941	0.460
+8.59E-4	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+1.0E-3	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+1.17E-3	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+1.36E-3	0.0	23.73	39.43	17.74	7.760	3.874	2.055	4.940	0.460
+1.59E-3	0.0	23.73	39.44	17.74	7.760	3.874	2.055	4.940	0.460
+1.86E-3	0.0	23.73	39.44	17.74	7.760	3.874	2.055	4.939	0.460
+2.17E-3	0.0	23.73	39.44	17.74	7.761	3.874	2.055	4.939	0.460
+2.53E-3	0.0	23.73	39.44	17.74	7.761	3.874	2.055	4.939	0.460
+
+
+
+Profiles vs. Time
+
+Param Value: 	6.32E-4	7.37E-4	8.59E-4	1.0E-3	1.17E-3	1.36E-3	1.59E-3	1.86E-3	2.17E-3	2.53E-3
+Time (hr)	Cp (ug/mL)
+0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+0.500	0.375	0.372	0.370	0.367	0.364	0.360	0.356	0.351	0.345	0.339	
+1.000	0.495	0.491	0.487	0.482	0.476	0.470	0.462	0.454	0.444	0.434	
+1.500	0.477	0.472	0.467	0.461	0.455	0.447	0.438	0.429	0.418	0.406	
+2.000	0.436	0.431	0.425	0.419	0.412	0.404	0.395	0.385	0.374	0.362	
+2.500	0.401	0.396	0.390	0.384	0.376	0.368	0.359	0.348	0.337	0.324	
+3.000	0.373	0.368	0.362	0.355	0.347	0.339	0.329	0.319	0.307	0.294	
+3.500	0.349	0.344	0.338	0.331	0.323	0.315	0.305	0.294	0.282	0.270	
+4.000	0.331	0.325	0.319	0.312	0.304	0.295	0.285	0.274	0.262	0.250	
+4.500	0.316	0.310	0.304	0.296	0.288	0.279	0.269	0.258	0.246	0.233	
+5.000	0.304	0.298	0.291	0.284	0.276	0.266	0.256	0.245	0.233	0.220	
+5.500	0.294	0.288	0.281	0.274	0.265	0.256	0.245	0.234	0.222	0.209	
+6.000	0.285	0.279	0.272	0.265	0.256	0.246	0.236	0.225	0.212	0.199	
+6.500	0.278	0.272	0.264	0.257	0.248	0.238	0.227	0.216	0.203	0.190	
+7.000	0.271	0.264	0.257	0.249	0.240	0.230	0.220	0.208	0.195	0.182	
+7.500	0.264	0.258	0.250	0.242	0.233	0.223	0.212	0.200	0.188	0.175	
+8.000	0.258	0.251	0.244	0.236	0.226	0.216	0.205	0.193	0.181	0.168	
+8.500	0.252	0.245	0.238	0.229	0.220	0.210	0.199	0.187	0.174	0.161	
+9.000	0.246	0.239	0.232	0.223	0.214	0.203	0.192	0.180	0.168	0.154	
+9.500	0.241	0.234	0.226	0.217	0.208	0.197	0.186	0.174	0.161	0.148	
+10.00	0.235	0.228	0.220	0.211	0.202	0.191	0.180	0.168	0.155	0.142	
+10.50	0.230	0.222	0.214	0.206	0.196	0.186	0.174	0.162	0.150	0.137	
+11.00	0.224	0.217	0.209	0.200	0.190	0.180	0.169	0.157	0.144	0.131	
+11.50	0.219	0.212	0.204	0.195	0.185	0.175	0.163	0.151	0.139	0.126	
+12.00	0.214	0.207	0.199	0.190	0.180	0.169	0.158	0.146	0.134	0.121	
+12.50	0.209	0.202	0.194	0.185	0.175	0.164	0.153	0.141	0.129	0.116	
+13.00	0.205	0.197	0.189	0.180	0.170	0.159	0.148	0.136	0.124	0.112	
+13.50	0.200	0.192	0.184	0.175	0.165	0.155	0.143	0.132	0.120	0.107	
+14.00	0.195	0.188	0.180	0.170	0.161	0.150	0.139	0.127	0.115	0.103	
+14.50	0.191	0.183	0.175	0.166	0.156	0.146	0.134	0.123	0.111	0.099	
+15.00	0.187	0.179	0.171	0.162	0.152	0.141	0.130	0.119	0.107	0.095	
+15.50	0.182	0.175	0.166	0.157	0.147	0.137	0.126	0.115	0.103	0.091	
+16.00	0.178	0.171	0.162	0.153	0.143	0.133	0.122	0.111	0.099	0.088	
+16.50	0.174	0.167	0.158	0.149	0.139	0.129	0.118	0.107	0.096	0.084	
+17.00	0.170	0.163	0.154	0.145	0.135	0.125	0.114	0.103	0.092	0.081	
+17.50	0.166	0.159	0.150	0.141	0.132	0.121	0.111	0.100	0.089	0.078	
+18.00	0.163	0.155	0.147	0.138	0.128	0.118	0.107	0.096	0.085	0.075	
+18.50	0.159	0.151	0.143	0.134	0.124	0.114	0.104	0.093	0.082	0.072	
+19.00	0.155	0.148	0.139	0.130	0.121	0.111	0.100	0.090	0.079	0.069	
+19.50	0.152	0.144	0.136	0.127	0.117	0.108	0.097	0.087	0.076	0.066	
+20.00	0.148	0.141	0.132	0.124	0.114	0.104	0.094	0.084	0.074	0.063	
+20.50	0.145	0.137	0.129	0.120	0.111	0.101	0.091	0.081	0.071	0.061	
+21.00	0.142	0.134	0.126	0.117	0.108	0.098	0.088	0.078	0.068	0.059	
+21.50	0.138	0.131	0.123	0.114	0.105	0.095	0.085	0.076	0.066	0.056	
+22.00	0.135	0.128	0.120	0.111	0.102	0.092	0.083	0.073	0.063	0.054	
+22.50	0.132	0.125	0.117	0.108	0.099	0.090	0.080	0.070	0.061	0.052	
+23.00	0.129	0.122	0.114	0.105	0.096	0.087	0.078	0.068	0.059	0.050	
+23.50	0.126	0.119	0.111	0.102	0.094	0.084	0.075	0.066	0.057	0.048	
+24.00	0.123	0.116	0.108	0.100	0.091	0.082	0.073	0.063	0.055	0.046	
+24.50	0.120	0.113	0.105	0.097	0.088	0.079	0.070	0.061	0.053	0.044	
+25.00	0.118	0.111	0.103	0.095	0.086	0.077	0.068	0.059	0.051	0.042	
+25.50	0.115	0.108	0.100	0.092	0.084	0.075	0.066	0.057	0.049	0.041	
+26.00	0.112	0.105	0.098	0.090	0.081	0.073	0.064	0.055	0.047	0.039	
+26.50	0.110	0.103	0.095	0.087	0.079	0.070	0.062	0.053	0.045	0.038	
+27.00	0.107	0.100	0.093	0.085	0.077	0.068	0.060	0.052	0.044	0.036	
+27.50	0.105	0.098	0.091	0.083	0.075	0.066	0.058	0.050	0.042	0.035	
+28.00	0.103	0.096	0.088	0.080	0.072	0.064	0.056	0.048	0.040	0.033	
+28.50	0.100	0.093	0.086	0.078	0.070	0.062	0.054	0.046	0.039	0.032	
+29.00	0.098	0.091	0.084	0.076	0.068	0.060	0.053	0.045	0.037	0.031	
+29.50	0.096	0.089	0.082	0.074	0.067	0.059	0.051	0.043	0.036	0.029	
+30.00	0.094	0.087	0.080	0.072	0.065	0.057	0.049	0.042	0.035	0.028	
+30.50	0.091	0.085	0.078	0.070	0.063	0.055	0.048	0.040	0.034	0.027	
+31.00	0.089	0.083	0.076	0.069	0.061	0.054	0.046	0.039	0.032	0.026	
+31.50	0.087	0.081	0.074	0.067	0.059	0.052	0.045	0.038	0.031	0.025	
+32.00	0.085	0.079	0.072	0.065	0.058	0.050	0.043	0.036	0.030	0.024	
+32.50	0.083	0.077	0.070	0.063	0.056	0.049	0.042	0.035	0.029	0.023	
+33.00	0.081	0.075	0.068	0.062	0.055	0.047	0.041	0.034	0.028	0.022	
+33.50	0.080	0.073	0.067	0.060	0.053	0.046	0.039	0.033	0.027	0.021	
+34.00	0.078	0.072	0.065	0.058	0.052	0.045	0.038	0.032	0.026	0.020	
+34.50	0.076	0.070	0.063	0.057	0.050	0.043	0.037	0.031	0.025	0.020	
+35.00	0.074	0.068	0.062	0.055	0.049	0.042	0.036	0.030	0.024	0.019	
+35.50	0.073	0.067	0.060	0.054	0.047	0.041	0.035	0.029	0.023	0.018	
+36.00	0.071	0.065	0.059	0.052	0.046	0.040	0.033	0.028	0.022	0.017	
+36.50	0.069	0.063	0.057	0.051	0.045	0.038	0.032	0.027	0.021	0.017	
+37.00	0.068	0.062	0.056	0.050	0.043	0.037	0.031	0.026	0.021	0.016	
+37.50	0.066	0.060	0.054	0.048	0.042	0.036	0.030	0.025	0.020	0.015	
+38.00	0.065	0.059	0.053	0.047	0.041	0.035	0.029	0.024	0.019	0.015	
+38.50	0.063	0.058	0.052	0.046	0.040	0.034	0.028	0.023	0.018	0.014	
+39.00	0.062	0.056	0.051	0.045	0.039	0.033	0.028	0.022	0.018	0.014	
+39.50	0.060	0.055	0.049	0.043	0.038	0.032	0.027	0.022	0.017	0.013	
+40.00	0.059	0.054	0.048	0.042	0.037	0.031	0.026	0.021	0.016	0.013	
+40.50	0.058	0.052	0.047	0.041	0.036	0.030	0.025	0.020	0.016	0.012	
+41.00	0.056	0.051	0.046	0.040	0.035	0.029	0.024	0.019	0.015	0.012	
+41.50	0.055	0.050	0.044	0.039	0.034	0.028	0.023	0.019	0.015	0.011	
+42.00	0.054	0.049	0.043	0.038	0.033	0.028	0.023	0.018	0.014	0.011	
+42.50	0.053	0.048	0.042	0.037	0.032	0.027	0.022	0.018	0.014	0.010	
+43.00	0.051	0.046	0.041	0.036	0.031	0.026	0.021	0.017	0.013	9.91E-3	
+43.50	0.050	0.045	0.040	0.035	0.030	0.025	0.021	0.016	0.013	9.51E-3	
+44.00	0.049	0.044	0.039	0.034	0.029	0.024	0.020	0.016	0.012	9.14E-3	
+44.50	0.048	0.043	0.038	0.033	0.028	0.024	0.019	0.015	0.012	8.78E-3	
+45.00	0.047	0.042	0.037	0.032	0.028	0.023	0.019	0.015	0.011	8.43E-3	
+45.50	0.046	0.041	0.036	0.032	0.027	0.022	0.018	0.014	0.011	8.09E-3	
+46.00	0.045	0.040	0.035	0.031	0.026	0.022	0.017	0.014	0.011	7.77E-3	
+46.50	0.044	0.039	0.035	0.030	0.025	0.021	0.017	0.013	0.010	7.47E-3	
+47.00	0.043	0.038	0.034	0.029	0.025	0.020	0.016	0.013	9.75E-3	7.17E-3	
+47.50	0.042	0.037	0.033	0.028	0.024	0.020	0.016	0.012	9.39E-3	6.89E-3	
+48.00	0.041	0.036	0.032	0.028	0.023	0.019	0.015	0.012	9.05E-3	6.61E-3	
+48.50	0.040	0.036	0.031	0.027	0.023	0.019	0.015	0.012	8.72E-3	6.35E-3	
+49.00	0.039	0.035	0.030	0.026	0.022	0.018	0.014	0.011	8.4E-3	6.1E-3	
+49.50	0.038	0.034	0.030	0.025	0.021	0.017	0.014	0.011	8.09E-3	5.86E-3	
+50.00	0.037	0.033	0.029	0.025	0.021	0.017	0.013	0.010	7.79E-3	5.63E-3	
+50.50	0.036	0.032	0.028	0.024	0.020	0.016	0.013	0.010	7.51E-3	5.41E-3	
+51.00	0.036	0.032	0.027	0.023	0.020	0.016	0.013	9.72E-3	7.23E-3	5.19E-3	
+51.50	0.035	0.031	0.027	0.023	0.019	0.015	0.012	9.39E-3	6.96E-3	4.99E-3	
+52.00	0.034	0.030	0.026	0.022	0.019	0.015	0.012	9.07E-3	6.71E-3	4.79E-3	
+52.50	0.033	0.029	0.025	0.022	0.018	0.015	0.011	8.76E-3	6.46E-3	4.6E-3	
+53.00	0.032	0.029	0.025	0.021	0.017	0.014	0.011	8.46E-3	6.23E-3	4.42E-3	
+53.50	0.032	0.028	0.024	0.021	0.017	0.014	0.011	8.17E-3	6.0E-3	4.24E-3	
+54.00	0.031	0.027	0.024	0.020	0.017	0.013	0.010	7.89E-3	5.78E-3	4.07E-3	
+54.50	0.030	0.027	0.023	0.019	0.016	0.013	0.010	7.62E-3	5.56E-3	3.91E-3	
+55.00	0.030	0.026	0.022	0.019	0.016	0.013	9.76E-3	7.36E-3	5.36E-3	3.76E-3	
+55.50	0.029	0.025	0.022	0.018	0.015	0.012	9.45E-3	7.11E-3	5.16E-3	3.61E-3	
+56.00	0.028	0.025	0.021	0.018	0.015	0.012	9.15E-3	6.87E-3	4.97E-3	3.47E-3	
+56.50	0.028	0.024	0.021	0.017	0.014	0.011	8.86E-3	6.63E-3	4.79E-3	3.33E-3	
+57.00	0.027	0.024	0.020	0.017	0.014	0.011	8.57E-3	6.41E-3	4.61E-3	3.2E-3	
+57.50	0.026	0.023	0.020	0.017	0.014	0.011	8.3E-3	6.19E-3	4.45E-3	3.07E-3	
+58.00	0.026	0.022	0.019	0.016	0.013	0.010	8.04E-3	5.98E-3	4.28E-3	2.95E-3	
+58.50	0.025	0.022	0.019	0.016	0.013	0.010	7.78E-3	5.77E-3	4.13E-3	2.83E-3	
+59.00	0.025	0.021	0.018	0.015	0.012	9.83E-3	7.53E-3	5.57E-3	3.97E-3	2.72E-3	
+59.50	0.024	0.021	0.018	0.015	0.012	9.54E-3	7.29E-3	5.38E-3	3.83E-3	2.61E-3	
+60.00	0.023	0.020	0.017	0.014	0.012	9.26E-3	7.06E-3	5.2E-3	3.69E-3	2.51E-3	
+60.50	0.023	0.020	0.017	0.014	0.011	8.98E-3	6.84E-3	5.02E-3	3.55E-3	2.41E-3	
+61.00	0.022	0.019	0.017	0.014	0.011	8.71E-3	6.62E-3	4.85E-3	3.42E-3	2.32E-3	
+61.50	0.022	0.019	0.016	0.013	0.011	8.45E-3	6.41E-3	4.69E-3	3.3E-3	2.22E-3	
+62.00	0.021	0.019	0.016	0.013	0.010	8.2E-3	6.2E-3	4.53E-3	3.17E-3	2.14E-3	
+62.50	0.021	0.018	0.015	0.013	0.010	7.95E-3	6.01E-3	4.37E-3	3.06E-3	2.05E-3	
+63.00	0.020	0.018	0.015	0.012	9.91E-3	7.72E-3	5.81E-3	4.22E-3	2.95E-3	1.97E-3	
+63.50	0.020	0.017	0.015	0.012	9.63E-3	7.49E-3	5.63E-3	4.08E-3	2.84E-3	1.89E-3	
+64.00	0.020	0.017	0.014	0.012	9.36E-3	7.26E-3	5.45E-3	3.94E-3	2.73E-3	1.82E-3	
+64.50	0.019	0.016	0.014	0.011	9.1E-3	7.05E-3	5.28E-3	3.8E-3	2.63E-3	1.75E-3	
+65.00	0.019	0.016	0.014	0.011	8.84E-3	6.84E-3	5.11E-3	3.67E-3	2.54E-3	1.68E-3	
+65.50	0.018	0.016	0.013	0.011	8.59E-3	6.63E-3	4.94E-3	3.55E-3	2.44E-3	1.61E-3	
+66.00	0.018	0.015	0.013	0.011	8.35E-3	6.44E-3	4.79E-3	3.43E-3	2.35E-3	1.55E-3	
+66.50	0.017	0.015	0.013	0.010	8.12E-3	6.24E-3	4.63E-3	3.31E-3	2.27E-3	1.48E-3	
+67.00	0.017	0.015	0.012	9.96E-3	7.89E-3	6.06E-3	4.49E-3	3.2E-3	2.18E-3	1.43E-3	
+67.50	0.017	0.014	0.012	9.69E-3	7.67E-3	5.88E-3	4.34E-3	3.09E-3	2.1E-3	1.37E-3	
+68.00	0.016	0.014	0.012	9.44E-3	7.46E-3	5.7E-3	4.21E-3	2.98E-3	2.03E-3	1.32E-3	
+68.50	0.016	0.014	0.011	9.19E-3	7.25E-3	5.53E-3	4.07E-3	2.88E-3	1.95E-3	1.26E-3	
+69.00	0.016	0.013	0.011	8.94E-3	7.04E-3	5.37E-3	3.94E-3	2.78E-3	1.88E-3	1.21E-3	
+69.50	0.015	0.013	0.011	8.71E-3	6.85E-3	5.21E-3	3.82E-3	2.69E-3	1.81E-3	1.17E-3	
+70.00	0.015	0.013	0.010	8.48E-3	6.65E-3	5.05E-3	3.69E-3	2.6E-3	1.74E-3	1.12E-3	
+70.50	0.014	0.012	0.010	8.25E-3	6.47E-3	4.9E-3	3.58E-3	2.51E-3	1.68E-3	1.08E-3	
+71.00	0.014	0.012	9.96E-3	8.03E-3	6.29E-3	4.75E-3	3.46E-3	2.42E-3	1.62E-3	1.03E-3	
+71.50	0.014	0.012	9.71E-3	7.82E-3	6.11E-3	4.61E-3	3.35E-3	2.34E-3	1.56E-3	9.92E-4	
+72.00	0.014	0.011	9.47E-3	7.62E-3	5.94E-3	4.47E-3	3.25E-3	2.26E-3	1.5E-3	9.52E-4	
+72.50	0.013	0.011	9.23E-3	7.41E-3	5.77E-3	4.34E-3	3.14E-3	2.18E-3	1.45E-3	9.15E-4	
+73.00	0.013	0.011	9.0E-3	7.22E-3	5.61E-3	4.21E-3	3.04E-3	2.11E-3	1.39E-3	8.78E-4	
+73.50	0.013	0.011	8.77E-3	7.03E-3	5.45E-3	4.09E-3	2.95E-3	2.03E-3	1.34E-3	8.44E-4	
+74.00	0.012	0.010	8.55E-3	6.84E-3	5.3E-3	3.96E-3	2.85E-3	1.97E-3	1.29E-3	8.1E-4	
+74.50	0.012	0.010	8.34E-3	6.66E-3	5.15E-3	3.85E-3	2.76E-3	1.9E-3	1.25E-3	7.78E-4	
+75.00	0.012	9.9E-3	8.13E-3	6.48E-3	5.01E-3	3.73E-3	2.67E-3	1.83E-3	1.2E-3	7.47E-4	
+75.50	0.011	9.67E-3	7.93E-3	6.31E-3	4.87E-3	3.62E-3	2.59E-3	1.77E-3	1.16E-3	7.18E-4	
+76.00	0.011	9.44E-3	7.73E-3	6.15E-3	4.73E-3	3.51E-3	2.51E-3	1.71E-3	1.11E-3	6.89E-4	
+76.50	0.011	9.21E-3	7.53E-3	5.98E-3	4.6E-3	3.41E-3	2.43E-3	1.65E-3	1.07E-3	6.62E-4	
+77.00	0.011	8.99E-3	7.35E-3	5.82E-3	4.47E-3	3.31E-3	2.35E-3	1.6E-3	1.03E-3	6.36E-4	
+77.50	0.010	8.78E-3	7.16E-3	5.67E-3	4.34E-3	3.21E-3	2.27E-3	1.54E-3	9.96E-4	6.11E-4	
+78.00	0.010	8.57E-3	6.98E-3	5.52E-3	4.22E-3	3.11E-3	2.2E-3	1.49E-3	9.59E-4	5.87E-4	
+78.50	0.010	8.37E-3	6.81E-3	5.38E-3	4.1E-3	3.02E-3	2.13E-3	1.44E-3	9.24E-4	5.63E-4	
+79.00	9.78E-3	8.17E-3	6.64E-3	5.23E-3	3.99E-3	2.93E-3	2.06E-3	1.39E-3	8.9E-4	5.41E-4	
+79.50	9.56E-3	7.97E-3	6.47E-3	5.09E-3	3.88E-3	2.84E-3	2.0E-3	1.34E-3	8.57E-4	5.2E-4	
+80.00	9.34E-3	7.78E-3	6.31E-3	4.96E-3	3.77E-3	2.76E-3	1.93E-3	1.3E-3	8.26E-4	4.99E-4	
+80.50	9.13E-3	7.6E-3	6.15E-3	4.83E-3	3.66E-3	2.67E-3	1.87E-3	1.25E-3	7.95E-4	4.79E-4	
+81.00	8.92E-3	7.42E-3	6.0E-3	4.7E-3	3.56E-3	2.59E-3	1.81E-3	1.21E-3	7.66E-4	4.6E-4	
+81.50	8.72E-3	7.24E-3	5.85E-3	4.58E-3	3.46E-3	2.52E-3	1.75E-3	1.17E-3	7.38E-4	4.42E-4	
+82.00	8.52E-3	7.07E-3	5.7E-3	4.46E-3	3.36E-3	2.44E-3	1.7E-3	1.13E-3	7.11E-4	4.25E-4	
+82.50	8.33E-3	6.9E-3	5.56E-3	4.34E-3	3.27E-3	2.37E-3	1.64E-3	1.09E-3	6.85E-4	4.08E-4	
+83.00	8.14E-3	6.73E-3	5.42E-3	4.22E-3	3.18E-3	2.3E-3	1.59E-3	1.05E-3	6.6E-4	3.92E-4	
+83.50	7.95E-3	6.57E-3	5.28E-3	4.11E-3	3.09E-3	2.23E-3	1.54E-3	1.02E-3	6.35E-4	3.76E-4	
+84.00	7.77E-3	6.42E-3	5.15E-3	4.0E-3	3.0E-3	2.16E-3	1.49E-3	9.81E-4	6.12E-4	3.61E-4	
+84.50	7.59E-3	6.26E-3	5.02E-3	3.9E-3	2.92E-3	2.1E-3	1.44E-3	9.47E-4	5.9E-4	3.47E-4	
+85.00	7.42E-3	6.11E-3	4.89E-3	3.79E-3	2.84E-3	2.04E-3	1.4E-3	9.15E-4	5.68E-4	3.33E-4	
+85.50	7.25E-3	5.97E-3	4.77E-3	3.69E-3	2.76E-3	1.98E-3	1.35E-3	8.84E-4	5.47E-4	3.2E-4	
+86.00	7.09E-3	5.83E-3	4.65E-3	3.6E-3	2.68E-3	1.92E-3	1.31E-3	8.54E-4	5.27E-4	3.07E-4	
+86.50	6.92E-3	5.69E-3	4.54E-3	3.5E-3	2.6E-3	1.86E-3	1.27E-3	8.24E-4	5.08E-4	2.95E-4	
+87.00	6.77E-3	5.55E-3	4.42E-3	3.41E-3	2.53E-3	1.8E-3	1.23E-3	7.96E-4	4.89E-4	2.84E-4	
+87.50	6.61E-3	5.42E-3	4.31E-3	3.32E-3	2.46E-3	1.75E-3	1.19E-3	7.69E-4	4.71E-4	2.72E-4	
+88.00	6.46E-3	5.29E-3	4.2E-3	3.23E-3	2.39E-3	1.7E-3	1.15E-3	7.43E-4	4.54E-4	2.62E-4	
+88.50	6.32E-3	5.16E-3	4.1E-3	3.15E-3	2.32E-3	1.65E-3	1.11E-3	7.17E-4	4.37E-4	2.51E-4	
+89.00	6.17E-3	5.04E-3	4.0E-3	3.06E-3	2.26E-3	1.6E-3	1.08E-3	6.93E-4	4.21E-4	2.41E-4	
+89.50	6.03E-3	4.92E-3	3.9E-3	2.98E-3	2.2E-3	1.55E-3	1.05E-3	6.69E-4	4.06E-4	2.32E-4	
+90.00	5.89E-3	4.8E-3	3.8E-3	2.9E-3	2.13E-3	1.5E-3	1.01E-3	6.46E-4	3.91E-4	2.23E-4	
+90.50	5.76E-3	4.69E-3	3.7E-3	2.83E-3	2.07E-3	1.46E-3	9.79E-4	6.24E-4	3.76E-4	2.14E-4	
+91.00	5.63E-3	4.58E-3	3.61E-3	2.75E-3	2.02E-3	1.42E-3	9.48E-4	6.03E-4	3.63E-4	2.05E-4	
+91.50	5.5E-3	4.47E-3	3.52E-3	2.68E-3	1.96E-3	1.37E-3	9.18E-4	5.82E-4	3.49E-4	1.97E-4	
+92.00	5.37E-3	4.36E-3	3.43E-3	2.61E-3	1.9E-3	1.33E-3	8.89E-4	5.63E-4	3.36E-4	1.89E-4	
+92.50	5.25E-3	4.26E-3	3.35E-3	2.54E-3	1.85E-3	1.29E-3	8.6E-4	5.43E-4	3.24E-4	1.82E-4	
+93.00	5.13E-3	4.16E-3	3.26E-3	2.47E-3	1.8E-3	1.25E-3	8.33E-4	5.25E-4	3.12E-4	1.75E-4	
+93.50	5.02E-3	4.06E-3	3.18E-3	2.41E-3	1.75E-3	1.22E-3	8.07E-4	5.07E-4	3.01E-4	1.68E-4	
+94.00	4.9E-3	3.96E-3	3.1E-3	2.34E-3	1.7E-3	1.18E-3	7.81E-4	4.9E-4	2.9E-4	1.61E-4	
+94.50	4.79E-3	3.87E-3	3.02E-3	2.28E-3	1.65E-3	1.15E-3	7.56E-4	4.73E-4	2.79E-4	1.55E-4	
+95.00	4.68E-3	3.77E-3	2.95E-3	2.22E-3	1.61E-3	1.11E-3	7.32E-4	4.57E-4	2.69E-4	1.49E-4	
+95.50	4.57E-3	3.68E-3	2.87E-3	2.16E-3	1.56E-3	1.08E-3	7.09E-4	4.41E-4	2.59E-4	1.43E-4	
+96.00	4.47E-3	3.6E-3	2.8E-3	2.1E-3	1.52E-3	1.05E-3	6.86E-4	4.26E-4	2.49E-4	1.37E-4	
+96.50	4.37E-3	3.51E-3	2.73E-3	2.05E-3	1.47E-3	1.01E-3	6.64E-4	4.11E-4	2.4E-4	1.32E-4	
+97.00	4.27E-3	3.43E-3	2.66E-3	1.99E-3	1.43E-3	9.85E-4	6.43E-4	3.97E-4	2.31E-4	1.26E-4	
+97.50	4.17E-3	3.35E-3	2.6E-3	1.94E-3	1.39E-3	9.55E-4	6.22E-4	3.84E-4	2.23E-4	1.21E-4	
+98.00	4.08E-3	3.27E-3	2.53E-3	1.89E-3	1.35E-3	9.27E-4	6.03E-4	3.71E-4	2.15E-4	1.17E-4	
+98.50	3.98E-3	3.19E-3	2.47E-3	1.84E-3	1.32E-3	8.99E-4	5.83E-4	3.58E-4	2.07E-4	1.12E-4	
+99.00	3.89E-3	3.11E-3	2.41E-3	1.79E-3	1.28E-3	8.72E-4	5.65E-4	3.46E-4	1.99E-4	1.08E-4	
+99.50	3.8E-3	3.04E-3	2.35E-3	1.74E-3	1.24E-3	8.46E-4	5.47E-4	3.34E-4	1.92E-4	1.03E-4	
+100.0	3.72E-3	2.97E-3	2.29E-3	1.7E-3	1.21E-3	8.21E-4	5.29E-4	3.23E-4	1.85E-4	9.93E-5	
+100.5	3.63E-3	2.89E-3	2.23E-3	1.65E-3	1.17E-3	7.96E-4	5.13E-4	3.12E-4	1.78E-4	9.53E-5	
+101.0	3.55E-3	2.83E-3	2.17E-3	1.61E-3	1.14E-3	7.73E-4	4.96E-4	3.01E-4	1.72E-4	9.16E-5	
+101.5	3.47E-3	2.76E-3	2.12E-3	1.57E-3	1.11E-3	7.5E-4	4.8E-4	2.91E-4	1.65E-4	8.79E-5	
+102.0	3.39E-3	2.69E-3	2.07E-3	1.53E-3	1.08E-3	7.27E-4	4.65E-4	2.81E-4	1.59E-4	8.45E-5	
+102.5	3.31E-3	2.63E-3	2.01E-3	1.49E-3	1.05E-3	7.06E-4	4.5E-4	2.71E-4	1.53E-4	8.11E-5	
+103.0	3.24E-3	2.57E-3	1.96E-3	1.45E-3	1.02E-3	6.85E-4	4.36E-4	2.62E-4	1.48E-4	7.79E-5	
+103.5	3.16E-3	2.5E-3	1.91E-3	1.41E-3	9.91E-4	6.64E-4	4.22E-4	2.53E-4	1.42E-4	7.48E-5	
+104.0	3.09E-3	2.44E-3	1.87E-3	1.37E-3	9.63E-4	6.44E-4	4.09E-4	2.44E-4	1.37E-4	7.19E-5	
+104.5	3.02E-3	2.39E-3	1.82E-3	1.33E-3	9.36E-4	6.25E-4	3.96E-4	2.36E-4	1.32E-4	6.9E-5	
+105.0	2.95E-3	2.33E-3	1.77E-3	1.3E-3	9.1E-4	6.06E-4	3.83E-4	2.28E-4	1.27E-4	6.63E-5	
+105.5	2.89E-3	2.27E-3	1.73E-3	1.26E-3	8.84E-4	5.88E-4	3.71E-4	2.2E-4	1.23E-4	6.37E-5	
+106.0	2.82E-3	2.22E-3	1.69E-3	1.23E-3	8.59E-4	5.71E-4	3.59E-4	2.13E-4	1.18E-4	6.11E-5	
+106.5	2.76E-3	2.17E-3	1.64E-3	1.2E-3	8.35E-4	5.54E-4	3.48E-4	2.05E-4	1.14E-4	5.87E-5	
+107.0	2.69E-3	2.12E-3	1.6E-3	1.17E-3	8.12E-4	5.37E-4	3.36E-4	1.98E-4	1.1E-4	5.64E-5	
+107.5	2.63E-3	2.06E-3	1.56E-3	1.14E-3	7.89E-4	5.21E-4	3.26E-4	1.92E-4	1.05E-4	5.42E-5	
+108.0	2.57E-3	2.02E-3	1.52E-3	1.11E-3	7.67E-4	5.06E-4	3.15E-4	1.85E-4	1.02E-4	5.2E-5	
+108.5	2.51E-3	1.97E-3	1.49E-3	1.08E-3	7.46E-4	4.91E-4	3.05E-4	1.79E-4	9.79E-5	5.0E-5	
+109.0	2.46E-3	1.92E-3	1.45E-3	1.05E-3	7.25E-4	4.76E-4	2.96E-4	1.73E-4	9.43E-5	4.8E-5	
+109.5	2.4E-3	1.87E-3	1.41E-3	1.02E-3	7.04E-4	4.62E-4	2.86E-4	1.67E-4	9.08E-5	4.61E-5	
+110.0	2.35E-3	1.83E-3	1.38E-3	9.94E-4	6.85E-4	4.48E-4	2.77E-4	1.61E-4	8.75E-5	4.43E-5	
+110.5	2.29E-3	1.79E-3	1.34E-3	9.67E-4	6.65E-4	4.35E-4	2.68E-4	1.55E-4	8.43E-5	4.25E-5	
+111.0	2.24E-3	1.74E-3	1.31E-3	9.42E-4	6.47E-4	4.22E-4	2.6E-4	1.5E-4	8.12E-5	4.08E-5	
+111.5	2.19E-3	1.7E-3	1.28E-3	9.17E-4	6.29E-4	4.09E-4	2.51E-4	1.45E-4	7.82E-5	3.92E-5	
+112.0	2.14E-3	1.66E-3	1.24E-3	8.93E-4	6.11E-4	3.97E-4	2.43E-4	1.4E-4	7.53E-5	3.77E-5	
+112.5	2.09E-3	1.62E-3	1.21E-3	8.69E-4	5.94E-4	3.85E-4	2.36E-4	1.35E-4	7.26E-5	3.62E-5	
+113.0	2.04E-3	1.58E-3	1.18E-3	8.46E-4	5.77E-4	3.74E-4	2.28E-4	1.31E-4	6.99E-5	3.47E-5	
+113.5	2.0E-3	1.55E-3	1.15E-3	8.24E-4	5.61E-4	3.62E-4	2.21E-4	1.26E-4	6.73E-5	3.34E-5	
+114.0	1.95E-3	1.51E-3	1.12E-3	8.02E-4	5.45E-4	3.52E-4	2.14E-4	1.22E-4	6.49E-5	3.2E-5	
+114.5	1.91E-3	1.47E-3	1.1E-3	7.81E-4	5.3E-4	3.41E-4	2.07E-4	1.18E-4	6.25E-5	3.08E-5	
+115.0	1.86E-3	1.44E-3	1.07E-3	7.6E-4	5.15E-4	3.31E-4	2.0E-4	1.14E-4	6.02E-5	2.96E-5	
+115.5	1.82E-3	1.4E-3	1.04E-3	7.4E-4	5.01E-4	3.21E-4	1.94E-4	1.1E-4	5.8E-5	2.84E-5	
+116.0	1.78E-3	1.37E-3	1.02E-3	7.2E-4	4.87E-4	3.12E-4	1.88E-4	1.06E-4	5.58E-5	2.73E-5	
+116.5	1.74E-3	1.34E-3	9.9E-4	7.01E-4	4.73E-4	3.02E-4	1.82E-4	1.02E-4	5.38E-5	2.62E-5	
+117.0	1.7E-3	1.31E-3	9.65E-4	6.83E-4	4.6E-4	2.93E-4	1.76E-4	9.9E-5	5.18E-5	2.52E-5	
+117.5	1.66E-3	1.27E-3	9.41E-4	6.65E-4	4.47E-4	2.84E-4	1.7E-4	9.56E-5	4.99E-5	2.42E-5	
+118.0	1.62E-3	1.24E-3	9.17E-4	6.47E-4	4.34E-4	2.76E-4	1.65E-4	9.23E-5	4.81E-5	2.32E-5	
+118.5	1.59E-3	1.21E-3	8.94E-4	6.3E-4	4.22E-4	2.68E-4	1.6E-4	8.92E-5	4.63E-5	2.23E-5	
+119.0	1.55E-3	1.19E-3	8.72E-4	6.13E-4	4.1E-4	2.6E-4	1.55E-4	8.61E-5	4.46E-5	2.14E-5	
+119.5	1.51E-3	1.16E-3	8.5E-4	5.97E-4	3.99E-4	2.52E-4	1.5E-4	8.32E-5	4.3E-5	2.06E-5	
+120.0	1.48E-3	1.13E-3	8.29E-4	5.81E-4	3.88E-4	2.45E-4	1.45E-4	8.03E-5	4.14E-5	1.97E-5	
+120.5	1.45E-3	1.1E-3	8.08E-4	5.66E-4	3.77E-4	2.37E-4	1.4E-4	7.76E-5	3.99E-5	1.9E-5	
+121.0	1.41E-3	1.08E-3	7.88E-4	5.51E-4	3.66E-4	2.3E-4	1.36E-4	7.5E-5	3.84E-5	1.82E-5	
+121.5	1.38E-3	1.05E-3	7.68E-4	5.36E-4	3.56E-4	2.23E-4	1.32E-4	7.24E-5	3.7E-5	1.75E-5	
+122.0	1.35E-3	1.03E-3	7.49E-4	5.22E-4	3.46E-4	2.17E-4	1.27E-4	6.99E-5	3.56E-5	1.68E-5	
+122.5	1.32E-3	1.0E-3	7.3E-4	5.08E-4	3.36E-4	2.1E-4	1.23E-4	6.75E-5	3.43E-5	1.61E-5	
+123.0	1.29E-3	9.78E-4	7.12E-4	4.95E-4	3.27E-4	2.04E-4	1.19E-4	6.52E-5	3.31E-5	1.55E-5	
+123.5	1.26E-3	9.54E-4	6.94E-4	4.82E-4	3.18E-4	1.98E-4	1.16E-4	6.3E-5	3.19E-5	1.49E-5	
+124.0	1.23E-3	9.32E-4	6.77E-4	4.69E-4	3.09E-4	1.92E-4	1.12E-4	6.08E-5	3.07E-5	1.43E-5	
+124.5	1.2E-3	9.09E-4	6.6E-4	4.57E-4	3.0E-4	1.86E-4	1.08E-4	5.88E-5	2.96E-5	1.37E-5	
+125.0	1.18E-3	8.88E-4	6.43E-4	4.45E-4	2.92E-4	1.81E-4	1.05E-4	5.68E-5	2.85E-5	1.32E-5	
+125.5	1.15E-3	8.66E-4	6.27E-4	4.33E-4	2.84E-4	1.75E-4	1.02E-4	5.48E-5	2.74E-5	1.27E-5	
+126.0	1.12E-3	8.46E-4	6.11E-4	4.21E-4	2.76E-4	1.7E-4	9.83E-5	5.3E-5	2.64E-5	1.22E-5	
+126.5	1.1E-3	8.26E-4	5.96E-4	4.1E-4	2.68E-4	1.65E-4	9.52E-5	5.11E-5	2.55E-5	1.17E-5	
+127.0	1.07E-3	8.06E-4	5.81E-4	3.99E-4	2.6E-4	1.6E-4	9.21E-5	4.94E-5	2.45E-5	1.12E-5	
+127.5	1.05E-3	7.87E-4	5.67E-4	3.89E-4	2.53E-4	1.55E-4	8.92E-5	4.77E-5	2.36E-5	1.08E-5	
+128.0	1.02E-3	7.68E-4	5.52E-4	3.79E-4	2.46E-4	1.51E-4	8.64E-5	4.61E-5	2.28E-5	1.03E-5	
+128.5	1.0E-3	7.5E-4	5.38E-4	3.69E-4	2.39E-4	1.46E-4	8.36E-5	4.45E-5	2.19E-5	9.94E-6	
+129.0	9.77E-4	7.32E-4	5.25E-4	3.59E-4	2.32E-4	1.42E-4	8.09E-5	4.3E-5	2.11E-5	9.54E-6	
+129.5	9.55E-4	7.14E-4	5.12E-4	3.49E-4	2.26E-4	1.38E-4	7.84E-5	4.15E-5	2.03E-5	9.17E-6	
+130.0	9.33E-4	6.97E-4	4.99E-4	3.4E-4	2.2E-4	1.33E-4	7.59E-5	4.01E-5	1.96E-5	8.8E-6	
+130.5	9.12E-4	6.81E-4	4.87E-4	3.31E-4	2.13E-4	1.29E-4	7.34E-5	3.87E-5	1.89E-5	8.46E-6	
+131.0	8.91E-4	6.65E-4	4.74E-4	3.22E-4	2.07E-4	1.26E-4	7.11E-5	3.74E-5	1.82E-5	8.12E-6	
+131.5	8.71E-4	6.49E-4	4.62E-4	3.14E-4	2.02E-4	1.22E-4	6.88E-5	3.61E-5	1.75E-5	7.8E-6	
+132.0	8.51E-4	6.33E-4	4.51E-4	3.06E-4	1.96E-4	1.18E-4	6.66E-5	3.49E-5	1.69E-5	7.49E-6	
+132.5	8.32E-4	6.18E-4	4.4E-4	2.98E-4	1.9E-4	1.15E-4	6.45E-5	3.37E-5	1.63E-5	7.19E-6	
+133.0	8.13E-4	6.03E-4	4.29E-4	2.9E-4	1.85E-4	1.11E-4	6.25E-5	3.26E-5	1.57E-5	6.91E-6	
+133.5	7.94E-4	5.89E-4	4.18E-4	2.82E-4	1.8E-4	1.08E-4	6.05E-5	3.14E-5	1.51E-5	6.64E-6	
+134.0	7.76E-4	5.75E-4	4.07E-4	2.75E-4	1.75E-4	1.05E-4	5.85E-5	3.04E-5	1.45E-5	6.37E-6	
+134.5	7.59E-4	5.61E-4	3.97E-4	2.67E-4	1.7E-4	1.02E-4	5.67E-5	2.93E-5	1.4E-5	6.12E-6	
+135.0	7.41E-4	5.48E-4	3.87E-4	2.6E-4	1.65E-4	9.86E-5	5.49E-5	2.83E-5	1.35E-5	5.88E-6	
+135.5	7.24E-4	5.35E-4	3.78E-4	2.53E-4	1.61E-4	9.56E-5	5.31E-5	2.74E-5	1.3E-5	5.65E-6	
+136.0	7.08E-4	5.22E-4	3.68E-4	2.47E-4	1.56E-4	9.28E-5	5.14E-5	2.64E-5	1.25E-5	5.42E-6	
+136.5	6.92E-4	5.1E-4	3.59E-4	2.4E-4	1.52E-4	9.0E-5	4.98E-5	2.55E-5	1.2E-5	5.21E-6	
+137.0	6.76E-4	4.98E-4	3.5E-4	2.34E-4	1.47E-4	8.73E-5	4.82E-5	2.47E-5	1.16E-5	5.0E-6	
+137.5	6.61E-4	4.86E-4	3.41E-4	2.28E-4	1.43E-4	8.47E-5	4.67E-5	2.38E-5	1.12E-5	4.8E-6	
+138.0	6.46E-4	4.74E-4	3.33E-4	2.22E-4	1.39E-4	8.22E-5	4.52E-5	2.3E-5	1.08E-5	4.61E-6	
+138.5	6.31E-4	4.63E-4	3.24E-4	2.16E-4	1.35E-4	7.97E-5	4.37E-5	2.22E-5	1.04E-5	4.43E-6	
+139.0	6.17E-4	4.52E-4	3.16E-4	2.1E-4	1.32E-4	7.74E-5	4.24E-5	2.15E-5	9.99E-6	4.26E-6	
+139.5	6.03E-4	4.41E-4	3.08E-4	2.04E-4	1.28E-4	7.51E-5	4.1E-5	2.07E-5	9.63E-6	4.09E-6	
+140.0	5.89E-4	4.3E-4	3.0E-4	1.99E-4	1.24E-4	7.28E-5	3.97E-5	2.0E-5	9.27E-6	3.93E-6	
+140.5	5.75E-4	4.2E-4	2.93E-4	1.94E-4	1.21E-4	7.06E-5	3.84E-5	1.93E-5	8.93E-6	3.77E-6	
+141.0	5.62E-4	4.1E-4	2.86E-4	1.89E-4	1.17E-4	6.85E-5	3.72E-5	1.87E-5	8.6E-6	3.62E-6	
+141.5	5.5E-4	4.0E-4	2.78E-4	1.84E-4	1.14E-4	6.65E-5	3.6E-5	1.8E-5	8.29E-6	3.48E-6	
+142.0	5.37E-4	3.91E-4	2.71E-4	1.79E-4	1.11E-4	6.45E-5	3.49E-5	1.74E-5	7.98E-6	3.34E-6	
+142.5	5.25E-4	3.82E-4	2.65E-4	1.74E-4	1.08E-4	6.26E-5	3.38E-5	1.68E-5	7.69E-6	3.21E-6	
+143.0	5.13E-4	3.72E-4	2.58E-4	1.69E-4	1.05E-4	6.07E-5	3.27E-5	1.62E-5	7.41E-6	3.08E-6	
+143.5	5.01E-4	3.64E-4	2.52E-4	1.65E-4	1.02E-4	5.89E-5	3.16E-5	1.57E-5	7.14E-6	2.96E-6	
+144.0	4.9E-4	3.55E-4	2.45E-4	1.61E-4	9.91E-5	5.72E-5	3.06E-5	1.52E-5	6.87E-6	2.84E-6	
+144.5	4.79E-4	3.46E-4	2.39E-4	1.56E-4	9.63E-5	5.55E-5	2.97E-5	1.46E-5	6.62E-6	2.73E-6	
+145.0	4.68E-4	3.38E-4	2.33E-4	1.52E-4	9.36E-5	5.38E-5	2.87E-5	1.41E-5	6.38E-6	2.62E-6	
+145.5	4.57E-4	3.3E-4	2.27E-4	1.48E-4	9.1E-5	5.22E-5	2.78E-5	1.37E-5	6.14E-6	2.52E-6	
+146.0	4.47E-4	3.22E-4	2.22E-4	1.44E-4	8.84E-5	5.06E-5	2.69E-5	1.32E-5	5.92E-6	2.42E-6	
+146.5	4.36E-4	3.15E-4	2.16E-4	1.4E-4	8.59E-5	4.91E-5	2.61E-5	1.27E-5	5.7E-6	2.32E-6	
+147.0	4.27E-4	3.07E-4	2.11E-4	1.37E-4	8.35E-5	4.77E-5	2.52E-5	1.23E-5	5.49E-6	2.23E-6	
+147.5	4.17E-4	3.0E-4	2.05E-4	1.33E-4	8.12E-5	4.62E-5	2.44E-5	1.19E-5	5.29E-6	2.14E-6	
+148.0	4.07E-4	2.93E-4	2.0E-4	1.3E-4	7.89E-5	4.49E-5	2.36E-5	1.15E-5	5.1E-6	2.06E-6	
+148.5	3.98E-4	2.86E-4	1.95E-4	1.26E-4	7.67E-5	4.35E-5	2.29E-5	1.11E-5	4.91E-6	1.98E-6	
+149.0	3.89E-4	2.79E-4	1.9E-4	1.23E-4	7.46E-5	4.22E-5	2.22E-5	1.07E-5	4.73E-6	1.9E-6	
+149.5	3.8E-4	2.72E-4	1.86E-4	1.2E-4	7.25E-5	4.1E-5	2.15E-5	1.03E-5	4.55E-6	1.82E-6	
+150.0	3.71E-4	2.66E-4	1.81E-4	1.16E-4	7.04E-5	3.97E-5	2.08E-5	9.99E-6	4.39E-6	1.75E-6	
+
+
+PARAMETER: GUT KM SCALE FACTOR OF ZGB 60MG PO JOSEPH ET AL
+
+Summary Results:
+
+Param Value	Amount Dissolved-ZGB 60mg PO Joseph et al (mg)	Amount Portal Vein-ZGB 60mg PO Joseph et al (mg)	Result-FDp-ZGB 60mg PO Joseph et al (%)	Amount Absorbed-ZGB 60mg PO Joseph et al (mg)	Result-Fa-ZGB 60mg PO Joseph et al (%)	Result-Fb-ZGB 60mg PO Joseph et al (%)	Result-AUC-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-AUC(0-t)-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-Cmax-ZGB 60mg PO Joseph et al (ug/mL)	Result-Tmax-ZGB 60mg PO Joseph et al (hrs)	Result-LCmax-ZGB 60mg PO Joseph et al (ug/mL)
+0.500	60.00	36.99	61.65	60.00	99.99	56.04	5738.7	5737.9	0.457	1.000	0.704
+0.583	60.00	37.64	62.73	60.00	99.99	57.01	5838.6	5837.7	0.460	1.000	0.708
+0.680	60.00	38.31	63.86	60.00	99.99	58.04	5943.8	5942.9	0.464	1.000	0.712
+0.794	60.00	39.03	65.04	60.00	99.99	59.12	6054.2	6053.3	0.467	1.000	0.716
+0.926	60.00	39.77	66.28	60.00	99.99	60.24	6169.5	6168.6	0.471	1.000	0.720
+1.080	60.00	40.54	67.57	60.00	99.99	61.41	6289.3	6288.3	0.475	1.100	0.725
+1.260	60.00	41.34	68.90	59.99	99.99	62.62	6413.2	6412.2	0.480	1.100	0.730
+1.470	60.00	42.16	70.27	59.99	99.99	63.87	6540.6	6539.7	0.485	1.100	0.735
+1.714	60.00	43.00	71.67	59.99	99.99	65.14	6671.1	6670.1	0.490	1.100	0.740
+2.000	60.00	43.86	73.09	59.99	99.99	66.44	6803.9	6802.9	0.495	1.100	0.746
+
+REGIONAL ABSORPTION:
+
+Param Value	Stom Fa%	Duod Fa%	Jej1 Fa%	Jej2 Fa%	Ile1 Fa%	Ile2 Fa%	Ile3 Fa%	Caec Fa%	Col Fa%
+0.500	0.0	23.79	39.61	17.89	7.731	3.846	2.019	4.674	0.427
+0.583	0.0	23.78	39.58	17.86	7.735	3.851	2.026	4.729	0.434
+0.680	0.0	23.77	39.54	17.83	7.740	3.857	2.034	4.786	0.441
+0.794	0.0	23.75	39.50	17.79	7.747	3.863	2.042	4.846	0.448
+0.926	0.0	23.74	39.46	17.76	7.756	3.870	2.050	4.908	0.456
+1.080	0.0	23.72	39.41	17.72	7.765	3.878	2.059	4.972	0.464
+1.260	0.0	23.70	39.36	17.69	7.777	3.887	2.067	5.038	0.472
+1.470	0.0	23.68	39.31	17.66	7.790	3.897	2.076	5.105	0.480
+1.714	0.0	23.65	39.26	17.62	7.805	3.907	2.085	5.173	0.488
+2.000	0.0	23.63	39.20	17.59	7.822	3.919	2.094	5.241	0.496
+
+
+
+Profiles vs. Time
+
+Param Value: 	0.500	0.583	0.680	0.794	0.926	1.080	1.260	1.470	1.714	2.000
+Time (hr)	Cp (ug/mL)
+0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+0.500	0.355	0.356	0.358	0.359	0.361	0.363	0.365	0.367	0.369	0.371	
+1.000	0.457	0.460	0.464	0.467	0.471	0.475	0.479	0.484	0.488	0.493	
+1.500	0.426	0.431	0.436	0.442	0.448	0.454	0.460	0.467	0.474	0.481	
+2.000	0.376	0.383	0.390	0.397	0.404	0.412	0.420	0.428	0.437	0.445	
+2.500	0.340	0.346	0.353	0.361	0.368	0.376	0.385	0.393	0.401	0.410	
+3.000	0.312	0.319	0.325	0.332	0.339	0.347	0.355	0.363	0.371	0.379	
+3.500	0.290	0.296	0.302	0.309	0.316	0.323	0.330	0.337	0.345	0.352	
+4.000	0.273	0.278	0.284	0.290	0.296	0.303	0.309	0.316	0.323	0.331	
+4.500	0.259	0.264	0.270	0.275	0.281	0.287	0.293	0.300	0.306	0.313	
+5.000	0.248	0.253	0.258	0.263	0.268	0.274	0.280	0.286	0.292	0.298	
+5.500	0.239	0.243	0.248	0.253	0.258	0.263	0.269	0.275	0.280	0.286	
+6.000	0.230	0.235	0.239	0.244	0.249	0.254	0.259	0.265	0.270	0.276	
+6.500	0.223	0.227	0.231	0.236	0.241	0.245	0.251	0.256	0.261	0.267	
+7.000	0.216	0.220	0.224	0.228	0.233	0.238	0.243	0.248	0.253	0.258	
+7.500	0.209	0.213	0.217	0.221	0.226	0.231	0.235	0.240	0.245	0.250	
+8.000	0.203	0.207	0.211	0.215	0.219	0.224	0.228	0.233	0.238	0.243	
+8.500	0.197	0.201	0.205	0.209	0.213	0.217	0.221	0.226	0.231	0.236	
+9.000	0.191	0.195	0.199	0.202	0.206	0.211	0.215	0.219	0.224	0.229	
+9.500	0.186	0.189	0.193	0.197	0.200	0.205	0.209	0.213	0.217	0.222	
+10.00	0.180	0.184	0.187	0.191	0.195	0.199	0.203	0.207	0.211	0.216	
+10.50	0.175	0.178	0.182	0.185	0.189	0.193	0.197	0.201	0.205	0.209	
+11.00	0.170	0.173	0.176	0.180	0.183	0.187	0.191	0.195	0.199	0.203	
+11.50	0.165	0.168	0.171	0.175	0.178	0.182	0.186	0.189	0.193	0.197	
+12.00	0.160	0.163	0.166	0.170	0.173	0.177	0.180	0.184	0.188	0.192	
+12.50	0.156	0.159	0.162	0.165	0.168	0.171	0.175	0.179	0.182	0.186	
+13.00	0.151	0.154	0.157	0.160	0.163	0.166	0.170	0.173	0.177	0.181	
+13.50	0.147	0.150	0.152	0.155	0.158	0.162	0.165	0.168	0.172	0.175	
+14.00	0.143	0.145	0.148	0.151	0.154	0.157	0.160	0.164	0.167	0.170	
+14.50	0.138	0.141	0.144	0.146	0.149	0.152	0.156	0.159	0.162	0.165	
+15.00	0.134	0.137	0.140	0.142	0.145	0.148	0.151	0.154	0.157	0.161	
+15.50	0.131	0.133	0.135	0.138	0.141	0.144	0.147	0.150	0.153	0.156	
+16.00	0.127	0.129	0.132	0.134	0.137	0.140	0.142	0.145	0.148	0.152	
+16.50	0.123	0.125	0.128	0.130	0.133	0.136	0.138	0.141	0.144	0.147	
+17.00	0.120	0.122	0.124	0.127	0.129	0.132	0.134	0.137	0.140	0.143	
+17.50	0.116	0.118	0.121	0.123	0.125	0.128	0.130	0.133	0.136	0.139	
+18.00	0.113	0.115	0.117	0.119	0.122	0.124	0.127	0.129	0.132	0.135	
+18.50	0.110	0.112	0.114	0.116	0.118	0.121	0.123	0.126	0.128	0.131	
+19.00	0.106	0.108	0.110	0.113	0.115	0.117	0.120	0.122	0.125	0.127	
+19.50	0.103	0.105	0.107	0.109	0.111	0.114	0.116	0.118	0.121	0.123	
+20.00	0.100	0.102	0.104	0.106	0.108	0.110	0.113	0.115	0.117	0.120	
+20.50	0.097	0.099	0.101	0.103	0.105	0.107	0.109	0.112	0.114	0.116	
+21.00	0.095	0.096	0.098	0.100	0.102	0.104	0.106	0.108	0.111	0.113	
+21.50	0.092	0.094	0.095	0.097	0.099	0.101	0.103	0.105	0.108	0.110	
+22.00	0.089	0.091	0.093	0.094	0.096	0.098	0.100	0.102	0.104	0.107	
+22.50	0.087	0.088	0.090	0.092	0.093	0.095	0.097	0.099	0.101	0.104	
+23.00	0.084	0.086	0.087	0.089	0.091	0.093	0.095	0.096	0.098	0.101	
+23.50	0.082	0.083	0.085	0.086	0.088	0.090	0.092	0.094	0.096	0.098	
+24.00	0.079	0.081	0.082	0.084	0.086	0.087	0.089	0.091	0.093	0.095	
+24.50	0.077	0.078	0.080	0.081	0.083	0.085	0.087	0.088	0.090	0.092	
+25.00	0.075	0.076	0.078	0.079	0.081	0.082	0.084	0.086	0.088	0.089	
+25.50	0.073	0.074	0.075	0.077	0.078	0.080	0.082	0.083	0.085	0.087	
+26.00	0.071	0.072	0.073	0.075	0.076	0.078	0.079	0.081	0.083	0.084	
+26.50	0.068	0.070	0.071	0.072	0.074	0.075	0.077	0.079	0.080	0.082	
+27.00	0.067	0.068	0.069	0.070	0.072	0.073	0.075	0.076	0.078	0.080	
+27.50	0.065	0.066	0.067	0.068	0.070	0.071	0.073	0.074	0.076	0.077	
+28.00	0.063	0.064	0.065	0.066	0.068	0.069	0.071	0.072	0.073	0.075	
+28.50	0.061	0.062	0.063	0.064	0.066	0.067	0.068	0.070	0.071	0.073	
+29.00	0.059	0.060	0.061	0.063	0.064	0.065	0.066	0.068	0.069	0.071	
+29.50	0.057	0.058	0.060	0.061	0.062	0.063	0.065	0.066	0.067	0.069	
+30.00	0.056	0.057	0.058	0.059	0.060	0.061	0.063	0.064	0.065	0.067	
+30.50	0.054	0.055	0.056	0.057	0.058	0.060	0.061	0.062	0.063	0.065	
+31.00	0.053	0.054	0.055	0.056	0.057	0.058	0.059	0.060	0.062	0.063	
+31.50	0.051	0.052	0.053	0.054	0.055	0.056	0.057	0.059	0.060	0.061	
+32.00	0.050	0.051	0.051	0.052	0.054	0.055	0.056	0.057	0.058	0.059	
+32.50	0.048	0.049	0.050	0.051	0.052	0.053	0.054	0.055	0.056	0.058	
+33.00	0.047	0.048	0.049	0.049	0.050	0.052	0.053	0.054	0.055	0.056	
+33.50	0.045	0.046	0.047	0.048	0.049	0.050	0.051	0.052	0.053	0.054	
+34.00	0.044	0.045	0.046	0.047	0.048	0.049	0.050	0.051	0.052	0.053	
+34.50	0.043	0.044	0.044	0.045	0.046	0.047	0.048	0.049	0.050	0.051	
+35.00	0.042	0.042	0.043	0.044	0.045	0.046	0.047	0.048	0.049	0.050	
+35.50	0.040	0.041	0.042	0.043	0.044	0.044	0.045	0.046	0.047	0.048	
+36.00	0.039	0.040	0.041	0.042	0.042	0.043	0.044	0.045	0.046	0.047	
+36.50	0.038	0.039	0.040	0.040	0.041	0.042	0.043	0.044	0.045	0.046	
+37.00	0.037	0.038	0.038	0.039	0.040	0.041	0.042	0.042	0.043	0.044	
+37.50	0.036	0.037	0.037	0.038	0.039	0.040	0.040	0.041	0.042	0.043	
+38.00	0.035	0.036	0.036	0.037	0.038	0.038	0.039	0.040	0.041	0.042	
+38.50	0.034	0.035	0.035	0.036	0.037	0.037	0.038	0.039	0.040	0.041	
+39.00	0.033	0.034	0.034	0.035	0.036	0.036	0.037	0.038	0.039	0.039	
+39.50	0.032	0.033	0.033	0.034	0.034	0.035	0.036	0.037	0.037	0.038	
+40.00	0.031	0.032	0.032	0.033	0.033	0.034	0.035	0.036	0.036	0.037	
+40.50	0.030	0.031	0.031	0.032	0.033	0.033	0.034	0.035	0.035	0.036	
+41.00	0.029	0.030	0.030	0.031	0.032	0.032	0.033	0.034	0.034	0.035	
+41.50	0.028	0.029	0.029	0.030	0.031	0.031	0.032	0.033	0.033	0.034	
+42.00	0.028	0.028	0.029	0.029	0.030	0.030	0.031	0.032	0.032	0.033	
+42.50	0.027	0.027	0.028	0.028	0.029	0.030	0.030	0.031	0.031	0.032	
+43.00	0.026	0.026	0.027	0.028	0.028	0.029	0.029	0.030	0.030	0.031	
+43.50	0.025	0.026	0.026	0.027	0.027	0.028	0.028	0.029	0.030	0.030	
+44.00	0.025	0.025	0.025	0.026	0.026	0.027	0.028	0.028	0.029	0.029	
+44.50	0.024	0.024	0.025	0.025	0.026	0.026	0.027	0.027	0.028	0.029	
+45.00	0.023	0.024	0.024	0.024	0.025	0.025	0.026	0.027	0.027	0.028	
+45.50	0.022	0.023	0.023	0.024	0.024	0.025	0.025	0.026	0.026	0.027	
+46.00	0.022	0.022	0.023	0.023	0.024	0.024	0.025	0.025	0.026	0.026	
+46.50	0.021	0.022	0.022	0.022	0.023	0.023	0.024	0.024	0.025	0.025	
+47.00	0.021	0.021	0.021	0.022	0.022	0.023	0.023	0.024	0.024	0.025	
+47.50	0.020	0.020	0.021	0.021	0.022	0.022	0.022	0.023	0.023	0.024	
+48.00	0.019	0.020	0.020	0.021	0.021	0.021	0.022	0.022	0.023	0.023	
+48.50	0.019	0.019	0.020	0.020	0.020	0.021	0.021	0.022	0.022	0.023	
+49.00	0.018	0.019	0.019	0.019	0.020	0.020	0.021	0.021	0.021	0.022	
+49.50	0.018	0.018	0.018	0.019	0.019	0.020	0.020	0.020	0.021	0.021	
+50.00	0.017	0.018	0.018	0.018	0.019	0.019	0.019	0.020	0.020	0.021	
+50.50	0.017	0.017	0.017	0.018	0.018	0.018	0.019	0.019	0.020	0.020	
+51.00	0.016	0.017	0.017	0.017	0.018	0.018	0.018	0.019	0.019	0.019	
+51.50	0.016	0.016	0.016	0.017	0.017	0.017	0.018	0.018	0.019	0.019	
+52.00	0.015	0.016	0.016	0.016	0.017	0.017	0.017	0.018	0.018	0.018	
+52.50	0.015	0.015	0.015	0.016	0.016	0.016	0.017	0.017	0.017	0.018	
+53.00	0.014	0.015	0.015	0.015	0.016	0.016	0.016	0.017	0.017	0.017	
+53.50	0.014	0.014	0.015	0.015	0.015	0.015	0.016	0.016	0.016	0.017	
+54.00	0.014	0.014	0.014	0.014	0.015	0.015	0.015	0.016	0.016	0.016	
+54.50	0.013	0.013	0.014	0.014	0.014	0.015	0.015	0.015	0.016	0.016	
+55.00	0.013	0.013	0.013	0.014	0.014	0.014	0.014	0.015	0.015	0.015	
+55.50	0.012	0.013	0.013	0.013	0.013	0.014	0.014	0.014	0.015	0.015	
+56.00	0.012	0.012	0.013	0.013	0.013	0.013	0.014	0.014	0.014	0.015	
+56.50	0.012	0.012	0.012	0.012	0.013	0.013	0.013	0.014	0.014	0.014	
+57.00	0.011	0.012	0.012	0.012	0.012	0.013	0.013	0.013	0.013	0.014	
+57.50	0.011	0.011	0.012	0.012	0.012	0.012	0.013	0.013	0.013	0.013	
+58.00	0.011	0.011	0.011	0.011	0.012	0.012	0.012	0.012	0.013	0.013	
+58.50	0.010	0.011	0.011	0.011	0.011	0.012	0.012	0.012	0.012	0.013	
+59.00	0.010	0.010	0.011	0.011	0.011	0.011	0.011	0.012	0.012	0.012	
+59.50	9.88E-3	0.010	0.010	0.010	0.011	0.011	0.011	0.011	0.012	0.012	
+60.00	9.6E-3	9.77E-3	9.96E-3	0.010	0.010	0.011	0.011	0.011	0.011	0.011	
+60.50	9.32E-3	9.49E-3	9.67E-3	9.86E-3	0.010	0.010	0.010	0.011	0.011	0.011	
+61.00	9.05E-3	9.22E-3	9.39E-3	9.58E-3	9.77E-3	9.97E-3	0.010	0.010	0.011	0.011	
+61.50	8.79E-3	8.95E-3	9.12E-3	9.3E-3	9.49E-3	9.68E-3	9.89E-3	0.010	0.010	0.011	
+62.00	8.53E-3	8.69E-3	8.86E-3	9.03E-3	9.22E-3	9.4E-3	9.6E-3	9.8E-3	0.010	0.010	
+62.50	8.29E-3	8.44E-3	8.6E-3	8.77E-3	8.95E-3	9.13E-3	9.32E-3	9.52E-3	9.72E-3	9.92E-3	
+63.00	8.05E-3	8.2E-3	8.35E-3	8.52E-3	8.69E-3	8.87E-3	9.05E-3	9.24E-3	9.44E-3	9.64E-3	
+63.50	7.82E-3	7.96E-3	8.11E-3	8.27E-3	8.44E-3	8.61E-3	8.79E-3	8.98E-3	9.17E-3	9.36E-3	
+64.00	7.59E-3	7.73E-3	7.88E-3	8.03E-3	8.2E-3	8.36E-3	8.54E-3	8.72E-3	8.9E-3	9.09E-3	
+64.50	7.37E-3	7.51E-3	7.65E-3	7.8E-3	7.96E-3	8.12E-3	8.29E-3	8.47E-3	8.64E-3	8.83E-3	
+65.00	7.16E-3	7.29E-3	7.43E-3	7.58E-3	7.73E-3	7.89E-3	8.05E-3	8.22E-3	8.39E-3	8.57E-3	
+65.50	6.95E-3	7.08E-3	7.21E-3	7.36E-3	7.51E-3	7.66E-3	7.82E-3	7.98E-3	8.15E-3	8.32E-3	
+66.00	6.75E-3	6.87E-3	7.01E-3	7.14E-3	7.29E-3	7.44E-3	7.59E-3	7.75E-3	7.92E-3	8.08E-3	
+66.50	6.55E-3	6.68E-3	6.8E-3	6.94E-3	7.08E-3	7.22E-3	7.37E-3	7.53E-3	7.69E-3	7.85E-3	
+67.00	6.36E-3	6.48E-3	6.61E-3	6.74E-3	6.87E-3	7.01E-3	7.16E-3	7.31E-3	7.47E-3	7.62E-3	
+67.50	6.18E-3	6.3E-3	6.42E-3	6.54E-3	6.67E-3	6.81E-3	6.95E-3	7.1E-3	7.25E-3	7.4E-3	
+68.00	6.0E-3	6.11E-3	6.23E-3	6.35E-3	6.48E-3	6.62E-3	6.75E-3	6.9E-3	7.04E-3	7.19E-3	
+68.50	5.83E-3	5.94E-3	6.05E-3	6.17E-3	6.29E-3	6.42E-3	6.56E-3	6.7E-3	6.84E-3	6.98E-3	
+69.00	5.66E-3	5.76E-3	5.88E-3	5.99E-3	6.11E-3	6.24E-3	6.37E-3	6.5E-3	6.64E-3	6.78E-3	
+69.50	5.5E-3	5.6E-3	5.71E-3	5.82E-3	5.94E-3	6.06E-3	6.18E-3	6.31E-3	6.45E-3	6.58E-3	
+70.00	5.34E-3	5.44E-3	5.54E-3	5.65E-3	5.76E-3	5.88E-3	6.01E-3	6.13E-3	6.26E-3	6.39E-3	
+70.50	5.18E-3	5.28E-3	5.38E-3	5.49E-3	5.6E-3	5.71E-3	5.83E-3	5.95E-3	6.08E-3	6.21E-3	
+71.00	5.03E-3	5.13E-3	5.22E-3	5.33E-3	5.44E-3	5.55E-3	5.66E-3	5.78E-3	5.9E-3	6.03E-3	
+71.50	4.89E-3	4.98E-3	5.07E-3	5.17E-3	5.28E-3	5.39E-3	5.5E-3	5.62E-3	5.73E-3	5.85E-3	
+72.00	4.75E-3	4.83E-3	4.93E-3	5.02E-3	5.13E-3	5.23E-3	5.34E-3	5.45E-3	5.57E-3	5.69E-3	
+72.50	4.61E-3	4.69E-3	4.78E-3	4.88E-3	4.98E-3	5.08E-3	5.19E-3	5.3E-3	5.41E-3	5.52E-3	
+73.00	4.48E-3	4.56E-3	4.65E-3	4.74E-3	4.83E-3	4.93E-3	5.04E-3	5.14E-3	5.25E-3	5.36E-3	
+73.50	4.35E-3	4.43E-3	4.51E-3	4.6E-3	4.69E-3	4.79E-3	4.89E-3	4.99E-3	5.1E-3	5.21E-3	
+74.00	4.22E-3	4.3E-3	4.38E-3	4.47E-3	4.56E-3	4.65E-3	4.75E-3	4.85E-3	4.95E-3	5.06E-3	
+74.50	4.1E-3	4.18E-3	4.26E-3	4.34E-3	4.43E-3	4.52E-3	4.61E-3	4.71E-3	4.81E-3	4.91E-3	
+75.00	3.98E-3	4.05E-3	4.13E-3	4.21E-3	4.3E-3	4.39E-3	4.48E-3	4.57E-3	4.67E-3	4.77E-3	
+75.50	3.87E-3	3.94E-3	4.01E-3	4.09E-3	4.17E-3	4.26E-3	4.35E-3	4.44E-3	4.54E-3	4.63E-3	
+76.00	3.75E-3	3.82E-3	3.9E-3	3.97E-3	4.05E-3	4.14E-3	4.22E-3	4.31E-3	4.4E-3	4.5E-3	
+76.50	3.65E-3	3.71E-3	3.78E-3	3.86E-3	3.94E-3	4.02E-3	4.1E-3	4.19E-3	4.28E-3	4.37E-3	
+77.00	3.54E-3	3.61E-3	3.67E-3	3.75E-3	3.82E-3	3.9E-3	3.98E-3	4.07E-3	4.15E-3	4.24E-3	
+77.50	3.44E-3	3.5E-3	3.57E-3	3.64E-3	3.71E-3	3.79E-3	3.87E-3	3.95E-3	4.03E-3	4.12E-3	
+78.00	3.34E-3	3.4E-3	3.47E-3	3.53E-3	3.61E-3	3.68E-3	3.76E-3	3.84E-3	3.92E-3	4.0E-3	
+78.50	3.24E-3	3.3E-3	3.37E-3	3.43E-3	3.5E-3	3.57E-3	3.65E-3	3.73E-3	3.8E-3	3.88E-3	
+79.00	3.15E-3	3.21E-3	3.27E-3	3.33E-3	3.4E-3	3.47E-3	3.54E-3	3.62E-3	3.69E-3	3.77E-3	
+79.50	3.06E-3	3.11E-3	3.17E-3	3.24E-3	3.3E-3	3.37E-3	3.44E-3	3.51E-3	3.59E-3	3.66E-3	
+80.00	2.97E-3	3.02E-3	3.08E-3	3.14E-3	3.21E-3	3.27E-3	3.34E-3	3.41E-3	3.48E-3	3.56E-3	
+80.50	2.88E-3	2.94E-3	2.99E-3	3.05E-3	3.11E-3	3.18E-3	3.24E-3	3.31E-3	3.38E-3	3.45E-3	
+81.00	2.8E-3	2.85E-3	2.91E-3	2.96E-3	3.02E-3	3.09E-3	3.15E-3	3.22E-3	3.29E-3	3.35E-3	
+81.50	2.72E-3	2.77E-3	2.82E-3	2.88E-3	2.94E-3	3.0E-3	3.06E-3	3.12E-3	3.19E-3	3.26E-3	
+82.00	2.64E-3	2.69E-3	2.74E-3	2.79E-3	2.85E-3	2.91E-3	2.97E-3	3.03E-3	3.1E-3	3.16E-3	
+82.50	2.56E-3	2.61E-3	2.66E-3	2.71E-3	2.77E-3	2.83E-3	2.89E-3	2.95E-3	3.01E-3	3.07E-3	
+83.00	2.49E-3	2.54E-3	2.58E-3	2.64E-3	2.69E-3	2.74E-3	2.8E-3	2.86E-3	2.92E-3	2.98E-3	
+83.50	2.42E-3	2.46E-3	2.51E-3	2.56E-3	2.61E-3	2.67E-3	2.72E-3	2.78E-3	2.84E-3	2.9E-3	
+84.00	2.35E-3	2.39E-3	2.44E-3	2.49E-3	2.54E-3	2.59E-3	2.64E-3	2.7E-3	2.76E-3	2.81E-3	
+84.50	2.28E-3	2.32E-3	2.37E-3	2.41E-3	2.46E-3	2.51E-3	2.57E-3	2.62E-3	2.68E-3	2.73E-3	
+85.00	2.21E-3	2.25E-3	2.3E-3	2.34E-3	2.39E-3	2.44E-3	2.49E-3	2.54E-3	2.6E-3	2.65E-3	
+85.50	2.15E-3	2.19E-3	2.23E-3	2.28E-3	2.32E-3	2.37E-3	2.42E-3	2.47E-3	2.52E-3	2.58E-3	
+86.00	2.09E-3	2.13E-3	2.17E-3	2.21E-3	2.26E-3	2.3E-3	2.35E-3	2.4E-3	2.45E-3	2.5E-3	
+86.50	2.03E-3	2.07E-3	2.1E-3	2.15E-3	2.19E-3	2.24E-3	2.28E-3	2.33E-3	2.38E-3	2.43E-3	
+87.00	1.97E-3	2.01E-3	2.04E-3	2.08E-3	2.13E-3	2.17E-3	2.22E-3	2.26E-3	2.31E-3	2.36E-3	
+87.50	1.91E-3	1.95E-3	1.98E-3	2.02E-3	2.07E-3	2.11E-3	2.15E-3	2.2E-3	2.24E-3	2.29E-3	
+88.00	1.86E-3	1.89E-3	1.93E-3	1.97E-3	2.01E-3	2.05E-3	2.09E-3	2.13E-3	2.18E-3	2.23E-3	
+88.50	1.8E-3	1.84E-3	1.87E-3	1.91E-3	1.95E-3	1.99E-3	2.03E-3	2.07E-3	2.12E-3	2.16E-3	
+89.00	1.75E-3	1.78E-3	1.82E-3	1.85E-3	1.89E-3	1.93E-3	1.97E-3	2.01E-3	2.06E-3	2.1E-3	
+89.50	1.7E-3	1.73E-3	1.77E-3	1.8E-3	1.84E-3	1.87E-3	1.91E-3	1.95E-3	2.0E-3	2.04E-3	
+90.00	1.65E-3	1.68E-3	1.71E-3	1.75E-3	1.78E-3	1.82E-3	1.86E-3	1.9E-3	1.94E-3	1.98E-3	
+90.50	1.6E-3	1.63E-3	1.66E-3	1.7E-3	1.73E-3	1.77E-3	1.8E-3	1.84E-3	1.88E-3	1.92E-3	
+91.00	1.56E-3	1.59E-3	1.62E-3	1.65E-3	1.68E-3	1.72E-3	1.75E-3	1.79E-3	1.83E-3	1.87E-3	
+91.50	1.51E-3	1.54E-3	1.57E-3	1.6E-3	1.63E-3	1.67E-3	1.7E-3	1.74E-3	1.77E-3	1.81E-3	
+92.00	1.47E-3	1.5E-3	1.52E-3	1.55E-3	1.59E-3	1.62E-3	1.65E-3	1.69E-3	1.72E-3	1.76E-3	
+92.50	1.43E-3	1.45E-3	1.48E-3	1.51E-3	1.54E-3	1.57E-3	1.61E-3	1.64E-3	1.67E-3	1.71E-3	
+93.00	1.38E-3	1.41E-3	1.44E-3	1.47E-3	1.5E-3	1.53E-3	1.56E-3	1.59E-3	1.63E-3	1.66E-3	
+93.50	1.34E-3	1.37E-3	1.4E-3	1.42E-3	1.45E-3	1.48E-3	1.51E-3	1.55E-3	1.58E-3	1.61E-3	
+94.00	1.31E-3	1.33E-3	1.36E-3	1.38E-3	1.41E-3	1.44E-3	1.47E-3	1.5E-3	1.53E-3	1.57E-3	
+94.50	1.27E-3	1.29E-3	1.32E-3	1.34E-3	1.37E-3	1.4E-3	1.43E-3	1.46E-3	1.49E-3	1.52E-3	
+95.00	1.23E-3	1.25E-3	1.28E-3	1.3E-3	1.33E-3	1.36E-3	1.39E-3	1.42E-3	1.45E-3	1.48E-3	
+95.50	1.2E-3	1.22E-3	1.24E-3	1.27E-3	1.29E-3	1.32E-3	1.35E-3	1.37E-3	1.4E-3	1.43E-3	
+96.00	1.16E-3	1.18E-3	1.21E-3	1.23E-3	1.25E-3	1.28E-3	1.31E-3	1.34E-3	1.36E-3	1.39E-3	
+96.50	1.13E-3	1.15E-3	1.17E-3	1.19E-3	1.22E-3	1.24E-3	1.27E-3	1.3E-3	1.32E-3	1.35E-3	
+97.00	1.09E-3	1.12E-3	1.14E-3	1.16E-3	1.18E-3	1.21E-3	1.23E-3	1.26E-3	1.29E-3	1.31E-3	
+97.50	1.06E-3	1.08E-3	1.1E-3	1.13E-3	1.15E-3	1.17E-3	1.2E-3	1.22E-3	1.25E-3	1.27E-3	
+98.00	1.03E-3	1.05E-3	1.07E-3	1.09E-3	1.12E-3	1.14E-3	1.16E-3	1.19E-3	1.21E-3	1.24E-3	
+98.50	1.0E-3	1.02E-3	1.04E-3	1.06E-3	1.08E-3	1.11E-3	1.13E-3	1.15E-3	1.18E-3	1.2E-3	
+99.00	9.74E-4	9.92E-4	1.01E-3	1.03E-3	1.05E-3	1.07E-3	1.1E-3	1.12E-3	1.14E-3	1.17E-3	
+99.50	9.46E-4	9.63E-4	9.82E-4	1.0E-3	1.02E-3	1.04E-3	1.06E-3	1.09E-3	1.11E-3	1.13E-3	
+100.0	9.18E-4	9.35E-4	9.53E-4	9.72E-4	9.92E-4	1.01E-3	1.03E-3	1.06E-3	1.08E-3	1.1E-3	
+100.5	8.92E-4	9.08E-4	9.26E-4	9.44E-4	9.63E-4	9.83E-4	1.0E-3	1.03E-3	1.05E-3	1.07E-3	
+101.0	8.66E-4	8.82E-4	8.99E-4	9.17E-4	9.36E-4	9.55E-4	9.75E-4	9.96E-4	1.02E-3	1.04E-3	
+101.5	8.41E-4	8.57E-4	8.73E-4	8.9E-4	9.09E-4	9.27E-4	9.47E-4	9.67E-4	9.88E-4	1.01E-3	
+102.0	8.17E-4	8.32E-4	8.48E-4	8.65E-4	8.82E-4	9.01E-4	9.2E-4	9.39E-4	9.59E-4	9.79E-4	
+102.5	7.93E-4	8.08E-4	8.23E-4	8.4E-4	8.57E-4	8.75E-4	8.93E-4	9.12E-4	9.31E-4	9.51E-4	
+103.0	7.7E-4	7.84E-4	8.0E-4	8.15E-4	8.32E-4	8.49E-4	8.67E-4	8.86E-4	9.04E-4	9.24E-4	
+103.5	7.48E-4	7.62E-4	7.76E-4	7.92E-4	8.08E-4	8.25E-4	8.42E-4	8.6E-4	8.78E-4	8.97E-4	
+104.0	7.26E-4	7.4E-4	7.54E-4	7.69E-4	7.85E-4	8.01E-4	8.18E-4	8.35E-4	8.53E-4	8.71E-4	
+104.5	7.05E-4	7.18E-4	7.32E-4	7.47E-4	7.62E-4	7.78E-4	7.94E-4	8.11E-4	8.28E-4	8.46E-4	
+105.0	6.85E-4	6.98E-4	7.11E-4	7.25E-4	7.4E-4	7.55E-4	7.71E-4	7.88E-4	8.04E-4	8.21E-4	
+105.5	6.65E-4	6.77E-4	6.9E-4	7.04E-4	7.19E-4	7.34E-4	7.49E-4	7.65E-4	7.81E-4	7.98E-4	
+106.0	6.46E-4	6.58E-4	6.71E-4	6.84E-4	6.98E-4	7.12E-4	7.27E-4	7.43E-4	7.59E-4	7.75E-4	
+106.5	6.27E-4	6.39E-4	6.51E-4	6.64E-4	6.78E-4	6.92E-4	7.06E-4	7.21E-4	7.37E-4	7.52E-4	
+107.0	6.09E-4	6.2E-4	6.32E-4	6.45E-4	6.58E-4	6.72E-4	6.86E-4	7.0E-4	7.15E-4	7.3E-4	
+107.5	5.91E-4	6.02E-4	6.14E-4	6.26E-4	6.39E-4	6.52E-4	6.66E-4	6.8E-4	6.95E-4	7.09E-4	
+108.0	5.74E-4	5.85E-4	5.96E-4	6.08E-4	6.21E-4	6.33E-4	6.47E-4	6.61E-4	6.75E-4	6.89E-4	
+108.5	5.58E-4	5.68E-4	5.79E-4	5.91E-4	6.03E-4	6.15E-4	6.28E-4	6.41E-4	6.55E-4	6.69E-4	
+109.0	5.42E-4	5.52E-4	5.62E-4	5.74E-4	5.85E-4	5.97E-4	6.1E-4	6.23E-4	6.36E-4	6.5E-4	
+109.5	5.26E-4	5.36E-4	5.46E-4	5.57E-4	5.68E-4	5.8E-4	5.92E-4	6.05E-4	6.18E-4	6.31E-4	
+110.0	5.11E-4	5.2E-4	5.3E-4	5.41E-4	5.52E-4	5.63E-4	5.75E-4	5.87E-4	6.0E-4	6.13E-4	
+110.5	4.96E-4	5.05E-4	5.15E-4	5.25E-4	5.36E-4	5.47E-4	5.59E-4	5.7E-4	5.83E-4	5.95E-4	
+111.0	4.82E-4	4.91E-4	5.0E-4	5.1E-4	5.2E-4	5.31E-4	5.42E-4	5.54E-4	5.66E-4	5.78E-4	
+111.5	4.68E-4	4.76E-4	4.86E-4	4.95E-4	5.05E-4	5.16E-4	5.27E-4	5.38E-4	5.49E-4	5.61E-4	
+112.0	4.54E-4	4.63E-4	4.72E-4	4.81E-4	4.91E-4	5.01E-4	5.12E-4	5.22E-4	5.34E-4	5.45E-4	
+112.5	4.41E-4	4.49E-4	4.58E-4	4.67E-4	4.77E-4	4.87E-4	4.97E-4	5.07E-4	5.18E-4	5.29E-4	
+113.0	4.28E-4	4.36E-4	4.45E-4	4.54E-4	4.63E-4	4.72E-4	4.82E-4	4.93E-4	5.03E-4	5.14E-4	
+113.5	4.16E-4	4.24E-4	4.32E-4	4.4E-4	4.49E-4	4.59E-4	4.68E-4	4.78E-4	4.89E-4	4.99E-4	
+114.0	4.04E-4	4.11E-4	4.19E-4	4.28E-4	4.36E-4	4.46E-4	4.55E-4	4.65E-4	4.75E-4	4.85E-4	
+114.5	3.92E-4	4.0E-4	4.07E-4	4.15E-4	4.24E-4	4.33E-4	4.42E-4	4.51E-4	4.61E-4	4.71E-4	
+115.0	3.81E-4	3.88E-4	3.95E-4	4.03E-4	4.12E-4	4.2E-4	4.29E-4	4.38E-4	4.47E-4	4.57E-4	
+115.5	3.7E-4	3.77E-4	3.84E-4	3.92E-4	4.0E-4	4.08E-4	4.17E-4	4.26E-4	4.35E-4	4.44E-4	
+116.0	3.59E-4	3.66E-4	3.73E-4	3.8E-4	3.88E-4	3.96E-4	4.05E-4	4.13E-4	4.22E-4	4.31E-4	
+116.5	3.49E-4	3.55E-4	3.62E-4	3.69E-4	3.77E-4	3.85E-4	3.93E-4	4.01E-4	4.1E-4	4.19E-4	
+117.0	3.39E-4	3.45E-4	3.52E-4	3.59E-4	3.66E-4	3.74E-4	3.82E-4	3.9E-4	3.98E-4	4.06E-4	
+117.5	3.29E-4	3.35E-4	3.42E-4	3.48E-4	3.55E-4	3.63E-4	3.71E-4	3.78E-4	3.86E-4	3.95E-4	
+118.0	3.19E-4	3.25E-4	3.32E-4	3.38E-4	3.45E-4	3.52E-4	3.6E-4	3.67E-4	3.75E-4	3.83E-4	
+118.5	3.1E-4	3.16E-4	3.22E-4	3.29E-4	3.35E-4	3.42E-4	3.49E-4	3.57E-4	3.64E-4	3.72E-4	
+119.0	3.01E-4	3.07E-4	3.13E-4	3.19E-4	3.26E-4	3.32E-4	3.39E-4	3.47E-4	3.54E-4	3.61E-4	
+119.5	2.92E-4	2.98E-4	3.04E-4	3.1E-4	3.16E-4	3.23E-4	3.3E-4	3.37E-4	3.44E-4	3.51E-4	
+120.0	2.84E-4	2.89E-4	2.95E-4	3.01E-4	3.07E-4	3.13E-4	3.2E-4	3.27E-4	3.34E-4	3.41E-4	
+120.5	2.76E-4	2.81E-4	2.86E-4	2.92E-4	2.98E-4	3.04E-4	3.11E-4	3.17E-4	3.24E-4	3.31E-4	
+121.0	2.68E-4	2.73E-4	2.78E-4	2.84E-4	2.9E-4	2.96E-4	3.02E-4	3.08E-4	3.15E-4	3.21E-4	
+121.5	2.6E-4	2.65E-4	2.7E-4	2.76E-4	2.81E-4	2.87E-4	2.93E-4	2.99E-4	3.06E-4	3.12E-4	
+122.0	2.53E-4	2.57E-4	2.62E-4	2.68E-4	2.73E-4	2.79E-4	2.85E-4	2.91E-4	2.97E-4	3.03E-4	
+122.5	2.45E-4	2.5E-4	2.55E-4	2.6E-4	2.65E-4	2.71E-4	2.76E-4	2.82E-4	2.88E-4	2.94E-4	
+123.0	2.38E-4	2.43E-4	2.47E-4	2.52E-4	2.57E-4	2.63E-4	2.68E-4	2.74E-4	2.8E-4	2.86E-4	
+123.5	2.31E-4	2.36E-4	2.4E-4	2.45E-4	2.5E-4	2.55E-4	2.61E-4	2.66E-4	2.72E-4	2.78E-4	
+124.0	2.25E-4	2.29E-4	2.33E-4	2.38E-4	2.43E-4	2.48E-4	2.53E-4	2.58E-4	2.64E-4	2.7E-4	
+124.5	2.18E-4	2.22E-4	2.27E-4	2.31E-4	2.36E-4	2.41E-4	2.46E-4	2.51E-4	2.56E-4	2.62E-4	
+125.0	2.12E-4	2.16E-4	2.2E-4	2.24E-4	2.29E-4	2.34E-4	2.39E-4	2.44E-4	2.49E-4	2.54E-4	
+125.5	2.06E-4	2.1E-4	2.14E-4	2.18E-4	2.22E-4	2.27E-4	2.32E-4	2.37E-4	2.42E-4	2.47E-4	
+126.0	2.0E-4	2.03E-4	2.07E-4	2.12E-4	2.16E-4	2.2E-4	2.25E-4	2.3E-4	2.35E-4	2.4E-4	
+126.5	1.94E-4	1.98E-4	2.01E-4	2.05E-4	2.1E-4	2.14E-4	2.19E-4	2.23E-4	2.28E-4	2.33E-4	
+127.0	1.88E-4	1.92E-4	1.96E-4	2.0E-4	2.04E-4	2.08E-4	2.12E-4	2.17E-4	2.21E-4	2.26E-4	
+127.5	1.83E-4	1.86E-4	1.9E-4	1.94E-4	1.98E-4	2.02E-4	2.06E-4	2.11E-4	2.15E-4	2.2E-4	
+128.0	1.78E-4	1.81E-4	1.84E-4	1.88E-4	1.92E-4	1.96E-4	2.0E-4	2.04E-4	2.09E-4	2.13E-4	
+128.5	1.72E-4	1.76E-4	1.79E-4	1.83E-4	1.86E-4	1.9E-4	1.94E-4	1.99E-4	2.03E-4	2.07E-4	
+129.0	1.68E-4	1.71E-4	1.74E-4	1.77E-4	1.81E-4	1.85E-4	1.89E-4	1.93E-4	1.97E-4	2.01E-4	
+129.5	1.63E-4	1.66E-4	1.69E-4	1.72E-4	1.76E-4	1.8E-4	1.83E-4	1.87E-4	1.91E-4	1.95E-4	
+130.0	1.58E-4	1.61E-4	1.64E-4	1.67E-4	1.71E-4	1.74E-4	1.78E-4	1.82E-4	1.86E-4	1.9E-4	
+130.5	1.53E-4	1.56E-4	1.59E-4	1.63E-4	1.66E-4	1.69E-4	1.73E-4	1.77E-4	1.8E-4	1.84E-4	
+131.0	1.49E-4	1.52E-4	1.55E-4	1.58E-4	1.61E-4	1.64E-4	1.68E-4	1.71E-4	1.75E-4	1.79E-4	
+131.5	1.45E-4	1.47E-4	1.5E-4	1.53E-4	1.56E-4	1.6E-4	1.63E-4	1.67E-4	1.7E-4	1.74E-4	
+132.0	1.4E-4	1.43E-4	1.46E-4	1.49E-4	1.52E-4	1.55E-4	1.58E-4	1.62E-4	1.65E-4	1.69E-4	
+132.5	1.36E-4	1.39E-4	1.42E-4	1.45E-4	1.47E-4	1.51E-4	1.54E-4	1.57E-4	1.6E-4	1.64E-4	
+133.0	1.32E-4	1.35E-4	1.38E-4	1.4E-4	1.43E-4	1.46E-4	1.49E-4	1.52E-4	1.56E-4	1.59E-4	
+133.5	1.29E-4	1.31E-4	1.34E-4	1.36E-4	1.39E-4	1.42E-4	1.45E-4	1.48E-4	1.51E-4	1.54E-4	
+134.0	1.25E-4	1.27E-4	1.3E-4	1.32E-4	1.35E-4	1.38E-4	1.41E-4	1.44E-4	1.47E-4	1.5E-4	
+134.5	1.21E-4	1.24E-4	1.26E-4	1.29E-4	1.31E-4	1.34E-4	1.37E-4	1.4E-4	1.43E-4	1.46E-4	
+135.0	1.18E-4	1.2E-4	1.22E-4	1.25E-4	1.27E-4	1.3E-4	1.33E-4	1.36E-4	1.39E-4	1.41E-4	
+135.5	1.14E-4	1.17E-4	1.19E-4	1.21E-4	1.24E-4	1.26E-4	1.29E-4	1.32E-4	1.35E-4	1.37E-4	
+136.0	1.11E-4	1.13E-4	1.15E-4	1.18E-4	1.2E-4	1.23E-4	1.25E-4	1.28E-4	1.31E-4	1.33E-4	
+136.5	1.08E-4	1.1E-4	1.12E-4	1.14E-4	1.17E-4	1.19E-4	1.22E-4	1.24E-4	1.27E-4	1.3E-4	
+137.0	1.05E-4	1.07E-4	1.09E-4	1.11E-4	1.13E-4	1.16E-4	1.18E-4	1.21E-4	1.23E-4	1.26E-4	
+137.5	1.02E-4	1.04E-4	1.06E-4	1.08E-4	1.1E-4	1.12E-4	1.15E-4	1.17E-4	1.2E-4	1.22E-4	
+138.0	9.88E-5	1.01E-4	1.03E-4	1.05E-4	1.07E-4	1.09E-4	1.11E-4	1.14E-4	1.16E-4	1.19E-4	
+138.5	9.59E-5	9.77E-5	9.96E-5	1.02E-4	1.04E-4	1.06E-4	1.08E-4	1.1E-4	1.13E-4	1.15E-4	
+139.0	9.32E-5	9.49E-5	9.68E-5	9.87E-5	1.01E-4	1.03E-4	1.05E-4	1.07E-4	1.1E-4	1.12E-4	
+139.5	9.05E-5	9.22E-5	9.4E-5	9.59E-5	9.78E-5	9.99E-5	1.02E-4	1.04E-4	1.06E-4	1.09E-4	
+140.0	8.79E-5	8.95E-5	9.13E-5	9.31E-5	9.5E-5	9.7E-5	9.9E-5	1.01E-4	1.03E-4	1.06E-4	
+140.5	8.53E-5	8.69E-5	8.86E-5	9.04E-5	9.22E-5	9.42E-5	9.62E-5	9.82E-5	1.0E-4	1.02E-4	
+141.0	8.28E-5	8.44E-5	8.61E-5	8.78E-5	8.96E-5	9.15E-5	9.34E-5	9.54E-5	9.74E-5	9.95E-5	
+141.5	8.05E-5	8.2E-5	8.36E-5	8.52E-5	8.7E-5	8.88E-5	9.07E-5	9.26E-5	9.46E-5	9.66E-5	
+142.0	7.81E-5	7.96E-5	8.12E-5	8.28E-5	8.45E-5	8.62E-5	8.81E-5	9.0E-5	9.19E-5	9.38E-5	
+142.5	7.59E-5	7.73E-5	7.88E-5	8.04E-5	8.2E-5	8.38E-5	8.55E-5	8.74E-5	8.92E-5	9.11E-5	
+143.0	7.37E-5	7.51E-5	7.65E-5	7.81E-5	7.97E-5	8.13E-5	8.31E-5	8.48E-5	8.67E-5	8.85E-5	
+143.5	7.15E-5	7.29E-5	7.43E-5	7.58E-5	7.74E-5	7.9E-5	8.07E-5	8.24E-5	8.42E-5	8.59E-5	
+144.0	6.95E-5	7.08E-5	7.22E-5	7.36E-5	7.51E-5	7.67E-5	7.83E-5	8.0E-5	8.17E-5	8.35E-5	
+144.5	6.75E-5	6.87E-5	7.01E-5	7.15E-5	7.3E-5	7.45E-5	7.61E-5	7.77E-5	7.94E-5	8.11E-5	
+145.0	6.55E-5	6.68E-5	6.81E-5	6.94E-5	7.08E-5	7.23E-5	7.39E-5	7.54E-5	7.71E-5	7.87E-5	
+145.5	6.36E-5	6.48E-5	6.61E-5	6.74E-5	6.88E-5	7.02E-5	7.17E-5	7.33E-5	7.48E-5	7.64E-5	
+146.0	6.18E-5	6.3E-5	6.42E-5	6.55E-5	6.68E-5	6.82E-5	6.97E-5	7.12E-5	7.27E-5	7.42E-5	
+146.5	6.0E-5	6.11E-5	6.23E-5	6.36E-5	6.49E-5	6.62E-5	6.76E-5	6.91E-5	7.06E-5	7.21E-5	
+147.0	5.83E-5	5.94E-5	6.05E-5	6.17E-5	6.3E-5	6.43E-5	6.57E-5	6.71E-5	6.85E-5	7.0E-5	
+147.5	5.66E-5	5.76E-5	5.88E-5	6.0E-5	6.12E-5	6.25E-5	6.38E-5	6.52E-5	6.66E-5	6.8E-5	
+148.0	5.49E-5	5.6E-5	5.71E-5	5.82E-5	5.94E-5	6.07E-5	6.2E-5	6.33E-5	6.46E-5	6.6E-5	
+148.5	5.34E-5	5.44E-5	5.54E-5	5.65E-5	5.77E-5	5.89E-5	6.02E-5	6.15E-5	6.28E-5	6.41E-5	
+149.0	5.18E-5	5.28E-5	5.38E-5	5.49E-5	5.6E-5	5.72E-5	5.84E-5	5.97E-5	6.1E-5	6.23E-5	
+149.5	5.03E-5	5.13E-5	5.23E-5	5.33E-5	5.44E-5	5.56E-5	5.67E-5	5.8E-5	5.92E-5	6.05E-5	
+150.0	4.89E-5	4.98E-5	5.08E-5	5.18E-5	5.28E-5	5.4E-5	5.51E-5	5.63E-5	5.75E-5	5.87E-5	
+
+
+PARAMETER: GUT VMAX SCALE FACTOR OF ZGB 60MG PO JOSEPH ET AL
+
+Summary Results:
+
+Param Value	Amount Dissolved-ZGB 60mg PO Joseph et al (mg)	Amount Portal Vein-ZGB 60mg PO Joseph et al (mg)	Result-FDp-ZGB 60mg PO Joseph et al (%)	Amount Absorbed-ZGB 60mg PO Joseph et al (mg)	Result-Fa-ZGB 60mg PO Joseph et al (%)	Result-Fb-ZGB 60mg PO Joseph et al (%)	Result-AUC-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-AUC(0-t)-ZGB 60mg PO Joseph et al (ng-h/mL)	Result-Cmax-ZGB 60mg PO Joseph et al (ug/mL)	Result-Tmax-ZGB 60mg PO Joseph et al (hrs)	Result-LCmax-ZGB 60mg PO Joseph et al (ug/mL)
+0.500	60.00	48.45	80.76	59.99	99.99	73.40	7517.4	7516.3	0.544	1.200	0.807
+0.583	60.00	46.89	78.16	59.99	99.99	71.04	7275.3	7274.2	0.531	1.200	0.792
+0.680	60.00	45.17	75.29	59.99	99.99	68.43	7008.2	7007.1	0.517	1.100	0.776
+0.794	60.00	43.29	72.14	59.99	99.99	65.57	6715.5	6714.5	0.501	1.100	0.756
+0.926	60.00	41.24	68.73	60.00	99.99	62.47	6397.3	6396.3	0.483	1.100	0.735
+1.080	60.00	39.03	65.04	60.00	99.99	59.12	6054.3	6053.5	0.463	1.000	0.710
+1.260	60.00	36.67	61.11	60.00	99.99	55.55	5688.3	5687.4	0.442	1.000	0.681
+1.470	60.00	34.17	56.96	60.00	99.99	51.77	5301.5	5300.7	0.418	1.000	0.653
+1.714	60.00	31.57	52.62	60.00	99.99	47.82	4897.4	4896.7	0.392	0.900	0.621
+2.000	60.00	28.88	48.13	60.00	99.99	43.75	4479.8	4479.1	0.365	0.900	0.585
+
+REGIONAL ABSORPTION:
+
+Param Value	Stom Fa%	Duod Fa%	Jej1 Fa%	Jej2 Fa%	Ile1 Fa%	Ile2 Fa%	Ile3 Fa%	Caec Fa%	Col Fa%
+0.500	0.0	23.29	38.85	17.62	8.013	4.042	2.171	5.481	0.521
+0.583	0.0	23.37	38.96	17.65	7.966	4.012	2.151	5.375	0.509
+0.680	0.0	23.46	39.07	17.68	7.914	3.979	2.128	5.260	0.496
+0.794	0.0	23.55	39.21	17.71	7.856	3.940	2.102	5.137	0.482
+0.926	0.0	23.67	39.36	17.73	7.794	3.897	2.071	5.007	0.468
+1.080	0.0	23.79	39.52	17.75	7.726	3.849	2.037	4.871	0.452
+1.260	0.0	23.93	39.70	17.75	7.653	3.796	2.000	4.731	0.436
+1.470	0.0	24.09	39.89	17.73	7.576	3.738	1.959	4.589	0.420
+1.714	0.0	24.26	40.10	17.69	7.496	3.677	1.917	4.447	0.403
+2.000	0.0	24.45	40.32	17.62	7.413	3.611	1.873	4.308	0.387
+
+
+
+Profiles vs. Time
+
+Param Value: 	0.500	0.583	0.680	0.794	0.926	1.080	1.260	1.470	1.714	2.000
+Time (hr)	Cp (ug/mL)
+0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	
+0.500	0.394	0.389	0.382	0.375	0.367	0.357	0.346	0.334	0.320	0.304	
+1.000	0.538	0.527	0.514	0.499	0.482	0.463	0.442	0.418	0.391	0.362	
+1.500	0.534	0.519	0.502	0.483	0.462	0.439	0.413	0.385	0.355	0.323	
+2.000	0.496	0.480	0.462	0.442	0.420	0.396	0.371	0.344	0.316	0.287	
+2.500	0.456	0.440	0.423	0.404	0.383	0.361	0.338	0.313	0.288	0.262	
+3.000	0.420	0.406	0.389	0.372	0.353	0.333	0.312	0.289	0.266	0.243	
+3.500	0.390	0.377	0.362	0.346	0.328	0.310	0.290	0.269	0.248	0.226	
+4.000	0.366	0.353	0.339	0.324	0.308	0.291	0.272	0.253	0.233	0.213	
+4.500	0.346	0.334	0.321	0.307	0.292	0.276	0.258	0.240	0.221	0.202	
+5.000	0.330	0.319	0.307	0.293	0.279	0.263	0.247	0.230	0.212	0.193	
+5.500	0.317	0.306	0.294	0.282	0.268	0.253	0.237	0.221	0.204	0.186	
+6.000	0.305	0.295	0.284	0.272	0.258	0.244	0.229	0.213	0.197	0.179	
+6.500	0.295	0.285	0.274	0.263	0.250	0.236	0.221	0.206	0.190	0.174	
+7.000	0.286	0.276	0.266	0.254	0.242	0.229	0.215	0.200	0.184	0.168	
+7.500	0.277	0.268	0.258	0.246	0.235	0.222	0.208	0.194	0.179	0.163	
+8.000	0.268	0.260	0.250	0.239	0.227	0.215	0.202	0.188	0.173	0.158	
+8.500	0.261	0.252	0.242	0.232	0.221	0.209	0.196	0.182	0.168	0.154	
+9.000	0.253	0.245	0.235	0.225	0.214	0.203	0.190	0.177	0.163	0.149	
+9.500	0.246	0.237	0.228	0.219	0.208	0.197	0.185	0.172	0.158	0.145	
+10.00	0.238	0.230	0.222	0.212	0.202	0.191	0.179	0.167	0.154	0.141	
+10.50	0.231	0.224	0.215	0.206	0.196	0.185	0.174	0.162	0.149	0.136	
+11.00	0.225	0.217	0.209	0.200	0.190	0.180	0.169	0.157	0.145	0.133	
+11.50	0.218	0.211	0.203	0.194	0.185	0.175	0.164	0.153	0.141	0.129	
+12.00	0.212	0.205	0.197	0.189	0.180	0.170	0.159	0.148	0.137	0.125	
+12.50	0.206	0.199	0.191	0.183	0.174	0.165	0.155	0.144	0.133	0.121	
+13.00	0.200	0.193	0.186	0.178	0.169	0.160	0.150	0.140	0.129	0.118	
+13.50	0.194	0.188	0.181	0.173	0.164	0.155	0.146	0.136	0.125	0.114	
+14.00	0.188	0.182	0.175	0.168	0.160	0.151	0.142	0.132	0.122	0.111	
+14.50	0.183	0.177	0.170	0.163	0.155	0.147	0.138	0.128	0.118	0.108	
+15.00	0.178	0.172	0.165	0.158	0.151	0.142	0.134	0.124	0.115	0.105	
+15.50	0.173	0.167	0.161	0.154	0.146	0.138	0.130	0.121	0.111	0.102	
+16.00	0.168	0.162	0.156	0.149	0.142	0.134	0.126	0.117	0.108	0.099	
+16.50	0.163	0.157	0.151	0.145	0.138	0.130	0.122	0.114	0.105	0.096	
+17.00	0.158	0.153	0.147	0.141	0.134	0.127	0.119	0.111	0.102	0.093	
+17.50	0.154	0.148	0.143	0.137	0.130	0.123	0.115	0.107	0.099	0.090	
+18.00	0.149	0.144	0.139	0.133	0.126	0.119	0.112	0.104	0.096	0.088	
+18.50	0.145	0.140	0.135	0.129	0.123	0.116	0.109	0.101	0.093	0.085	
+19.00	0.141	0.136	0.131	0.125	0.119	0.113	0.106	0.098	0.091	0.083	
+19.50	0.137	0.132	0.127	0.122	0.116	0.109	0.103	0.095	0.088	0.080	
+20.00	0.133	0.128	0.123	0.118	0.112	0.106	0.100	0.093	0.086	0.078	
+20.50	0.129	0.124	0.120	0.115	0.109	0.103	0.097	0.090	0.083	0.076	
+21.00	0.125	0.121	0.116	0.111	0.106	0.100	0.094	0.087	0.081	0.074	
+21.50	0.121	0.117	0.113	0.108	0.103	0.097	0.091	0.085	0.078	0.072	
+22.00	0.118	0.114	0.110	0.105	0.100	0.094	0.089	0.082	0.076	0.069	
+22.50	0.115	0.111	0.107	0.102	0.097	0.092	0.086	0.080	0.074	0.067	
+23.00	0.111	0.108	0.103	0.099	0.094	0.089	0.084	0.078	0.072	0.066	
+23.50	0.108	0.104	0.100	0.096	0.091	0.086	0.081	0.076	0.070	0.064	
+24.00	0.105	0.101	0.098	0.093	0.089	0.084	0.079	0.073	0.068	0.062	
+24.50	0.102	0.098	0.095	0.091	0.086	0.082	0.077	0.071	0.066	0.060	
+25.00	0.099	0.096	0.092	0.088	0.084	0.079	0.074	0.069	0.064	0.058	
+25.50	0.096	0.093	0.089	0.086	0.081	0.077	0.072	0.067	0.062	0.057	
+26.00	0.093	0.090	0.087	0.083	0.079	0.075	0.070	0.065	0.060	0.055	
+26.50	0.091	0.088	0.084	0.081	0.077	0.073	0.068	0.063	0.058	0.053	
+27.00	0.088	0.085	0.082	0.078	0.075	0.070	0.066	0.062	0.057	0.052	
+27.50	0.085	0.083	0.079	0.076	0.072	0.068	0.064	0.060	0.055	0.050	
+28.00	0.083	0.080	0.077	0.074	0.070	0.066	0.062	0.058	0.054	0.049	
+28.50	0.081	0.078	0.075	0.072	0.068	0.064	0.061	0.056	0.052	0.047	
+29.00	0.078	0.076	0.073	0.070	0.066	0.063	0.059	0.055	0.050	0.046	
+29.50	0.076	0.073	0.071	0.068	0.064	0.061	0.057	0.053	0.049	0.045	
+30.00	0.074	0.071	0.069	0.066	0.062	0.059	0.055	0.052	0.048	0.043	
+30.50	0.072	0.069	0.067	0.064	0.061	0.057	0.054	0.050	0.046	0.042	
+31.00	0.070	0.067	0.065	0.062	0.059	0.056	0.052	0.049	0.045	0.041	
+31.50	0.068	0.065	0.063	0.060	0.057	0.054	0.051	0.047	0.044	0.040	
+32.00	0.066	0.063	0.061	0.058	0.056	0.053	0.049	0.046	0.042	0.039	
+32.50	0.064	0.062	0.059	0.057	0.054	0.051	0.048	0.045	0.041	0.038	
+33.00	0.062	0.060	0.058	0.055	0.052	0.050	0.046	0.043	0.040	0.036	
+33.50	0.060	0.058	0.056	0.053	0.051	0.048	0.045	0.042	0.039	0.035	
+34.00	0.058	0.056	0.054	0.052	0.049	0.047	0.044	0.041	0.038	0.034	
+34.50	0.057	0.055	0.053	0.050	0.048	0.045	0.043	0.040	0.037	0.033	
+35.00	0.055	0.053	0.051	0.049	0.047	0.044	0.041	0.038	0.035	0.032	
+35.50	0.053	0.052	0.050	0.048	0.045	0.043	0.040	0.037	0.034	0.031	
+36.00	0.052	0.050	0.048	0.046	0.044	0.042	0.039	0.036	0.033	0.031	
+36.50	0.050	0.049	0.047	0.045	0.043	0.040	0.038	0.035	0.032	0.030	
+37.00	0.049	0.047	0.046	0.044	0.041	0.039	0.037	0.034	0.032	0.029	
+37.50	0.048	0.046	0.044	0.042	0.040	0.038	0.036	0.033	0.031	0.028	
+38.00	0.046	0.045	0.043	0.041	0.039	0.037	0.035	0.032	0.030	0.027	
+38.50	0.045	0.043	0.042	0.040	0.038	0.036	0.034	0.031	0.029	0.026	
+39.00	0.044	0.042	0.040	0.039	0.037	0.035	0.033	0.030	0.028	0.026	
+39.50	0.042	0.041	0.039	0.038	0.036	0.034	0.032	0.030	0.027	0.025	
+40.00	0.041	0.040	0.038	0.037	0.035	0.033	0.031	0.029	0.026	0.024	
+40.50	0.040	0.039	0.037	0.035	0.034	0.032	0.030	0.028	0.026	0.023	
+41.00	0.039	0.037	0.036	0.034	0.033	0.031	0.029	0.027	0.025	0.023	
+41.50	0.038	0.036	0.035	0.033	0.032	0.030	0.028	0.026	0.024	0.022	
+42.00	0.037	0.035	0.034	0.032	0.031	0.029	0.027	0.026	0.024	0.021	
+42.50	0.035	0.034	0.033	0.032	0.030	0.028	0.027	0.025	0.023	0.021	
+43.00	0.034	0.033	0.032	0.031	0.029	0.028	0.026	0.024	0.022	0.020	
+43.50	0.033	0.032	0.031	0.030	0.028	0.027	0.025	0.023	0.022	0.020	
+44.00	0.032	0.031	0.030	0.029	0.027	0.026	0.024	0.023	0.021	0.019	
+44.50	0.032	0.030	0.029	0.028	0.027	0.025	0.024	0.022	0.020	0.019	
+45.00	0.031	0.030	0.028	0.027	0.026	0.025	0.023	0.021	0.020	0.018	
+45.50	0.030	0.029	0.028	0.026	0.025	0.024	0.022	0.021	0.019	0.018	
+46.00	0.029	0.028	0.027	0.026	0.024	0.023	0.022	0.020	0.019	0.017	
+46.50	0.028	0.027	0.026	0.025	0.024	0.022	0.021	0.020	0.018	0.017	
+47.00	0.027	0.026	0.025	0.024	0.023	0.022	0.020	0.019	0.018	0.016	
+47.50	0.026	0.026	0.025	0.024	0.022	0.021	0.020	0.018	0.017	0.016	
+48.00	0.026	0.025	0.024	0.023	0.022	0.021	0.019	0.018	0.017	0.015	
+48.50	0.025	0.024	0.023	0.022	0.021	0.020	0.019	0.017	0.016	0.015	
+49.00	0.024	0.023	0.023	0.022	0.021	0.019	0.018	0.017	0.016	0.014	
+49.50	0.024	0.023	0.022	0.021	0.020	0.019	0.018	0.016	0.015	0.014	
+50.00	0.023	0.022	0.021	0.020	0.019	0.018	0.017	0.016	0.015	0.013	
+50.50	0.022	0.021	0.021	0.020	0.019	0.018	0.017	0.015	0.014	0.013	
+51.00	0.022	0.021	0.020	0.019	0.018	0.017	0.016	0.015	0.014	0.013	
+51.50	0.021	0.020	0.019	0.019	0.018	0.017	0.016	0.015	0.013	0.012	
+52.00	0.020	0.020	0.019	0.018	0.017	0.016	0.015	0.014	0.013	0.012	
+52.50	0.020	0.019	0.018	0.018	0.017	0.016	0.015	0.014	0.013	0.012	
+53.00	0.019	0.019	0.018	0.017	0.016	0.015	0.014	0.013	0.012	0.011	
+53.50	0.019	0.018	0.017	0.017	0.016	0.015	0.014	0.013	0.012	0.011	
+54.00	0.018	0.017	0.017	0.016	0.015	0.014	0.014	0.013	0.012	0.011	
+54.50	0.018	0.017	0.016	0.016	0.015	0.014	0.013	0.012	0.011	0.010	
+55.00	0.017	0.016	0.016	0.015	0.014	0.014	0.013	0.012	0.011	0.010	
+55.50	0.017	0.016	0.015	0.015	0.014	0.013	0.012	0.012	0.011	9.74E-3	
+56.00	0.016	0.016	0.015	0.014	0.014	0.013	0.012	0.011	0.010	9.46E-3	
+56.50	0.016	0.015	0.015	0.014	0.013	0.012	0.012	0.011	0.010	9.18E-3	
+57.00	0.015	0.015	0.014	0.013	0.013	0.012	0.011	0.011	9.76E-3	8.92E-3	
+57.50	0.015	0.014	0.014	0.013	0.012	0.012	0.011	0.010	9.48E-3	8.66E-3	
+58.00	0.014	0.014	0.013	0.013	0.012	0.011	0.011	9.98E-3	9.21E-3	8.41E-3	
+58.50	0.014	0.013	0.013	0.012	0.012	0.011	0.010	9.69E-3	8.94E-3	8.17E-3	
+59.00	0.013	0.013	0.013	0.012	0.011	0.011	0.010	9.41E-3	8.68E-3	7.93E-3	
+59.50	0.013	0.013	0.012	0.012	0.011	0.010	9.82E-3	9.14E-3	8.43E-3	7.7E-3	
+60.00	0.013	0.012	0.012	0.011	0.011	0.010	9.54E-3	8.88E-3	8.19E-3	7.48E-3	
+60.50	0.012	0.012	0.011	0.011	0.010	9.87E-3	9.26E-3	8.62E-3	7.95E-3	7.26E-3	
+61.00	0.012	0.012	0.011	0.011	0.010	9.59E-3	8.99E-3	8.37E-3	7.72E-3	7.05E-3	
+61.50	0.012	0.011	0.011	0.010	9.85E-3	9.31E-3	8.73E-3	8.13E-3	7.5E-3	6.85E-3	
+62.00	0.011	0.011	0.011	0.010	9.57E-3	9.04E-3	8.48E-3	7.89E-3	7.28E-3	6.65E-3	
+62.50	0.011	0.011	0.010	9.77E-3	9.29E-3	8.78E-3	8.24E-3	7.67E-3	7.07E-3	6.46E-3	
+63.00	0.011	0.010	9.91E-3	9.48E-3	9.02E-3	8.53E-3	8.0E-3	7.44E-3	6.87E-3	6.27E-3	
+63.50	0.010	0.010	9.63E-3	9.21E-3	8.76E-3	8.28E-3	7.77E-3	7.23E-3	6.67E-3	6.09E-3	
+64.00	0.010	9.72E-3	9.35E-3	8.94E-3	8.51E-3	8.04E-3	7.54E-3	7.02E-3	6.47E-3	5.91E-3	
+64.50	9.76E-3	9.43E-3	9.08E-3	8.69E-3	8.26E-3	7.81E-3	7.33E-3	6.82E-3	6.29E-3	5.74E-3	
+65.00	9.48E-3	9.16E-3	8.81E-3	8.44E-3	8.02E-3	7.58E-3	7.11E-3	6.62E-3	6.11E-3	5.58E-3	
+65.50	9.2E-3	8.9E-3	8.56E-3	8.19E-3	7.79E-3	7.36E-3	6.91E-3	6.43E-3	5.93E-3	5.42E-3	
+66.00	8.94E-3	8.64E-3	8.31E-3	7.95E-3	7.57E-3	7.15E-3	6.71E-3	6.24E-3	5.76E-3	5.26E-3	
+66.50	8.68E-3	8.39E-3	8.07E-3	7.72E-3	7.35E-3	6.94E-3	6.51E-3	6.06E-3	5.59E-3	5.11E-3	
+67.00	8.43E-3	8.15E-3	7.84E-3	7.5E-3	7.14E-3	6.74E-3	6.33E-3	5.89E-3	5.43E-3	4.96E-3	
+67.50	8.19E-3	7.91E-3	7.61E-3	7.28E-3	6.93E-3	6.55E-3	6.14E-3	5.72E-3	5.27E-3	4.82E-3	
+68.00	7.95E-3	7.68E-3	7.39E-3	7.07E-3	6.73E-3	6.36E-3	5.97E-3	5.55E-3	5.12E-3	4.68E-3	
+68.50	7.72E-3	7.46E-3	7.18E-3	6.87E-3	6.54E-3	6.18E-3	5.79E-3	5.39E-3	4.97E-3	4.54E-3	
+69.00	7.5E-3	7.25E-3	6.97E-3	6.67E-3	6.35E-3	6.0E-3	5.63E-3	5.24E-3	4.83E-3	4.41E-3	
+69.50	7.28E-3	7.04E-3	6.77E-3	6.48E-3	6.16E-3	5.82E-3	5.46E-3	5.08E-3	4.69E-3	4.28E-3	
+70.00	7.07E-3	6.83E-3	6.57E-3	6.29E-3	5.98E-3	5.66E-3	5.31E-3	4.94E-3	4.55E-3	4.16E-3	
+70.50	6.87E-3	6.64E-3	6.38E-3	6.11E-3	5.81E-3	5.49E-3	5.15E-3	4.79E-3	4.42E-3	4.04E-3	
+71.00	6.67E-3	6.44E-3	6.2E-3	5.93E-3	5.64E-3	5.33E-3	5.0E-3	4.66E-3	4.29E-3	3.92E-3	
+71.50	6.47E-3	6.26E-3	6.02E-3	5.76E-3	5.48E-3	5.18E-3	4.86E-3	4.52E-3	4.17E-3	3.81E-3	
+72.00	6.29E-3	6.08E-3	5.85E-3	5.6E-3	5.32E-3	5.03E-3	4.72E-3	4.39E-3	4.05E-3	3.7E-3	
+72.50	6.11E-3	5.9E-3	5.68E-3	5.43E-3	5.17E-3	4.88E-3	4.58E-3	4.26E-3	3.93E-3	3.59E-3	
+73.00	5.93E-3	5.73E-3	5.51E-3	5.28E-3	5.02E-3	4.74E-3	4.45E-3	4.14E-3	3.82E-3	3.49E-3	
+73.50	5.76E-3	5.57E-3	5.35E-3	5.12E-3	4.87E-3	4.61E-3	4.32E-3	4.02E-3	3.71E-3	3.39E-3	
+74.00	5.59E-3	5.41E-3	5.2E-3	4.98E-3	4.73E-3	4.47E-3	4.2E-3	3.9E-3	3.6E-3	3.29E-3	
+74.50	5.43E-3	5.25E-3	5.05E-3	4.83E-3	4.6E-3	4.34E-3	4.07E-3	3.79E-3	3.5E-3	3.19E-3	
+75.00	5.27E-3	5.1E-3	4.9E-3	4.69E-3	4.46E-3	4.22E-3	3.96E-3	3.68E-3	3.4E-3	3.1E-3	
+75.50	5.12E-3	4.95E-3	4.76E-3	4.56E-3	4.33E-3	4.1E-3	3.84E-3	3.58E-3	3.3E-3	3.01E-3	
+76.00	4.97E-3	4.81E-3	4.62E-3	4.43E-3	4.21E-3	3.98E-3	3.73E-3	3.47E-3	3.2E-3	2.92E-3	
+76.50	4.83E-3	4.67E-3	4.49E-3	4.3E-3	4.09E-3	3.86E-3	3.62E-3	3.37E-3	3.11E-3	2.84E-3	
+77.00	4.69E-3	4.53E-3	4.36E-3	4.17E-3	3.97E-3	3.75E-3	3.52E-3	3.27E-3	3.02E-3	2.76E-3	
+77.50	4.55E-3	4.4E-3	4.24E-3	4.05E-3	3.86E-3	3.64E-3	3.42E-3	3.18E-3	2.93E-3	2.68E-3	
+78.00	4.42E-3	4.28E-3	4.11E-3	3.94E-3	3.74E-3	3.54E-3	3.32E-3	3.09E-3	2.85E-3	2.6E-3	
+78.50	4.3E-3	4.15E-3	3.99E-3	3.82E-3	3.64E-3	3.44E-3	3.22E-3	3.0E-3	2.77E-3	2.53E-3	
+79.00	4.17E-3	4.03E-3	3.88E-3	3.71E-3	3.53E-3	3.34E-3	3.13E-3	2.91E-3	2.69E-3	2.45E-3	
+79.50	4.05E-3	3.92E-3	3.77E-3	3.6E-3	3.43E-3	3.24E-3	3.04E-3	2.83E-3	2.61E-3	2.38E-3	
+80.00	3.93E-3	3.8E-3	3.66E-3	3.5E-3	3.33E-3	3.15E-3	2.95E-3	2.75E-3	2.53E-3	2.31E-3	
+80.50	3.82E-3	3.69E-3	3.55E-3	3.4E-3	3.23E-3	3.06E-3	2.87E-3	2.67E-3	2.46E-3	2.25E-3	
+81.00	3.71E-3	3.59E-3	3.45E-3	3.3E-3	3.14E-3	2.97E-3	2.78E-3	2.59E-3	2.39E-3	2.18E-3	
+81.50	3.6E-3	3.48E-3	3.35E-3	3.21E-3	3.05E-3	2.88E-3	2.7E-3	2.51E-3	2.32E-3	2.12E-3	
+82.00	3.5E-3	3.38E-3	3.25E-3	3.11E-3	2.96E-3	2.8E-3	2.62E-3	2.44E-3	2.25E-3	2.06E-3	
+82.50	3.4E-3	3.28E-3	3.16E-3	3.02E-3	2.88E-3	2.72E-3	2.55E-3	2.37E-3	2.19E-3	2.0E-3	
+83.00	3.3E-3	3.19E-3	3.07E-3	2.94E-3	2.79E-3	2.64E-3	2.47E-3	2.3E-3	2.12E-3	1.94E-3	
+83.50	3.2E-3	3.1E-3	2.98E-3	2.85E-3	2.71E-3	2.56E-3	2.4E-3	2.24E-3	2.06E-3	1.88E-3	
+84.00	3.11E-3	3.01E-3	2.89E-3	2.77E-3	2.63E-3	2.49E-3	2.33E-3	2.17E-3	2.0E-3	1.83E-3	
+84.50	3.02E-3	2.92E-3	2.81E-3	2.69E-3	2.56E-3	2.42E-3	2.27E-3	2.11E-3	1.95E-3	1.78E-3	
+85.00	2.93E-3	2.84E-3	2.73E-3	2.61E-3	2.48E-3	2.35E-3	2.2E-3	2.05E-3	1.89E-3	1.72E-3	
+85.50	2.85E-3	2.75E-3	2.65E-3	2.54E-3	2.41E-3	2.28E-3	2.14E-3	1.99E-3	1.83E-3	1.68E-3	
+86.00	2.77E-3	2.67E-3	2.57E-3	2.46E-3	2.34E-3	2.21E-3	2.08E-3	1.93E-3	1.78E-3	1.63E-3	
+86.50	2.69E-3	2.6E-3	2.5E-3	2.39E-3	2.27E-3	2.15E-3	2.02E-3	1.88E-3	1.73E-3	1.58E-3	
+87.00	2.61E-3	2.52E-3	2.43E-3	2.32E-3	2.21E-3	2.09E-3	1.96E-3	1.82E-3	1.68E-3	1.53E-3	
+87.50	2.53E-3	2.45E-3	2.36E-3	2.25E-3	2.14E-3	2.03E-3	1.9E-3	1.77E-3	1.63E-3	1.49E-3	
+88.00	2.46E-3	2.38E-3	2.29E-3	2.19E-3	2.08E-3	1.97E-3	1.85E-3	1.72E-3	1.58E-3	1.45E-3	
+88.50	2.39E-3	2.31E-3	2.22E-3	2.13E-3	2.02E-3	1.91E-3	1.79E-3	1.67E-3	1.54E-3	1.4E-3	
+89.00	2.32E-3	2.24E-3	2.16E-3	2.06E-3	1.96E-3	1.86E-3	1.74E-3	1.62E-3	1.49E-3	1.36E-3	
+89.50	2.25E-3	2.18E-3	2.1E-3	2.01E-3	1.91E-3	1.8E-3	1.69E-3	1.57E-3	1.45E-3	1.32E-3	
+90.00	2.19E-3	2.12E-3	2.03E-3	1.95E-3	1.85E-3	1.75E-3	1.64E-3	1.53E-3	1.41E-3	1.29E-3	
+90.50	2.13E-3	2.05E-3	1.98E-3	1.89E-3	1.8E-3	1.7E-3	1.59E-3	1.48E-3	1.37E-3	1.25E-3	
+91.00	2.06E-3	1.99E-3	1.92E-3	1.84E-3	1.75E-3	1.65E-3	1.55E-3	1.44E-3	1.33E-3	1.21E-3	
+91.50	2.0E-3	1.94E-3	1.86E-3	1.78E-3	1.7E-3	1.6E-3	1.5E-3	1.4E-3	1.29E-3	1.18E-3	
+92.00	1.95E-3	1.88E-3	1.81E-3	1.73E-3	1.65E-3	1.56E-3	1.46E-3	1.36E-3	1.25E-3	1.14E-3	
+92.50	1.89E-3	1.83E-3	1.76E-3	1.68E-3	1.6E-3	1.51E-3	1.42E-3	1.32E-3	1.22E-3	1.11E-3	
+93.00	1.84E-3	1.77E-3	1.71E-3	1.63E-3	1.55E-3	1.47E-3	1.38E-3	1.28E-3	1.18E-3	1.08E-3	
+93.50	1.78E-3	1.72E-3	1.66E-3	1.59E-3	1.51E-3	1.43E-3	1.34E-3	1.24E-3	1.15E-3	1.05E-3	
+94.00	1.73E-3	1.67E-3	1.61E-3	1.54E-3	1.46E-3	1.38E-3	1.3E-3	1.21E-3	1.11E-3	1.02E-3	
+94.50	1.68E-3	1.62E-3	1.56E-3	1.5E-3	1.42E-3	1.34E-3	1.26E-3	1.17E-3	1.08E-3	9.88E-4	
+95.00	1.63E-3	1.58E-3	1.52E-3	1.45E-3	1.38E-3	1.31E-3	1.22E-3	1.14E-3	1.05E-3	9.59E-4	
+95.50	1.59E-3	1.53E-3	1.47E-3	1.41E-3	1.34E-3	1.27E-3	1.19E-3	1.11E-3	1.02E-3	9.32E-4	
+96.00	1.54E-3	1.49E-3	1.43E-3	1.37E-3	1.3E-3	1.23E-3	1.15E-3	1.07E-3	9.91E-4	9.05E-4	
+96.50	1.5E-3	1.45E-3	1.39E-3	1.33E-3	1.27E-3	1.2E-3	1.12E-3	1.04E-3	9.62E-4	8.79E-4	
+97.00	1.45E-3	1.4E-3	1.35E-3	1.29E-3	1.23E-3	1.16E-3	1.09E-3	1.01E-3	9.34E-4	8.53E-4	
+97.50	1.41E-3	1.36E-3	1.31E-3	1.25E-3	1.19E-3	1.13E-3	1.06E-3	9.84E-4	9.07E-4	8.28E-4	
+98.00	1.37E-3	1.32E-3	1.27E-3	1.22E-3	1.16E-3	1.09E-3	1.03E-3	9.55E-4	8.81E-4	8.05E-4	
+98.50	1.33E-3	1.29E-3	1.24E-3	1.18E-3	1.13E-3	1.06E-3	9.97E-4	9.28E-4	8.56E-4	7.81E-4	
+99.00	1.29E-3	1.25E-3	1.2E-3	1.15E-3	1.09E-3	1.03E-3	9.68E-4	9.01E-4	8.31E-4	7.59E-4	
+99.50	1.25E-3	1.21E-3	1.17E-3	1.12E-3	1.06E-3	1.0E-3	9.4E-4	8.75E-4	8.07E-4	7.37E-4	
+100.0	1.22E-3	1.18E-3	1.13E-3	1.08E-3	1.03E-3	9.73E-4	9.13E-4	8.5E-4	7.83E-4	7.15E-4	
+100.5	1.18E-3	1.14E-3	1.1E-3	1.05E-3	1.0E-3	9.45E-4	8.87E-4	8.25E-4	7.61E-4	6.95E-4	
+101.0	1.15E-3	1.11E-3	1.07E-3	1.02E-3	9.72E-4	9.18E-4	8.61E-4	8.01E-4	7.39E-4	6.75E-4	
+101.5	1.12E-3	1.08E-3	1.04E-3	9.92E-4	9.44E-4	8.91E-4	8.36E-4	7.78E-4	7.17E-4	6.55E-4	
+102.0	1.08E-3	1.05E-3	1.01E-3	9.63E-4	9.16E-4	8.66E-4	8.12E-4	7.56E-4	6.97E-4	6.36E-4	
+102.5	1.05E-3	1.02E-3	9.78E-4	9.36E-4	8.9E-4	8.41E-4	7.89E-4	7.34E-4	6.77E-4	6.18E-4	
+103.0	1.02E-3	9.87E-4	9.5E-4	9.08E-4	8.64E-4	8.16E-4	7.66E-4	7.12E-4	6.57E-4	6.0E-4	
+103.5	9.92E-4	9.59E-4	9.22E-4	8.82E-4	8.39E-4	7.93E-4	7.44E-4	6.92E-4	6.38E-4	5.83E-4	
+104.0	9.63E-4	9.31E-4	8.95E-4	8.57E-4	8.15E-4	7.7E-4	7.22E-4	6.72E-4	6.2E-4	5.66E-4	
+104.5	9.35E-4	9.04E-4	8.7E-4	8.32E-4	7.91E-4	7.48E-4	7.01E-4	6.52E-4	6.02E-4	5.49E-4	
+105.0	9.08E-4	8.78E-4	8.44E-4	8.08E-4	7.68E-4	7.26E-4	6.81E-4	6.34E-4	5.84E-4	5.34E-4	
+105.5	8.82E-4	8.53E-4	8.2E-4	7.85E-4	7.46E-4	7.05E-4	6.61E-4	6.15E-4	5.67E-4	5.18E-4	
+106.0	8.57E-4	8.28E-4	7.96E-4	7.62E-4	7.25E-4	6.85E-4	6.42E-4	5.97E-4	5.51E-4	5.03E-4	
+106.5	8.32E-4	8.04E-4	7.73E-4	7.4E-4	7.04E-4	6.65E-4	6.24E-4	5.8E-4	5.35E-4	4.89E-4	
+107.0	8.08E-4	7.81E-4	7.51E-4	7.19E-4	6.83E-4	6.46E-4	6.06E-4	5.63E-4	5.2E-4	4.74E-4	
+107.5	7.84E-4	7.58E-4	7.29E-4	6.98E-4	6.64E-4	6.27E-4	5.88E-4	5.47E-4	5.05E-4	4.61E-4	
+108.0	7.62E-4	7.36E-4	7.08E-4	6.78E-4	6.44E-4	6.09E-4	5.71E-4	5.31E-4	4.9E-4	4.47E-4	
+108.5	7.4E-4	7.15E-4	6.88E-4	6.58E-4	6.26E-4	5.91E-4	5.55E-4	5.16E-4	4.76E-4	4.35E-4	
+109.0	7.18E-4	6.94E-4	6.68E-4	6.39E-4	6.08E-4	5.74E-4	5.39E-4	5.01E-4	4.62E-4	4.22E-4	
+109.5	6.98E-4	6.74E-4	6.49E-4	6.21E-4	5.9E-4	5.58E-4	5.23E-4	4.87E-4	4.49E-4	4.1E-4	
+110.0	6.78E-4	6.55E-4	6.3E-4	6.03E-4	5.73E-4	5.42E-4	5.08E-4	4.73E-4	4.36E-4	3.98E-4	
+110.5	6.58E-4	6.36E-4	6.12E-4	5.85E-4	5.57E-4	5.26E-4	4.93E-4	4.59E-4	4.23E-4	3.86E-4	
+111.0	6.39E-4	6.18E-4	5.94E-4	5.68E-4	5.4E-4	5.11E-4	4.79E-4	4.46E-4	4.11E-4	3.75E-4	
+111.5	6.2E-4	6.0E-4	5.77E-4	5.52E-4	5.25E-4	4.96E-4	4.65E-4	4.33E-4	3.99E-4	3.64E-4	
+112.0	6.03E-4	5.82E-4	5.6E-4	5.36E-4	5.1E-4	4.82E-4	4.52E-4	4.2E-4	3.88E-4	3.54E-4	
+112.5	5.85E-4	5.66E-4	5.44E-4	5.2E-4	4.95E-4	4.68E-4	4.39E-4	4.08E-4	3.76E-4	3.44E-4	
+113.0	5.68E-4	5.49E-4	5.28E-4	5.05E-4	4.81E-4	4.54E-4	4.26E-4	3.96E-4	3.65E-4	3.34E-4	
+113.5	5.52E-4	5.33E-4	5.13E-4	4.91E-4	4.67E-4	4.41E-4	4.14E-4	3.85E-4	3.55E-4	3.24E-4	
+114.0	5.36E-4	5.18E-4	4.98E-4	4.77E-4	4.53E-4	4.28E-4	4.02E-4	3.74E-4	3.45E-4	3.15E-4	
+114.5	5.2E-4	5.03E-4	4.84E-4	4.63E-4	4.4E-4	4.16E-4	3.9E-4	3.63E-4	3.35E-4	3.06E-4	
+115.0	5.05E-4	4.88E-4	4.7E-4	4.49E-4	4.27E-4	4.04E-4	3.79E-4	3.52E-4	3.25E-4	2.97E-4	
+115.5	4.91E-4	4.74E-4	4.56E-4	4.36E-4	4.15E-4	3.92E-4	3.68E-4	3.42E-4	3.16E-4	2.88E-4	
+116.0	4.77E-4	4.61E-4	4.43E-4	4.24E-4	4.03E-4	3.81E-4	3.57E-4	3.32E-4	3.06E-4	2.8E-4	
+116.5	4.63E-4	4.47E-4	4.3E-4	4.12E-4	3.91E-4	3.7E-4	3.47E-4	3.23E-4	2.98E-4	2.72E-4	
+117.0	4.49E-4	4.34E-4	4.18E-4	4.0E-4	3.8E-4	3.59E-4	3.37E-4	3.13E-4	2.89E-4	2.64E-4	
+117.5	4.36E-4	4.22E-4	4.06E-4	3.88E-4	3.69E-4	3.49E-4	3.27E-4	3.04E-4	2.81E-4	2.56E-4	
+118.0	4.24E-4	4.1E-4	3.94E-4	3.77E-4	3.59E-4	3.39E-4	3.18E-4	2.96E-4	2.73E-4	2.49E-4	
+118.5	4.12E-4	3.98E-4	3.83E-4	3.66E-4	3.48E-4	3.29E-4	3.08E-4	2.87E-4	2.65E-4	2.42E-4	
+119.0	4.0E-4	3.86E-4	3.72E-4	3.55E-4	3.38E-4	3.19E-4	3.0E-4	2.79E-4	2.57E-4	2.35E-4	
+119.5	3.88E-4	3.75E-4	3.61E-4	3.45E-4	3.28E-4	3.1E-4	2.91E-4	2.71E-4	2.5E-4	2.28E-4	
+120.0	3.77E-4	3.64E-4	3.5E-4	3.35E-4	3.19E-4	3.01E-4	2.83E-4	2.63E-4	2.42E-4	2.21E-4	
+120.5	3.66E-4	3.54E-4	3.4E-4	3.26E-4	3.1E-4	2.93E-4	2.74E-4	2.55E-4	2.35E-4	2.15E-4	
+121.0	3.56E-4	3.44E-4	3.3E-4	3.16E-4	3.01E-4	2.84E-4	2.66E-4	2.48E-4	2.29E-4	2.09E-4	
+121.5	3.45E-4	3.34E-4	3.21E-4	3.07E-4	2.92E-4	2.76E-4	2.59E-4	2.41E-4	2.22E-4	2.03E-4	
+122.0	3.35E-4	3.24E-4	3.12E-4	2.98E-4	2.84E-4	2.68E-4	2.51E-4	2.34E-4	2.16E-4	1.97E-4	
+122.5	3.26E-4	3.15E-4	3.03E-4	2.9E-4	2.75E-4	2.6E-4	2.44E-4	2.27E-4	2.09E-4	1.91E-4	
+123.0	3.16E-4	3.06E-4	2.94E-4	2.81E-4	2.67E-4	2.53E-4	2.37E-4	2.2E-4	2.03E-4	1.86E-4	
+123.5	3.07E-4	2.97E-4	2.85E-4	2.73E-4	2.6E-4	2.45E-4	2.3E-4	2.14E-4	1.97E-4	1.8E-4	
+124.0	2.98E-4	2.88E-4	2.77E-4	2.65E-4	2.52E-4	2.38E-4	2.23E-4	2.08E-4	1.92E-4	1.75E-4	
+124.5	2.9E-4	2.8E-4	2.69E-4	2.57E-4	2.45E-4	2.31E-4	2.17E-4	2.02E-4	1.86E-4	1.7E-4	
+125.0	2.81E-4	2.72E-4	2.61E-4	2.5E-4	2.38E-4	2.25E-4	2.11E-4	1.96E-4	1.81E-4	1.65E-4	
+125.5	2.73E-4	2.64E-4	2.54E-4	2.43E-4	2.31E-4	2.18E-4	2.05E-4	1.9E-4	1.76E-4	1.6E-4	
+126.0	2.65E-4	2.56E-4	2.46E-4	2.36E-4	2.24E-4	2.12E-4	1.99E-4	1.85E-4	1.7E-4	1.56E-4	
+126.5	2.58E-4	2.49E-4	2.39E-4	2.29E-4	2.18E-4	2.06E-4	1.93E-4	1.8E-4	1.66E-4	1.51E-4	
+127.0	2.5E-4	2.42E-4	2.32E-4	2.22E-4	2.11E-4	2.0E-4	1.87E-4	1.74E-4	1.61E-4	1.47E-4	
+127.5	2.43E-4	2.35E-4	2.26E-4	2.16E-4	2.05E-4	1.94E-4	1.82E-4	1.69E-4	1.56E-4	1.43E-4	
+128.0	2.36E-4	2.28E-4	2.19E-4	2.1E-4	1.99E-4	1.88E-4	1.77E-4	1.64E-4	1.52E-4	1.38E-4	
+128.5	2.29E-4	2.21E-4	2.13E-4	2.04E-4	1.94E-4	1.83E-4	1.72E-4	1.6E-4	1.47E-4	1.34E-4	
+129.0	2.22E-4	2.15E-4	2.07E-4	1.98E-4	1.88E-4	1.78E-4	1.67E-4	1.55E-4	1.43E-4	1.31E-4	
+129.5	2.16E-4	2.09E-4	2.01E-4	1.92E-4	1.83E-4	1.73E-4	1.62E-4	1.51E-4	1.39E-4	1.27E-4	
+130.0	2.1E-4	2.03E-4	1.95E-4	1.87E-4	1.77E-4	1.68E-4	1.57E-4	1.46E-4	1.35E-4	1.23E-4	
+130.5	2.04E-4	1.97E-4	1.89E-4	1.81E-4	1.72E-4	1.63E-4	1.53E-4	1.42E-4	1.31E-4	1.2E-4	
+131.0	1.98E-4	1.91E-4	1.84E-4	1.76E-4	1.67E-4	1.58E-4	1.48E-4	1.38E-4	1.27E-4	1.16E-4	
+131.5	1.92E-4	1.86E-4	1.79E-4	1.71E-4	1.62E-4	1.53E-4	1.44E-4	1.34E-4	1.23E-4	1.13E-4	
+132.0	1.87E-4	1.8E-4	1.73E-4	1.66E-4	1.58E-4	1.49E-4	1.4E-4	1.3E-4	1.2E-4	1.09E-4	
+132.5	1.81E-4	1.75E-4	1.68E-4	1.61E-4	1.53E-4	1.45E-4	1.36E-4	1.26E-4	1.16E-4	1.06E-4	
+133.0	1.76E-4	1.7E-4	1.63E-4	1.56E-4	1.49E-4	1.41E-4	1.32E-4	1.23E-4	1.13E-4	1.03E-4	
+133.5	1.71E-4	1.65E-4	1.59E-4	1.52E-4	1.44E-4	1.36E-4	1.28E-4	1.19E-4	1.1E-4	1.0E-4	
+134.0	1.66E-4	1.6E-4	1.54E-4	1.48E-4	1.4E-4	1.33E-4	1.24E-4	1.16E-4	1.07E-4	9.73E-5	
+134.5	1.61E-4	1.56E-4	1.5E-4	1.43E-4	1.36E-4	1.29E-4	1.21E-4	1.12E-4	1.04E-4	9.45E-5	
+135.0	1.56E-4	1.51E-4	1.45E-4	1.39E-4	1.32E-4	1.25E-4	1.17E-4	1.09E-4	1.01E-4	9.18E-5	
+135.5	1.52E-4	1.47E-4	1.41E-4	1.35E-4	1.28E-4	1.21E-4	1.14E-4	1.06E-4	9.76E-5	8.91E-5	
+136.0	1.48E-4	1.43E-4	1.37E-4	1.31E-4	1.25E-4	1.18E-4	1.11E-4	1.03E-4	9.48E-5	8.66E-5	
+136.5	1.43E-4	1.38E-4	1.33E-4	1.27E-4	1.21E-4	1.14E-4	1.07E-4	9.98E-5	9.21E-5	8.41E-5	
+137.0	1.39E-4	1.34E-4	1.29E-4	1.24E-4	1.18E-4	1.11E-4	1.04E-4	9.7E-5	8.94E-5	8.16E-5	
+137.5	1.35E-4	1.31E-4	1.26E-4	1.2E-4	1.14E-4	1.08E-4	1.01E-4	9.42E-5	8.68E-5	7.93E-5	
+138.0	1.31E-4	1.27E-4	1.22E-4	1.17E-4	1.11E-4	1.05E-4	9.83E-5	9.14E-5	8.43E-5	7.7E-5	
+138.5	1.27E-4	1.23E-4	1.18E-4	1.13E-4	1.08E-4	1.02E-4	9.54E-5	8.88E-5	8.19E-5	7.48E-5	
+139.0	1.24E-4	1.2E-4	1.15E-4	1.1E-4	1.05E-4	9.88E-5	9.27E-5	8.62E-5	7.95E-5	7.26E-5	
+139.5	1.2E-4	1.16E-4	1.12E-4	1.07E-4	1.02E-4	9.6E-5	9.0E-5	8.37E-5	7.72E-5	7.05E-5	
+140.0	1.17E-4	1.13E-4	1.08E-4	1.04E-4	9.87E-5	9.32E-5	8.74E-5	8.13E-5	7.5E-5	6.85E-5	
+140.5	1.13E-4	1.1E-4	1.05E-4	1.01E-4	9.58E-5	9.05E-5	8.49E-5	7.9E-5	7.28E-5	6.65E-5	
+141.0	1.1E-4	1.06E-4	1.02E-4	9.78E-5	9.3E-5	8.79E-5	8.24E-5	7.67E-5	7.07E-5	6.46E-5	
+141.5	1.07E-4	1.03E-4	9.93E-5	9.5E-5	9.04E-5	8.54E-5	8.0E-5	7.45E-5	6.87E-5	6.27E-5	
+142.0	1.04E-4	1.0E-4	9.65E-5	9.23E-5	8.77E-5	8.29E-5	7.77E-5	7.23E-5	6.67E-5	6.09E-5	
+142.5	1.01E-4	9.74E-5	9.37E-5	8.96E-5	8.52E-5	8.05E-5	7.55E-5	7.02E-5	6.47E-5	5.91E-5	
+143.0	9.79E-5	9.46E-5	9.1E-5	8.7E-5	8.27E-5	7.82E-5	7.33E-5	6.82E-5	6.29E-5	5.74E-5	
+143.5	9.5E-5	9.18E-5	8.83E-5	8.45E-5	8.04E-5	7.59E-5	7.12E-5	6.62E-5	6.11E-5	5.57E-5	
+144.0	9.23E-5	8.92E-5	8.58E-5	8.21E-5	7.8E-5	7.37E-5	6.91E-5	6.43E-5	5.93E-5	5.41E-5	
+144.5	8.96E-5	8.66E-5	8.33E-5	7.97E-5	7.58E-5	7.16E-5	6.71E-5	6.24E-5	5.76E-5	5.26E-5	
+145.0	8.7E-5	8.41E-5	8.09E-5	7.74E-5	7.36E-5	6.95E-5	6.52E-5	6.06E-5	5.59E-5	5.11E-5	
+145.5	8.45E-5	8.17E-5	7.86E-5	7.51E-5	7.15E-5	6.75E-5	6.33E-5	5.89E-5	5.43E-5	4.96E-5	
+146.0	8.21E-5	7.93E-5	7.63E-5	7.3E-5	6.94E-5	6.56E-5	6.15E-5	5.72E-5	5.27E-5	4.81E-5	
+146.5	7.97E-5	7.7E-5	7.41E-5	7.09E-5	6.74E-5	6.37E-5	5.97E-5	5.55E-5	5.12E-5	4.67E-5	
+147.0	7.74E-5	7.48E-5	7.19E-5	6.88E-5	6.54E-5	6.18E-5	5.8E-5	5.39E-5	4.97E-5	4.54E-5	
+147.5	7.52E-5	7.26E-5	6.99E-5	6.68E-5	6.36E-5	6.0E-5	5.63E-5	5.24E-5	4.83E-5	4.41E-5	
+148.0	7.3E-5	7.05E-5	6.78E-5	6.49E-5	6.17E-5	5.83E-5	5.47E-5	5.09E-5	4.69E-5	4.28E-5	
+148.5	7.09E-5	6.85E-5	6.59E-5	6.3E-5	5.99E-5	5.66E-5	5.31E-5	4.94E-5	4.55E-5	4.16E-5	
+149.0	6.89E-5	6.65E-5	6.4E-5	6.12E-5	5.82E-5	5.5E-5	5.16E-5	4.8E-5	4.42E-5	4.04E-5	
+149.5	6.69E-5	6.46E-5	6.21E-5	5.94E-5	5.65E-5	5.34E-5	5.01E-5	4.66E-5	4.29E-5	3.92E-5	
+150.0	6.49E-5	6.27E-5	6.03E-5	5.77E-5	5.49E-5	5.18E-5	4.86E-5	4.52E-5	4.17E-5	3.81E-5	
+
+
